@@ -1,9 +1,9 @@
 <?php
-include "./lib/conf.php";
-include "./lib/conf_db.php";
-include "./lib/common.php";
-include "./lib/design.php";
-include "./lib/sample.php";
+include "../lib/conf.php";
+include "../lib/conf_db.php";
+include "../lib/common.php";
+include "../lib/design.php";
+include "../lib/sample.php";
 
 $con = new mysqli("localhost", "bongsoo", "450NFrear", "genome");
 if ($con->connect_error) {
@@ -37,7 +37,7 @@ $con->close();
 ####--------------- Template Engine ---------------####
 $design = new Design;
 $design->loadData("index.dat");
-$design->readTemplate("browse.tpl");
+$design->readTemplate("/species.tpl");
 $design->parsing(array(
 		"DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2),

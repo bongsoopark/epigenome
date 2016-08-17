@@ -1,1 +1,1 @@
-<a href='index.php'>Main page</a> | <a href='intro.php'>Introduction</a> | <a href='browse.php'>Browse</a> | <a href='history.php'>History</a> | <a href='http://sites.psu.edu/bongsoopark/'>iGenomics</a></body>
+<a href='/epigenome/index.php'>Main page</a> | <a href='/epigenome/intro.php'>Introduction</a> | <a href='/epigenome/browse.php'>Browse</a> | <a href='/epigenome/history.php'>History</a> | <a href='http://sites.psu.edu/bongsoopark/'>iGenomics</a></body>

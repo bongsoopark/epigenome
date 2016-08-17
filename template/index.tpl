@@ -10,8 +10,11 @@ Contact: epigenomedb@gmail.com<br>
 <br>
 Bioinformatics and Genomics program, The Genome Science Institute at Penn State University<br>
 Suppored by Center for Eukaryotic Gene Regulation, Center for Bioinformatics and Comparative Genomics<br>
+<br>
+Designed and developed by Bongsoo Park, Ph.D<br>
+Inspired by Yeast, Mouse, and Human ENCODE projects<br>
 <h3>Database Statistics</h3>
-5 Species (NCBI)<br>
+<a href='browse/species.php'>5 Species (NCBI)</a><br>
 5 Genomes (NCBI, UCSC)<br>
 XX Datasets (Public)<br>
 XX NGS Tools (Galaxy)<br>
@@ -21,13 +24,6 @@ XX Analysis <br>
 XX CRs<br>
 XX TFs<br>
 XX HMs<br>
-<br>
-<h3>Top 5 Species this week</h3>
-%%!if($DATA_CNT != 0)%%
-%%!section(data = $DATA)%%
-%%$DATA[_sidx]%%<br>
-%%!endsection%%
-%%!endif%%
 <br>
 <h3>Top 5 NGS Analysis this week</h3>
 <br>

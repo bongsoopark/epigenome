@@ -48,11 +48,12 @@ class Design {
 	}
 
 	function readTemplate($filename) {
+		global $Conf;
 		$buffer = "";
-
-		$fp = fopen("./template/".$filename, "r");
+		$template_file = $Conf["DEFAULT_DIRECTORY_TEMPLATE"]."/".$filename;
+		$fp = fopen($template_file, "r");
 		if ($fp == NULL) {
-			echo("here");exit;
+			echo("template file error:".$template_file);exit;
 			return -1;
 		}
 

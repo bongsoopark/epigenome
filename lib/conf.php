@@ -26,7 +26,7 @@ visitCheck($_SERVER["REMOTE_ADDR"],$_SERVER["REQUEST_URI"]);
 
 #-------------- Database Configuration ----------------#
 
-$Conf["DEFAULT_DIRECTORY"] = "./";
+$Conf["DEFAULT_DIRECTORY"] = "/home/html/epigenome";
 $Conf["DEFAULT_DIRECTORY_TEMPLATE"] = $Conf["DEFAULT_DIRECTORY"]."/template";
 $Conf["DEFAULT_DIRECTORY_DATA"] = $Conf["DEFAULT_DIRECTORY"]."/data";
 ?>
