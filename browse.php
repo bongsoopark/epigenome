@@ -5,7 +5,8 @@ include "./lib/common.php";
 include "./lib/design.php";
 include "./lib/sample.php";
 
-$con = new mysqli("localhost", "bongsoo", "450NFrear", "genome");
+# MySQL connection
+$con = new mysqli($DBConf["GENOME_HOST"], $DBConf["GENOME_USER"], $DBConf["GENOME_PASS"], $DBConf["GENOME_DB"]);
 if ($con->connect_error) {
 	echo("Database Connection Error");
 }

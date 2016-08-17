@@ -5,32 +5,17 @@ include "../lib/common.php";
 include "../lib/design.php";
 include "../lib/sample.php";
 
-$con = new mysqli("localhost", "bongsoo", "450NFrear", "genome");
+# MySQL connection
+$con = new mysqli($DBConf["GENOME_HOST"], $DBConf["GENOME_USER"], $DBConf["GENOME_PASS"], $DBConf["GENOME_DB"]);
 if ($con->connect_error) {
 	echo("Database Connection Error");
 }
 
-$sql = "SELECT genus_name, species_name, strain_name from species;";
+$sql = "SELECT genus_name, species_name, strain_name, ncbi_txid from species order by frequency desc limit 5;";
 $result = $con->query($sql);
 $data = array();
 while($row = $result->fetch_row()) {
-	array_push($data, $row[0]." ".$row[1]." ".$row[2]);
-}
-$result->free();
-
-$sql = "SELECT assembly_id, db_key from genome;";
-$result = $con->query($sql);
-$data2 = array();
-while($row = $result->fetch_row()) {
-	array_push($data2, $row[0]." ".$row[1]);
-}
-$result->free();
-
-$sql = "SELECT genome_id, loc, name, ncbi_accession, genome_size from chromosome;";
-$result = $con->query($sql);
-$data3 = array("Loc Name Accession# GenomeSize(M)");
-while($row = $result->fetch_row()) {
-	array_push($data3, $row[0]." ".$row[1]." ".$row[2]." ".$row[3]." ".$row[4]);
+	array_push($data, "<a href='/epigenome/browse/species/?txid=$row[3]'>".$row[0]." ".$row[1]." ".$row[2]."</a>");
 }
 $result->free();
 $con->close();

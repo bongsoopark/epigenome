@@ -1,5 +1,7 @@
 <?php
 # ECEP Project
+# The Main Page
+# main page consists of the basic statistics, links, and twitter annoucement.
 # Import Libraries
 include "./lib/conf.php";
 include "./lib/conf_db.php";
@@ -9,9 +11,10 @@ include "./lib/sample.php";
 
 # Security check controller
 # Only available for certain query
+# The security check is a part of conf.php now.
 
 # MySQL connection
-$con = new mysqli("localhost", "bongsoo", "450NFrear", "genome");
+$con = new mysqli($DBConf["GENOME_HOST"], $DBConf["GENOME_USER"], $DBConf["GENOME_PASS"], $DBConf["GENOME_DB"]);
 if ($con->connect_error) {
 	echo("Database Connection Error");
 }
