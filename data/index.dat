@@ -1,0 +1,3 @@
+TITLE	(ECEP: Eukarotic Comparative Epigenomics Platform)
+HEADER	@header.tpl
+FOOTER	@footer.tpl

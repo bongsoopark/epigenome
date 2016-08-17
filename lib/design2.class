@@ -1,0 +1,739 @@
+<php?
+#---Apply3--- history configuration ---#
+#=========================================================================================================
+# CROSSFPP
+#=========================================================================================================
+# PHP Library - Ghost Templae Library
+#=========================================================================================================
+# Version 1.27.4 fix the bug for the higher if phrase has false value.
+#=========================================================================================================
+#---Apply3--- history configuration ---#
+
+#--------------------------------------------------------------------------------------------------------- 
+# Version 1.27.0 - display 함수의 인코딩 방식을 변경하였다. (For Ajax)
+# Version 1.26.0 - section에서 DATA = $DATA 문법도 허용하도록 처리하였다.
+# Version 1.25.0 - @ 명령에서 절대 경로를 허용하였다.
+# Version 1.24.0 - loadData 에서 파일이 없는 경우 에러 처리를 하였다.
+# Version 1.23.0 - else / if 상태에 대한 오류 수정
+# Version 1.22.0 - 최종적으로 ^에 대한 처리를 마무리 하였다.
+# Version 1.21.0 - recursive한 replacement를 막는 옵션으로 ^ 기호를 추가하였다.
+# Version 1.20.0 - section 문의 내부 변수를 사용하는 경우 if에 의해 block되었을때 나는 오류를 수정하였다.
+# Version 1.19.0 - rdata에 저장하지 않고 계산 즉시 바로 화면으로 출력하는 option을 추가하였다.
+# Version 1.18.0 - section 문에서 data지정시 대소문자를 안가리도록 조처하였다.
+# Version 1.17.0 - replace_data_variables 함수 호출방법이 잘못된 4군데를 수정하였다.
+# Version 1.16.0 - #_sidx를 쓴 경우, 이 값 전체가 변수로 접근될때는 에러를 발생한다. 따라서 #_을 코드로 해서 이 뒷부분만 특수 변수로 파악하도록 코드를 수정하였다.
+# Version 1.15.0 - section에서 _sidx를 #_sidx로 접근할때 접근이 안되는 버그를 해결하였다.
+# Version 1.14.0 - 변수 정보를 치환할때 parsing 오류를 수정하였다.
+# Version 1.13.0 - 일반 Object Type 변수 처리 부분이 빠져 있어서 이를 추가하였다.
+# Version 1.12.0 - 변수 치환시 if 구문에서 ==과 !=를 변수이름과 붙여쓰는 경우도 고려하였다.
+# Version 1.11.0 - 변수 치환시 $l과 $location과 같이 앞부분이 동일한 경우 먼저 $l 변수로 치환이 되는 문제를 해결하였다 (테스트중)
+# Version 1.10.0 - if - else 부분을 처리할때 조건이 잘못되어서 그 부분을 수정하였다.
+# Version 1.09.0 - if를 처리하는 부분에서 다중 if일 경우 정확한 결과 처리가 안되는 문제가 발생하여, 이 부분을 ifelse_stack array를 추가하여 좀 더 정교하게 작동하도록 수정하였다 (다른 서비스에 정상작동하는지 확인해야 한다)
+# Version 1.08.0 - if 구문에 대한 처리에서 잘못된 부분을 수정하였다.
+# Version 1.07.0 - Script를 parsing할때 if문을 맨 위에 둠으로써 불필요한 parsing 및 기타 작업량을 줄였다.
+# Version 1.06.0 - 1.05 버젼을 수정하고 나서 access_form이 있는 경우(복합자료구조)에 데이터 접근이 안되는 문제가 발생해서, 이 경우 이전 코드로 분기하도록 재조정하였다.
+# Version 1.05.0 - 1.04 버젼을 수정하고 나서 변수를 할당할때 데이터가 NULL인 경우는 에러가 발생하였다. 이를 해결하기 위해서 eval 문을 수정하였다. (주석참고)
+# Version 1.04.0 - section 부분에서 함수를 잘못 부르는 문제 해결, 0값이 NULL과 동일하게 간주되는 문제 해결
+# Version 1.02.0 - @기호의 데이터 안의 %%를 해석하는 기능이 빠져 있는 것을 추가했음 / Token을 잘라낼때 마지막 한자를 먹는 버그를 해결했음. - 2003.8.23
+# Version 1.00.0 - 기능 추가 완료
+#                변수 - 정적 변수 / 동적 변수 / 배열 / 해쉬변수
+#                조건문 - if / else / end if
+#                (*) 반복문 - for
+#---------------------------------------------------------------------------------------------------------
+
+class Design {
+	var $data = "";
+	var $rdata = "";
+	var $hashdata = "";
+	#modified 1.20 - start
+	var $internaldata = array("_sidx" => 0);
+	#modified 1.20 - end
+	var $default_directory_template = "";
+	var $default_directory_data = "";
+	var $section_stack = array();
+	var $filename = "";
+
+	function Design() {
+		global $Conf;
+		if ($Conf["DEFAULT_DIRECTORY_TEMPLATE"] != "") {
+			$this->setDefaultDirectoryTemplate($Conf["DEFAULT_DIRECTORY_TEMPLATE"]);
+		}
+		if ($Conf["DEFAULT_DIRECTORY_DATA"] != "") {
+			$this->setDefaultDirectoryData($Conf["DEFAULT_DIRECTORY_DATA"]);
+		}
+	}
+
+//이전 버전과의 호환성을 위한 함수
+	function setDefaultDirectory($dir) {
+		$dir = trim($dir);
+		if ($dir == "") return;
+
+		if (substr($dir, strlen($dir)-1, 1) != "/") $dir .= "/";
+		$this->default_directory_template = $dir;
+
+		$dir = preg_replace("/template/", "data", $dir);
+		$this->default_directory_date = $dir;
+	}
+
+	function setDefaultDirectoryTemplate($dir) {
+		$dir = trim($dir);
+		if ($dir == "") return;
+
+		if (substr($dir, strlen($dir)-1, 1) != "/") $dir .= "/";
+		$this->default_directory_template = $dir;
+	}
+
+	function setDefaultDirectoryData($dir) {
+		$dir = trim($dir);
+		if ($dir == "") return;
+
+		if (substr($dir, strlen($dir)-1, 1) != "/") $dir .= "/";
+		$this->default_directory_data = $dir;
+	}
+
+	function readTemplate($filename) {
+		$buffer = "";
+
+		if (substr($filename, 0, 1) != "/" && $this->default_directory_template != "") $filename = $this->default_directory_template.$filename;
+		$fp = fopen($filename, "r");
+		if ($fp == NULL) {
+			return -1;
+		}
+
+		while (!feof ($fp)) {
+			$buffer .= fgets($fp, 4096);
+		}
+		fclose($fp);
+		if (strlen($buffer) < 1) { return -1; }
+		$this->data = $buffer;
+
+		$this->filename = $filename;
+		return 1;
+	}
+
+	function loadData($filename) {
+
+		if (substr($filename, 0, 1) != "/" && $this->default_directory_data != "") $filename = $this->default_directory_data.$filename;
+
+		$data = file($filename);
+
+		//data 파일을 읽어들인다.
+		$continueFlag = 0;
+		for ($i=0;$i<count($data);$i++) {
+			if ($data[$i][0] == "#") continue;
+			if ($continueFlag == 0) {
+				$linedata = preg_split("/\s+/", $data[$i]);
+				$key = array_shift($linedata);
+				$value = join(" ", $linedata);
+		
+				//value후 후처리작업	
+				if (substr($value, 0, 1) == "@") {
+					$filename = trim(substr($value, 1, strlen($value)-1));
+					if (substr($filename, 0, 1) != "/") {
+						$filename = $this->default_directory_template.$filename;
+					}
+					$buffer = "";
+					@$fp = fopen($filename, "r");
+					if ($fp == NULL) {
+						$this->errorMsg("[".$filename."] file doesn't exist! Check whether file exists!");
+					}
+						
+					while (!feof($fp)) {
+						$buffer .= fgets($fp, 1024);
+					}
+					fclose($fp);
+					$value = $buffer;
+				} else if (substr($value, 0, 2) == "%%") {
+					$value = substr($value, 2, strlen($value)-2);
+					$continueFlag = 1;
+				}
+
+				$this->hashdata[$key] = trim($value);
+			} else {
+				//echo("debug2 : [$data[$i]]<br>");
+				exit;
+				$value = $data[$i];
+				$value2 = trim($value);
+				if (substr($value2, strlen($value2)-2, 2) == "%%") {
+					$value2 = substr($value2, 0, strlen($value2)-2);
+					$this->hashdata[$key] .= $value2;
+					$continueFlag = 0;
+				} else {
+					$this->hashdata[$key] .= $value2."\n";
+				}
+			}
+		}
+	}
+
+	function parsing($data = array("_" => "_"), $tempdata = "", $option = 0) {
+		//제어문을 처리하기 위해서 데이터를 정규표현식으로 치환하는 예전 과정은 더이상 사용활 수 없게 된다.
+		//따라서 배열에 Token별로 저장을 하는 방법을 선택한다.
+		//Token은 이전에 사용하는 %%...%% 기호를 중심으로 분리한다.
+
+		//temp_data에서 데이터 기준을 $this->data 에서 데이터를 받는다. 이 부분은 option처리를 한다. - 2003.8.23
+		if ($tempdata == "") { $tempdata = $this->data; $this->rdata = ""; } 
+
+		$tempdata_len = strlen($tempdata);
+		$tokens = array();
+		$pos = 0;
+		$flag = 0;
+		for ($i=0;$i<$tempdata_len-1;$i++) {
+			if (substr($tempdata, $i, 2) == "%%") {
+				if ($flag == 0) {
+					$tmp_token = substr($tempdata, $pos, ($i-$pos));
+					$flag = 1;
+					$pos = $i;
+				} else {
+					$tmp_token = substr($tempdata, $pos, ($i-$pos)+2);
+					$flag = 0;
+					$pos = $i+2;
+					$i+=1;
+				}
+				if ($tmp_token != "") {
+					array_push($tokens, $tmp_token);
+				}
+			}
+		}
+		//만약 %%로 닫히지 않으면 에러를 출력!
+		if ($flag == 1) {
+			for ($i=0;$i<count($tokens);$i++) {
+				if (substr($tokens[$i], 0, 2) == "%%") {
+					$msg .= ($i+1)." th token : [".htmlspecialchars($tokens[$i])."]<br>\n";
+				}
+			}
+			$this->errorMsg("$msg<br>Ghost Template Engine Error 1: Please check \"%%\" symbol.");
+			exit;
+		}
+		//마지막 token입력
+		array_push($tokens, substr($tempdata, $pos, ($i-$pos)+1));
+
+		$add_flag = 1;		//제어문에 의한 데이터 추가 여부 판단 (1:추가, 0:보류)
+		$if_stack = array();	//if_stack 을 정의한다.
+		$ifelse_stack = array();//ifelse_stack 을 정의한다. (현재 위치의 if문의 상태가 if 인지 else인지 저장한다(0/1)
+		$for_stack = array();	//for_stack 을 정의한다.
+		for ($i=0;$i<count($tokens);$i++) {
+			if (substr($tokens[$i], 0, 2) == "%%") {
+				$token_each = substr($tokens[$i], 2, strlen($tokens[$i])-4);
+
+				//----------------------------------------
+				// 제어문을 먼저처리하면 제어문에 의해 건너뛰어야 할 부분에 대한 처리를 줄일 수 있다!
+				//----------------------------------------
+				// 제어문 처리 (%%!if ...%% , %%!endif%%, %%!else%%)
+				//----------------------------------------
+				#modified 1.09 - start
+				if (substr($token_each, 0, 1) == "!") {
+					if (preg_match("/^\\!if/", $token_each)) {
+						if ($add_flag == 1) {
+							//if 문인 경우는 조건의 맞는지 여부를 eval 문을 이용하여 처리한다.
+							//단, 변수 치환 과정은 반드시 거친다 ^^
+							$if_phase = "(".trim(substr($token_each, 3, strlen($token_each)-1)).")";
+							$if_phase = $this->replace_data_variables($if_phase, $data, 1);
+							eval("\$if_result = $if_phase;");
+
+							#modified 1.08 - start
+							//if_result 값이 null 이면 0으로 보정한다.
+							if ($if_result == "") { $if_result = 0; }
+							#modified 1.08 - end
+						} else {
+							#If the previous level of if has false value
+							$if_result = 0;
+						}
+
+						//if stack에 결과를 저장한다. - if stack에서 전 결과에 대한 판단까지 같이 한다.
+						array_push($if_stack, $if_result);
+						array_push($ifelse_stack, 0);			//if status
+
+#modified 1.23 - start
+						if (!checkIfStatusIF($if_stack, $ifelse_stack)) {
+							$add_flag = 0;
+						} else {
+							$add_flag = $if_result;
+						}
+#modified 1.23 - end
+						#echo("debug : [$token_each] [$if_phase] / add_flag : $add_flag / if_result : $if_result<br>");
+						#echo("debug : if_stack_point : ".count($if_stack)."<BR>");
+
+						#echo("if 에 의한 add_flag 변화 : count [".count($if_stack)."] add_flag [$add_flag] token [$token_each] section_count [".count($this->section_stack)."]<br>");
+					} elseif (preg_match("/^\\!else/", $token_each)) {
+						$ifelse_stack[count($ifelse_stack)-1] = 1;	//else status
+						#echo("debug : [else] if_stack_point : ".count($if_stack)."<BR>");
+#modified 1.23 - start
+						if (!checkIfStatusIF($if_stack, $ifelse_stack)) {
+							$add_flag = 0;
+#modified 1.23 - end
+						} else if (count($if_stack) == 1) {
+							if ($if_stack[count($if_stack)-1] == 0) $add_flag = 1; else $add_flag = 0;
+							#echo("if 한개일때처리<br>");
+						} else {
+							#modified 1.10 - start
+							if ($if_stack[count($if_stack)-1] == 0) {
+								$add_flag = 1;
+								//echo("[".count($if_stack)."]add_flag is 1 if_stack(".join(",",$if_stack).") ifelse_stack(".join(",",$ifelse_stack).")<BR>");
+							} else {
+								$add_flag = 0;
+							}
+							#modified 1.10 - end
+						}
+					} else if (preg_match("/^\\!endif/", $token_each)) {
+						//endif를 만나면 if stack의 마지막 데이터를 해제한다.
+						array_pop($if_stack);
+						array_pop($ifelse_stack);
+						#echo("debug : [endif] if_stack_point : ".count($if_stack)."<BR>");
+						#modified 1.08 - start
+						//endif를 만나더라도 add_flag의 경우는 늘 1이 되는 것이 아니라, if_stack정보를 참조하여 결정한다. - 이전 정보의 add_flag가 0이면 0을 입력한다.
+						if (count($if_stack) > 0) {
+							$add_flag = $if_stack[count($if_stack)-1];
+						} else {
+							$add_flag = 1;
+						}
+						#modified 1.08 - end
+					}
+				}
+				#modified 1.09 - end
+
+				#echo("debug : $i th token / add_flag : $add_flag<BR>\n");
+				//제어문에 의해서 의미가 있는 경우만 남은 처리를 한다! - 2003.9.3 종선
+				if ($add_flag == 1) {
+					if (substr($token_each, 0, 1) == "&") {
+						//----------------------------------------
+						// Function Pointer 처리 (%%&....%%)
+						//----------------------------------------
+						$function_name = substr($token_each, 1, strlen($token_each)-1);
+						$function_name = $this->replace_data_variables($function_name, $data);
+						eval("\$result = $function_name;");
+						$token_each = preg_replace("/\\(/", '\\\(', $token_each);
+						$token_each = preg_replace("/\\)/", '\\\)', $token_each);
+						$token_each = preg_replace("/\\$/", '\\\$', $token_each);
+						$token_each = preg_replace("/\\&/", '\\\&', $token_each);
+						$token_each = preg_replace("/\\?/", '\\\?', $token_each);
+						$token_each = preg_replace("/\\'/", '\\\'', $token_each);
+						$token_each = preg_replace("/\\\"/", '\\\"', $token_each);
+						$token_each = preg_replace('/\\//', '\\\/', $token_each);
+					} else if (substr($token_each, 0, 1) == "$") {
+						//----------------------------------------
+						// 외부 변수 처리(%%$...%%)
+						//----------------------------------------
+						$length = strlen($token_each)-1;
+						$variable_name = substr($token_each, 1, $length);
+						if (checkDataExist($variable_name, $data)) {
+							$result = $this->replace_data_variables($token_each, $data);
+						} else {
+							//변수가 없을때는 공백으로 처리
+							//$result = "NO External Data!";
+							$result = "";
+						}
+						$token_each = preg_replace('/\\$/', '\\\$', $token_each);
+					} else if (substr($token_each, 0, 1) == "^") {
+						//----------------------------------------
+						// 외부 변수 처리(%%^...%%) - Not replace
+						//----------------------------------------
+						$length = strlen($token_each)-1;
+						$variable_name = substr($token_each, 1, $length);
+						#modifed 1.21 - start
+						$token_each = preg_replace("/^\\^/", "$", $token_each);
+						#modifed 1.21 - end
+
+						if (checkDataExist($variable_name, $data)) {
+							$result = $this->replace_data_variables($token_each, $data, 2);
+						} else {
+							//변수가 없을때는 공백으로 처리
+							$result = "";
+						}
+						$token_each = preg_replace('/\\$/', '\\\$', $token_each);
+					} else if (substr($token_each, 0, 1) == "#") {
+						//----------------------------------------
+						// 내부변수 처리(%%#...%%)
+						//----------------------------------------
+						if (preg_match("/\\#([\\_\\d\\w]+)/", $token_each, $matches)) {
+							$result = $this->internaldata[$matches[1]];
+						} else {
+							$result = "";
+						}
+					} else if (substr($token_each, 0, 1) == "!") {
+						//----------------------------------------
+						// 반복문 처리 (%%!for ...%% , %%!endfor%%, %%!section%%, %%!endsection%%)
+						//----------------------------------------
+						if (preg_match("/^\\!for/", $token_each)) {
+							//for 문이 나오면 start point값을 저장한다.
+							//또한 값의 변화 조건에 대한 처리와 변화된 값이 조건에 맞는지 판단해서 
+							//loop 를 계속 진행할것인지 확인한다.
+
+							//문법에 맞게 쓰였는지 확인한다.
+							if (preg_match("/^\\!for\\s*\\((.+?)\\;\\s*(.+?)\\;\\s*(.+?)\s*\\)/", $token_each, $matches)) {
+								//내부변수 code -> #
+								//초기조건 : $matches[1]
+								//Loop조건 : $matches[2]
+								//변수증가조건 : $matches[3]
+								if (count($for_stack) == 0 || (count($for_stack) > 0 && $for_stack[count($for_stack)-1][start_point] != $i)) {
+									//초기조건 검사 및 처리(내부변수일 경우 치환을 거친다.)
+									$matches[1] = preg_replace("/\\#([\\d\\w]+)/", "\$this->internaldata[\\1]", $matches[1]);
+									eval($matches[1].";");
+
+									//start point 값을 for_stack에 저장한다.
+									$for_stack[count($for_stack)][start_point] = $i;
+								} else {
+									//변수증가조건을 처리한다.
+									$matches[3] = preg_replace("/\\#([\\d\\w]+)/", "\$this->internaldata[\\1]", $matches[3]);
+									eval($matches[3].";");
+								}
+
+								//Loop 조건을 본다.
+								$matches[2] = preg_replace("/\\#([\\d\\w]+)/", "\$this->internaldata[\\1]", $matches[2]);
+								eval("\$loop_result = ($matches[2]);");
+
+								if (!$loop_result) {
+									//만약 조건에 맞지 않으면, loop를 탈출한다. (end point로 가야 한다)
+									$for_stack[count($for_stack)-1][active] = 0;
+									if (!empty($for_stack[count($for_stack)-1][end_point])) {
+										$i = $for_stack[count($for_stack)-1][end_point]-1;
+										next;
+									}
+								} else {
+									$for_stack[count($for_stack)-1][active] = 1;
+								}
+							} else {
+								$this->errorMsg("for 문법 에러!");
+							}
+						} else if (preg_match("/^\\!endfor/", $token_each)) {
+							if (count($for_stack) == 0) {
+								//엉뚱한 상황에서 endfor가 나온 경우
+								$this->errorMsg("invalid endfor!");
+							}
+
+							//endfor를 만나면, end_point를 저장하고(데이터가 없을때만), start_point로 올린다.
+							$for_stack[count($for_stack)-1][end_point] = $i;
+
+							//만약 현재 for 문의 active가 1일경우에만 다시 위로 올린다.
+							if ($for_stack[count($for_stack)-1][active] == 1) {
+								$i = $for_stack[count($for_stack)-1][start_point]-1;
+								next;
+							} else {
+								//현재 for 문에 대한 stack 정보를 제거한다.
+								array_pop($for_stack);
+							}
+						} else if (preg_match("/^\\!section/", $token_each)) {
+							//section 은 지정된 배열의 start point 부터 end point까지 loop를 돌려주는 함수입니다.
+							//내부변수로 idx를 사용합니다. access는 #_sidx하면 나옵니다.
+							//문법 : %%!section (data=$data;start=1;end=5;step=1;max=10)%%
+							// 각 인자는 순서에는 영향을 받지 않음. (또한, step과 max는 생략 가능)
+							// 인자는 3개부터 5개까지 변경될 수 있음.
+
+							//현재 section이 정상적인지 아닌지 확인한다.
+							if (count($this->section_stack) == 0 || (count($this->section_stack) > 0 && $this->section_stack[count($this->section_stack)-1][start_point] != $i)) {
+
+								//문법에 맞게 쓰였는지 확인한다.
+								if (preg_match("/^\\!section\\s*\\((.+?)\\)/", $token_each, $matches)) {
+								//일단 section 안의 인자는 통으로 잡는다.
+									$temp_argument = split(";", $matches[1]);
+									if (count($temp_argument) < 1 || count($temp_argument) > 5) {
+										//만약 argument 수가 맞지 않으면.. 
+										$this->errorMsg("section argument error! please check argument");
+									}
+									//시작포인트를 저장한다.
+									$this->section_stack[count($this->section_stack)][start_point] = $i;
+									for ($j=0;$j<count($temp_argument);$j++) {
+										list($label, $value) = split("=", $temp_argument[$j]);
+										$label = trim(strtolower($label));
+										$value = trim($value);
+										switch ($label) {
+											case "data":
+												//배열 데이터가 있는지 확인한다.
+												$value = trim($value);
+												$value .= "[";
+												preg_match("/^\\$(.+?)\\[/", $value, $matches);
+												$value = $matches[1];
+												
+												if (empty($data[$value])) {
+													//데이터가 없는 경우
+													$this->errorMsg("section data variable is undefined [$value]");
+												} else {
+												}
+												$this->section_stack[count($this->section_stack)-1][data_count] = count($data[$value]);
+												break;
+											case "start":
+												$this->section_stack[count($this->section_stack)-1][start] = $this->replace_data_variables($value, $data);
+												break;
+											case "end":
+												$this->section_stack[count($this->section_stack)-1][end] = $this->replace_data_variables($value, $data);
+												break;
+											case "max":
+												$value = $this->replace_data_variables($value, $data);
+												if ($value < 1) $this->errorMsg("max 인자는 1보다 작을 수 없습니다.");
+												$this->section_stack[count($this->section_stack)-1][max] = $value;
+												break;
+											case "step":
+												$this->section_stack[count($this->section_stack)-1][step] = $this->replace_data_variables($value, $data);
+												break;
+										}
+									}
+									//start 가 없으면 1로 자동 setting한다.
+									if (empty($this->section_stack[count($this->section_stack)-1][start])) {
+										$this->section_stack[count($this->section_stack)-1][start] = 1;
+									}
+
+									//end가 없는 경우는 0으로 setting하며 end에 대한 조건을 걸지 않도록 한다.
+									if (empty($this->section_stack[count($this->section_stack)-1][end])) {
+										$this->section_stack[count($this->section_stack)-1][end] = 0;
+									}
+		
+									//max가 없는 경우는 0으로 setting하며 max에 대한 조건을 걸지 않도록 한다.
+									if (empty($this->section_stack[count($this->section_stack)-1][max])) {
+										$this->section_stack[count($this->section_stack)-1][max] = 0;
+									}
+
+									//step가 없는 경우는 1으로 setting한다.
+									if (empty($this->section_stack[count($this->section_stack)-1][step])) {
+										$this->section_stack[count($this->section_stack)-1][step] = 1;
+									}
+
+									//idx값을 start와 동일하게 세팅
+									$this->section_stack[count($this->section_stack)-1][idx] = $this->section_stack[count($this->section_stack)-1][start];
+		
+									//count 세팅
+									$this->section_stack[count($this->section_stack)-1][cnt] = 1;
+
+									//idx값을 access할 수 있도록 internaldata hash 변수에 할당한다.
+									$this->internaldata["_sidx"] = $this->section_stack[count($this->section_stack)-1][idx];
+								} else {
+									$this->errorMsg("section 문법 에러!");
+								}
+							} else {
+								//조건에 맞게 idx값을 증가시켜준다.
+								$this->section_stack[count($this->section_stack)-1][idx] = $this->section_stack[count($this->section_stack)-1][idx] + $this->section_stack[count($this->section_stack)-1][step];
+								//count를 증가시켜준다.
+								$this->section_stack[count($this->section_stack)-1][cnt]++;
+							
+								//idx값을 access할 수 있도록 internaldata hash 변수에 할당한다.
+								$this->internaldata["_sidx"] = $this->section_stack[count($this->section_stack)-1][idx];
+							}
+							//idx값이 end값에 도달했다면 현 section을 탈출한다. (end가 정의되어 있는 경우만) || 만약 count값이 max값을 초과하면 현 section을 탈출한다. || 대상 배열의 개수를 idx가 초과할때
+							if (($this->section_stack[count($this->section_stack)-1][end] != 0 && $this->section_stack[count($this->section_stack)-1][idx] > $this->section_stack[count($this->section_stack)-1][end]) || 
+							($this->section_stack[count($this->section_stack)-1][cnt] > $this->section_stack[count($this->section_stack)-1][max] && $this->section_stack[count($this->section_stack)-1][max] != 0) || 
+							($this->section_stack[count($this->section_stack)-1][idx] > $this->section_stack[count($this->section_stack)-1][data_count])) {
+								$this->section_stack[count($this->section_stack)-1][active] = 0;
+								if ($this->section_stack[count($this->section_stack)-1][end_point] != 0) {
+									$i = $this->section_stack[count($this->section_stack)-1][end_point]-1;
+									next;
+								}
+							} else {
+								$this->section_stack[count($this->section_stack)-1][active] = 1;
+							}
+						} else if (preg_match("/^\\!endsection/", $token_each)) {
+							//end point를 저장한다.
+							$this->section_stack[count($this->section_stack)-1][end_point] = $i;
+
+							//만약 현재 section 문의 active가 1일경우에만 다시 위로 올린다.
+							if ($this->section_stack[count($this->section_stack)-1][active] == 1) {
+								$i = $this->section_stack[count($this->section_stack)-1][start_point]-1;
+								next;
+							} else {
+								//현재 section 문에 대한 stack 정보를 제거한다.
+								array_pop($this->section_stack);
+								if (count($this->section_stack) > 0) {
+									//내부 변수를 초기화해준다. - 가장 최근의 section _sidx로 update한다.
+									$this->internaldata["_sidx"] = $this->section_stack[count($this->section_stack)-1][idx];
+								} else {
+									$this->internaldata["_sidx"] = $this->section_stack[count($this->section_stack)-1][idx];
+								}
+							}
+						//--if 문을 위한 Dummy code --//
+						} else if (preg_match("/^\\!if/", $token_each)) {
+						} else if (preg_match("/^\\!else/", $token_each)) {
+						} else if (preg_match("/^\\!endif/", $token_each)) {
+						//--if 문을 위한 Dummy code --//
+						} else {
+							$this->errorMsg("Invalid ! Command! => [$token_each]");
+						}
+						$result = "";
+					} else if (!empty($this->hashdata[$token_each])) { 
+						//----------------------------------------
+						// 미리 정의된 DATA에 있는 값인 경우, 그 값으로 치환
+						// 미리 정의되어 있는 값들에 다시 %%가 있는 경우 이를 처리해야 하는 버그가 발견됨. - 2003.8.23, starflr
+						//----------------------------------------
+						$result = $this->parsing($data, $this->hashdata[$token_each]);
+					} else {
+						$result = "NOT MATCH! [$token_each]";
+					}
+
+					if ($option == 0) { 
+						$this->rdata .= $result;
+					} else {
+						echo($result);
+					}
+				}
+			} else {
+				if ($add_flag == 1) {
+					if ($option == 0) { 
+						$this->rdata .= $tokens[$i];
+					} else {
+						echo($tokens[$i]);
+					}
+				}
+			}
+		}
+		if (count($if_stack) != 0) {
+			//if 문이 잘못된 경우
+			$this->errorMsg("incorrect if block!");
+			$this->rdata = "";
+		}
+	}
+
+	function display ($opt = "") {
+		if($opt == 'ajax') {
+			$this->rdata = iconv("EUC-KR","UTF-8",$this->rdata);
+		}
+		echo($this->rdata);
+	}
+
+	function returnResult() {
+		return $this->rdata;
+	}
+
+	function replace_data_variables($template, $data, $opt = 0) {
+		#modifed 1.11 - start
+		$template .= " ";
+		$cnt = 0;
+		#modifed 1.11 - end
+
+		while (preg_match("/\\\$([\\d\\w\\.\\>\\[\\]\\-\\_]+)/", $template, $matches)) {
+			$matches[1] = preg_replace("/\\(/", '\\\(', $matches[1]);
+			$matches[1] = preg_replace("/\\)/", '\\\)', $matches[1]);
+			$matches[1] = preg_replace("/\\$/", '\\\$', $matches[1]);
+			$matches[1] = preg_replace("/\\&/", '\\\&', $matches[1]);
+			#modifed 1.14 - start
+			if (preg_match("/^([^\\[^\\]^\\-^\\>]+?)\\.(.+)$/",$matches[1], $matches2)) {
+			#modifed 1.14 - end
+				//변수 이름을 사용할때 . 구분자를 사용하는 경우 hash type임을 판단한다.
+				$search_form = $matches2[1];
+				//다중 object를 지원하기 위해서 split함수로 나눈후에 재결합을 시킨다.
+				$access_form_temp = split("\.", $matches2[2]);
+				$access_form = "";
+				for ($i=0;$i<count($access_form_temp);$i++) {
+					$access_form .= "[\"".$access_form_temp[$i]."\"]";
+				}
+			#modifed 1.13 - start
+			#modifed 1.14 - start
+			} else if (preg_match("/^([^\\.^\\[^\\]]+?)\\-\\>(.+)$/",$matches[1], $matches2)) {
+			#modifed 1.14 - end
+				//변수 이름을 사용할때 . 구분자를 사용하는 경우 object type임을 판단한다. (배열의 OBJECT인 경우는 제외하도록 [와 ] 기호는 제외시킨다.
+				$search_form = $matches2[1];
+				//다중 object를 지원하기 위해서 split함수로 나눈후에 재결합을 시킨다.
+				$access_form_temp = split("\\-\\>", $matches2[2]);
+				$access_form = "";
+				for ($i=0;$i<count($access_form_temp);$i++) {
+					$access_form .= "->".$access_form_temp[$i];
+				}
+			#modifed 1.13 - end
+			} else if (preg_match("/^([^\\[].+?)\\[(.+?)$/", $matches[1], $matches2)) {
+				//배열의 경우 
+				$search_form = $matches2[1];
+				$access_form = "[".$matches2[2];
+				//배열중에서 _sidx를 사용하는 경우는 section_stack에서 idx값을 읽어온 후에 이로 치환해야 한다.
+				//section 변수를 치환할때 현재 section을 사용중이 아닌 경우는 그냥 0으로 반환해야 한다 - 2004.3.5
+				$access_form = preg_replace("/\\[_sidx\\]/", "[".($this->section_stack[count($this->section_stack)-1][idx]-1)."]", $access_form);
+			} else {
+				$search_form = $matches[1];
+				$access_form = "";
+			}
+			if (array_key_exists($search_form, $data)) {
+				//주어진 데이터가 있는 경우는 해당 값으로 치환한다.
+				$matches[1] = preg_replace("/\\[/", "\\[", $matches[1]);
+				$matches[1] = preg_replace("/\\]/", "\\]", $matches[1]);
+				#modified 1.06 - start
+				#궁여지책으로 일단 accessw_form이 있는 경우는 에러를 무시하도록 한다.
+				#해당 값이 NULL 혹은 0 일때 eval 문에서 에러가 나는 이유를 반드시 찾아야 한다 - 2003.8.29 종선
+				if ($access_form == "") {
+					eval("\$real_data = \"\$data[$search_form]$access_form\";");
+				} else {
+				#modified 1.05 - start
+					eval("\$real_data = \$data[$search_form]$access_form;");
+				#modified 1.05 - end
+				}
+				#modified 1.06 - end
+				if ($opt == 1)  {
+					#modified 1.11 - start
+					#$l 과 $location 의 구분이 안되는 문제를 위해서 뒤에 공백을 반드시 주도록 설정하였다.
+					#modified 1.12 - start
+					#if문에서 ==를 붙여서 쓰는 경우도 감안하였다
+					$real_data = preg_replace("/\"/", "\\\"", $real_data);
+					$template = preg_replace("/\\\$$matches[1]([,) \"'\&\=\!]+)/", "\"".$real_data."\"\\1", $template); 
+					#modified 1.12 - end
+					#modified 1.11 - end
+				} else {
+					#modified 1.11 - start
+					#$l 과 $location 의 구분이 안되는 문제를 위해서 뒤에 공백을 반드시 주도록 설정하였다.
+					#modified 1.12 - start
+					#if문에서 ==를 붙여서 쓰는 경우도 감안하였다
+					$template = preg_replace("/\\\$$matches[1]([,) \"'\&\=\!]+)/", $real_data."\\1", $template);
+					#modified 1.12 - end
+					#modified 1.11 - end
+				}
+			} else {
+				//주어진 데이터가 존재하지 않은 경우는 0으로 바꾼다.
+				$template = preg_replace("/\\\$$matches[1]/", "0", $template);
+			}
+			#modifed 1.21 - start
+			$cnt++;
+			//opt 가 2일경우는 recursive하게 돌지 않는다.
+			if ($opt == 2 && $cnt == 1) break;
+			#modifed 1.21 - end
+		}
+
+		#내부변수 처리를 한다. - 버그 수정
+		#modified 1.16 - start
+		while (preg_match("/#(\\_[\\d\\w\\-\\_]+)/", $template, $matches)) {
+			$template = preg_replace("/#$matches[1]/", $this->internaldata[$matches[1]], $template);
+		}
+		#modified 1.16 - end
+		$template = trim($template);
+		return $template;
+	}
+
+	function errorMsg($msg) {
+		echo("Ghost Template Engine Error <b>[$msg]</b><br>");
+		exit;
+	}
+}
+
+function checkDataExist($token, $data) {
+	if (preg_match("/^(.+?)\\./",$token, $matches)) {
+		$token = $matches[1];
+	} else if (preg_match("/^(.+?)\\[/", $token, $matches)) {
+		$token = $matches[1];
+	#modified 1.13 - start
+	} else if (preg_match("/^(.+?)\\-/", $token, $matches)) {
+		$token = $matches[1];
+	#modified 1.13 - end
+	}
+	#modified 1.04 - start
+	if (isset($data[$token])) { 
+	#modified 1.04 - end
+		return true;
+	} else {
+		return false;
+	}
+}
+
+#modified 1.23 - start
+function checkIfStatusIF ($if, $ifelse) {
+	$pos = count($if)-1;
+	#echo("###<br>");
+	#for ($i=0;$i<=$pos;$i++) 
+	#	echo("IF[$i] : ".$if[$i].", IFELSE[$i] :".$ifelse[$i]."<BR>");
+	#echo("###<br>");
+	for ($i=$pos-1;$i>=0;$i--) {
+		if ($ifelse[$i] == 1) {
+			if ($if[$i] == 0) {
+				$tmp_status = 1;
+			} else {
+				$tmp_status = 0;
+			}
+		} else {
+			$tmp_status = $if[$i];
+		}
+		if ($tmp_status == 0) return false;
+	}
+	return true;
+}
+#modified 1.23 - end
+?>
