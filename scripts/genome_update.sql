@@ -1,0 +1,7 @@
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','Nuc','1','NC_003070.9','30.43','35.9','"9','263"','-','240','218','"8');
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','Nuc','2','NC_003071.7','19.7','35.9','"5','560"','2','96','149','"5');
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','Nuc','3','NC_003074.8','23.46','36.3','"6','908"','2','93','134','"6');
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','Nuc','4','NC_003075.7','18.59','36.2','"5','356"','-','79','116','"5');
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','Nuc','5','NC_003076.8','26.98','35.9','"8','089"','-','123','127','"7');
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','MT','MT','NC_001284.2','0.366924','44.8','117','3','21','-','131','-');
+insert into chromosome (genome_id, loc, name, ncbi_accession, genome_size, gc_content, protein, rRNA, tRNA, otherRNA, gene, pseudogene) values ('5','Chl','Pltd','NC_000932.1','0.154478','36.3','85','7','37','-','129','-');
