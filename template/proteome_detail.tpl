@@ -7,7 +7,7 @@ The species and lineage information are derived from NCBI Taxonomy database. The
 %%$DATA2->lineage%%
 <br>
 <br>
-<h3>Genomes</h3>
+<h3>Proteome</h3>
 <table width=1000 border=1>
 <tr>
     <td><b>Loc</b></td>
@@ -42,15 +42,6 @@ The species and lineage information are derived from NCBI Taxonomy database. The
 %%!endsection%%
 %%!endif%%
 </table>
-<br>
-<h3>Proteomes</h3>
-<a href='/epigenome/browse/proteome/?gid=%%$gid%%'>Browse the proteomes</a><br>
-<a href='/epigenomedb/genome_assembly/%%$DATA->epigenomedb%%/%%$DATA->epigenomedb%%_protein.faa' target='_blank'>Protein fasta download [NCBI]<img src='/epigenome/img/link.jpeg' width=20></a>
-<br><br>
-<h3>Genomic features</h3>
-Browse the reference features<br>
-<a href='/epigenomedb/genome_assembly/%%$DATA->epigenomedb%%/%%$DATA->epigenomedb%%_genomic.gff' target='_blank'>Genomic feature download [NCBI]<img src='/epigenome/img/link.jpeg' width=20></a>
-<br><br>
 <br><br>
 %%FOOTER%%
 </html>

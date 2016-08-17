@@ -16,10 +16,23 @@ CREATE TABLE `genome` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;  
 
+CREATE TABLE `proteome` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `locus_name` varchar(40) DEFAULT NULL,
+  `gene_name` varchar(40) DEFAULT NULL,
+  `genome_id` int(11) unsigned not null default 0,
+  `sequence_id` int(11) unsigned not null default 0,
+  `species_complex` varchar(255) DEFAULT NULL,
+  `interpro_term` varchar(255) DEFAULT NULL,
+  `go_term` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;  
+
 CREATE TABLE `chromosome` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
   `genome_id` int(11) unsigned not null default 0,
   `loc` varchar(40) DEFAULT NULL,
+  `type` varchar(20) DEFAULT NULL,
   `ncbi_accession` varchar(40) DEFAULT NULL,
   `genome_size` varchar(40) DEFAULT NULL,
   `gc_content` varchar(40) DEFAULT NULL,
@@ -34,19 +47,8 @@ CREATE TABLE `chromosome` (
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8;  
 
-CREATE TABLE `nuc_sequence` (
+CREATE TABLE `sequence` (
   `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `chromosome_id` int(11) unsigned not null default 0,
-  `seq_type` varchar(40) DEFAULT NULL,
-  `ncbi_accession` varchar(40) DEFAULT NULL,
-  `file_path` varchar(255) DEFAULT NULL,
-  `seq` longtext DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;  
-
-CREATE TABLE `pro_sequence` (
-  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
-  `chromosome_id` int(11) unsigned not null default 0,
   `seq_type` varchar(40) DEFAULT NULL,
   `ncbi_accession` varchar(40) DEFAULT NULL,
   `file_path` varchar(255) DEFAULT NULL,

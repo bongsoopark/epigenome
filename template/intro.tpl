@@ -12,6 +12,6 @@ CRs : Chromatin Remodelers <br>
 TFs : Transcription Factors <br>
 HMs : Histone Modifications <br>
 <br>
-This platform was inspred by Yeast, Mouse and Human ENCODE project. We will cover many publicaly available NGS datasets for meta analysis. Users can upload their own experimental datasets for further in-depth analysis too. We provide the platform, you will analyze what you want. It's win-win! The background analysis will be conducted by Galaxy framework, and result will be displayed via PHP (or dJango,Groovy) framework. The initial version don't have any fancy graphical interface. It's a long term project. Please see how it evolve in the future.<br><br>
+This platform was inspred by Yeast, Mouse and Human ENCODE project. We will cover many publicaly available NGS datasets for meta analysis. Users can upload their own experimental datasets for further in-depth analysis too. We provide the platform, you will analyze what you want. It's win-win! The background analysis will be conducted by Galaxy framework, and result will be displayed via PHP (or Django,Groovy) framework. The initial version don't have any fancy graphical interface. It's a long term project. Please see how it evolve in the future.<br><br>
 %%FOOTER%%
 </html>

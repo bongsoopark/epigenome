@@ -30,11 +30,10 @@ while($row = $result->fetch_object()) {
 $result->free();
 $con->close();
 
-echo($gid);
 ####--------------- Template Engine ---------------####
 $design = new Design;
 $design->loadData("index.dat");
-$design->readTemplate("/genome_detail.tpl");
+$design->readTemplate("/proteome_detail.tpl");
 $design->parsing(array(
 		"gid" => $gid, "DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2), 

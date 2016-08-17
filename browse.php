@@ -23,17 +23,18 @@ $sql = "SELECT assembly_id, db_key from genome;";
 $result = $con->query($sql);
 $data2 = array();
 while($row = $result->fetch_row()) {
-	array_push($data2, $row[0]." ".$row[1]);
+	array_push($data2, "<a href='/epigenome/browse/genome/?gid=$row[0]'>".$row[0]." ".$row[1]."</a>");
 }
 $result->free();
 
-$sql = "SELECT genome_id, loc, name, ncbi_accession, genome_size from chromosome;";
+$sql = "SELECT assembly_id, db_key from genome;";
 $result = $con->query($sql);
-$data3 = array("Loc Name Accession# GenomeSize(M)");
+$data3 = array();
 while($row = $result->fetch_row()) {
-	array_push($data3, $row[0]." ".$row[1]." ".$row[2]." ".$row[3]." ".$row[4]);
+	array_push($data3, "<a href='/epigenome/browse/proteome/?gid=$row[0]'>".$row[0]." ".$row[1]."</a>");
 }
 $result->free();
+
 $con->close();
 ####--------------- Template Engine ---------------####
 $design = new Design;

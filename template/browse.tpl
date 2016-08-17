@@ -16,13 +16,25 @@
 %%!endsection%%
 %%!endif%%
 <br>
-<h3>Genome Info</h3>
+<h3>Proteomes</h3>
 %%!if($DATA_CNT3 != 0)%%
 %%!section(data = $DATA3)%%
 %%$DATA3[_sidx]%%<br>
 %%!endsection%%
 %%!endif%%
-<br><br>
+<br>
+<h3>Regulomes (by Protein families)</h3>
+Chromatin Remodelers<br>
+Transcription Factors<br>
+Histone Modifications<br>
+<br>
+<h3>Datasets (by Assay)</h3>
+ChIP-exo<br>
+ChIP-seq<br>
+DNase-seq<br>
+RNA-seq<br>
+MNase-seq<br>
+<br>
 <h3>Notes</h3>
 Currently, there are five genomes available. (sacCer3, mm10, hg38, dm6, and TAIR10)<br><br>
 %%FOOTER%%
