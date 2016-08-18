@@ -24,7 +24,7 @@ XX Datasets (Public)<br>
 XX NGS Tools (Galaxy)<br>
 <br>
 </td>
-<td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Protein Families</h3>
+<td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins</h3>
 XX CRs<br>
 XX TFs<br>
 XX HMs<br>
