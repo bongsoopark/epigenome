@@ -1,9 +1,11 @@
+import os
+import time
 import json
 import urllib
 import sys
 from Bio import Entrez, SeqIO
 
-proteome_name = "NP_001018029.1"
+proteome_name = "NP_001032575.1"
 user_email = "bxp12@psu.edu"
 
 Entrez.email = user_email
@@ -17,24 +19,48 @@ print("accession_number="+proteome_name)
 print("sequence="+results[0]['GBSeq_sequence'])	
 print("title="+results[0]['GBSeq_definition'])	
 print("size="+results[0]['GBSeq_length'])	
-data = results[0]['GBSeq_feature-table'][0]['GBFeature_quals']
 
-cnt = 0
-for the_key, the_value in data:
-	if data[cnt][the_key] == "chromosome":
-		print("chromosome="+data[cnt][the_value])
-	cnt += 1
+accession_number = proteome_name
+sequence = results[0]['GBSeq_sequence']
 
 pos = results[0]['GBSeq_feature-table'][0]['GBFeature_location']
 tmp = pos.split("..")
 print("position="+tmp[0]+"-"+tmp[1])
 
-data = results[0]['GBSeq_feature-table'][2]['GBFeature_quals']
 
-cnt = 0
-for the_key, the_value in data:
-	if data[cnt][the_key] == "locus_tag":
-		print("note="+data[cnt][the_value])
-	if data[cnt][the_key] == "note":
-		print("note="+data[cnt][the_value])
-	cnt += 1
+data = results[0]['GBSeq_feature-table']
+chromosome = []
+
+def retrieve_feature (data):
+	for feature in data:
+		if feature['GBFeature_key'] == "source":
+			cnt = 0
+			for key, value in feature['GBFeature_quals']:
+				if feature['GBFeature_quals'][cnt][value] == "chromosome":
+					print("chromome:"+feature['GBFeature_quals'][cnt][key])
+					chromosome.append(feature['GBFeature_quals'][cnt][key])
+				cnt += 1
+		elif feature['GBFeature_key'] == "CDS":
+			cnt = 0
+			for key, value in feature['GBFeature_quals']:
+				if feature['GBFeature_quals'][cnt][value] == "gene":
+					print("gene="+feature['GBFeature_quals'][cnt][key])
+				if feature['GBFeature_quals'][cnt][value] == "locus_tag":
+					print("locus_tag="+feature['GBFeature_quals'][cnt][key])
+				if feature['GBFeature_quals'][cnt][value] == "note":
+					print("note="+feature['GBFeature_quals'][cnt][key])
+				cnt += 1
+		else:
+			tmp = 0
+
+while(len(chromosome) == 0):
+	time.sleep(5)
+	retrieve_feature(data)
+	time.sleep(5)
+
+f = open("proteome_update.fa","w")
+f.write(">"+accession_number+"\n")
+f.write(sequence+"\n")
+f.close()
+
+print("Done")

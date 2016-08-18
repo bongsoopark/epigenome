@@ -5,21 +5,21 @@
 <tr>
 <td>
 Welcome to ECEP!<br><br>
-This is a platform to support the emerging field of the comparative epigenomics. We are interested in the dynamics of the gene regulation, and it's biochemistry and molecular evolution. Please let us know if you have any comments or suggestions to improve this platform. Contact: epigenomedb@gmail.com<br>
+This is a platform to support the emerging field of the comparative epigenomics. We are interested in the dynamics of the gene regulation, and it's biochemistry, molecular mechanisms, and molecular evolution. Please let us know if you have any comments or suggestions to improve this platform. <u>Contact: <i>epigenomedb@gmail.com</i></u><br>
 <br>
 Bioinformatics and Genomics program, The Genome Science Institute at Penn State University<br>
 Suppored by Center for Eukaryotic Gene Regulation, Center for Comparative Genomics and Bioinformatics<br>
 <br>
 Designed and developed by Bongsoo Park, Ph.D<br>
 Inspired by Yeast, Mouse, and Human ENCODE projects<br>
-Project publicatoin : Manuscript in preparation</td></tr></table>
+Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</td></tr></table>
 <br>
 
 <table width=800 style='border:1px solid;border-color:#DDDDDD'>
 <tr><td width=400 style='border:1px solid;border-color:#DDDDDD'>
 <h3>Database Statistics</h3>
 <a href='browse/species.php'>5 Species (NCBI, Taxonomy)</a><br>
-5 Genomes (NCBI, UCSC)<br>
+<a href='browse/genomes.php'>5 Genomes (NCBI, UCSC)</a><br>
 XX Datasets (Public)<br>
 XX NGS Tools (Galaxy)<br>
 <br>
