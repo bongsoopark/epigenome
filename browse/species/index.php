@@ -24,6 +24,11 @@ $sql = "SELECT id, assembly_id, db_key from genome where species_id='".$data->id
 $result = $con->query($sql);
 $data2 = array();
 while($row = $result->fetch_object()) {
+	$sql2 = "SELECT count(*) from sequence where genome_id='".$row->id."';";
+	$result2 = $con->query($sql2);
+	list($row->proteome) = $result2->fetch_row();
+	$result2->free();
+	$row->proteome = number_format($row->proteome);
 	array_push($data2, $row);
 }
 $result->free();

@@ -11,14 +11,32 @@
 #---------------------------------------------------------------------------------------------------------
 
 function visitCheck($ip_address, $request_uri) {
-	# MySQL connection
-	$con = new mysqli("localhost", "bongsoo", "450NFrear", "analysis");
-	if ($con->connect_error) {
-		echo("Database Connection Error");
+	# IP Address check
+	# 450 Frear North Lab
+	$ip_list = array();
+	array_push($ip_list, "146.186.153.196");
+	array_push($ip_list, "71.58.100.80");
+	$flag = 0;
+	for ($i = 0 ; $i < count($ip_list) ; $i++) {
+		if ($ip_list[$i] == $ip_address) {
+			$flag = 1;
+			break;
+		}
 	}
 
-	mysqli_query($con, "insert into security_check (ip_address, request_uri, access_time) values ('".$ip_address."','".$request_uri."',now());");
-	mysqli_close($con);
+	if ($flag == 1) {
+		# MySQL connection
+		$con = new mysqli("localhost", "bongsoo", "450NFrear", "analysis");
+		if ($con->connect_error) {
+			echo("Database Connection Error");
+		}
+
+		mysqli_query($con, "insert into security_check (ip_address, request_uri, access_time) values ('".$ip_address."','".$request_uri."',now());");
+		mysqli_close($con);
+	} else {
+		echo("Connection Error. Please contact the system administrator.");
+		exit;
+	}
 }
 
 # Visit check

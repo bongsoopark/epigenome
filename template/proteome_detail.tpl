@@ -7,41 +7,34 @@ The species and lineage information are derived from NCBI Taxonomy database. The
 %%$DATA2->lineage%%
 <br>
 <br>
-<h3>Proteome</h3>
-<table width=1000 border=1>
+<h3>Proteome: %%$tc%%</h3>
+Search by keyword: <input type=text size=30> [Search]<br><br>
+<table width=900 border=1>
 <tr>
-    <td><b>Loc</b></td>
-    <td><b>Type</b></td>
-    <td><b>Name</b></td>
-    <td><b>Accession</b></td>
-    <td><b>Genome size (M)</b></td>
-    <td><b>GC content (%)</b></td>
-    <td><b>Protein</b></td>
-    <td><b>rRNA</b></td>
-    <td><b>tRNA</b></td>
-    <td><b>otherRNA</b></td>
-    <td><b>gene</b></td>
-    <td><b>pseudogene</b></td>
+    <td><b>Chk</b></td>
+    <td><b>Locus name</b></td>
+    <td><b>Gene name</b></td>
+    <td><b>Description</b></td>
+    <td><b>Accession#</b></td>
+    <td><b>Length(aa)</b></td>
 </tr>
 %%!if($DATA_CNT3 != 0)%%
 %%!section(data = $DATA3)%%
 <tr>
-    <td>%%$DATA3[_sidx]->loc%%</td>
+    <td><input type=checkbox></td>
     <td>%%$DATA3[_sidx]->type%%</td>
     <td>%%$DATA3[_sidx]->name%%</td>
-    <td><a href='http://www.ncbi.nlm.nih.gov/nuccore/%%$DATA3[_sidx]->ncbi_accession%%' target='_blank'>%%$DATA3[_sidx]->ncbi_accession%% <img src='/epigenome/img/link.jpeg' width=20></a></td>
+    <td>%%$DATA3[_sidx]->name%%</td>
+    <td><a href='http://www.ncbi.nlm.nih.gov/protein/%%$DATA3[_sidx]->ncbi_accession%%' target='_blank'>%%$DATA3[_sidx]->ncbi_accession%% <img src='/epigenome/img/link.jpeg' width=20></a></td>
     <td>%%$DATA3[_sidx]->genome_size%%</td>
-    <td>%%$DATA3[_sidx]->gc_content%%</td>
-    <td>%%$DATA3[_sidx]->protein%%</td>
-    <td>%%$DATA3[_sidx]->rRNA%%</td>
-    <td>%%$DATA3[_sidx]->tRNA%%</td>
-    <td>%%$DATA3[_sidx]->otherRNA%%</td>
-    <td>%%$DATA3[_sidx]->gene%%</td>
-    <td>%%$DATA3[_sidx]->pseudogene%%</td>
 </tr>
 %%!endsection%%
 %%!endif%%
 </table>
+<table width=900 border=1>
+<tr><td>
+Page navigation First Previous %%$page_list%% Next Last
+</td></tr></table>
 <br><br>
 %%FOOTER%%
 </html>

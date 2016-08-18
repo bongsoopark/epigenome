@@ -21,7 +21,18 @@ $result = $con->query($sql);
 $data2 = $result->fetch_object();
 $result->free();
 
-$sql = "SELECT * from chromosome where genome_id='".$data->id."';";
+$p = 1;
+$l = 20;
+
+$sql = "SELECT count(*) from sequence where genome_id=".$data->id.";";
+$result = $con->query($sql);
+list($tc) = $result->fetch_row();
+$result->free();
+ 
+$tp = intval(($tc-1)/$p)+1;
+$sp = ($p-1)*$l;
+
+$sql = "SELECT * from sequence where genome_id='".$data->id."' limit $sp, $l;";
 $result = $con->query($sql);
 $data3 = array();
 while($row = $result->fetch_object()) {
@@ -30,11 +41,13 @@ while($row = $result->fetch_object()) {
 $result->free();
 $con->close();
 
+$page_list = "1 2 3 4 5 6 7 8 9 10";
 ####--------------- Template Engine ---------------####
 $design = new Design;
 $design->loadData("index.dat");
 $design->readTemplate("/proteome_detail.tpl");
 $design->parsing(array(
+		"page_list" => $page_list,
 		"gid" => $gid, "DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2), 
 		"DATA3" => $data3, "DATA_CNT3" => count($data3), "tc" => $tc

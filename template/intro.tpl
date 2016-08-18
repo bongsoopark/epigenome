@@ -2,7 +2,7 @@
 <body>
 <h2>Eukaryotic Comparative Epigenomics Platform</h2>
 <br>
-<h3>ECEP History (v0.0.3)</h3>
+<h3>ECEP History (v0.0.5)</h3>
 Motivation:<br>
 Epigenome is a broad definition about entire biological ecosystem. Cellular system is interacting with the environmental system, and the cellular signals are triggered by environmental change (such as temporature, UV treatment, pH, and etc). In eukaryotic genome, it is more complicated due to the chromatin structure. Histone, Chromatin remodelers, and Transcription factors are highly co-regulated to do a certain biological function. The ECEP (i-sep) will facilitate the easy-to-use bioinformatics analysis using any NGS reads (RNA-seq, ChIP-seq, DNase-seq, and MNase-seq). Moreover, it will provide the comparative genomics tools to understand the human genomes based on the observation from model organisms. Yeast, Fly, Mouse are good examples. Last updated 2016-08-16.<br><br>
 Not only we are interested in the human model organisms, but we are also interested in the plant associated organisms. The entired eukaryotic species is topic of interest. Plant model organism including arabidopsis, rice, and the associated micro-organisms such as pathogens are a part of this database. Plant and phytobiome can be more easily expained by interaction between host-pathogen mechanisms. Environmental factor is very important part of this interaction. Human microbiome is another big topic in the field of biology. All living organisms are related each other. So, we will include some of micro organisms as well this database. (bacteria, archea, and virus).<br><br>
