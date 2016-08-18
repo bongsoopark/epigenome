@@ -42,7 +42,13 @@ taxid = get_tax_id(genome_name)
 data = get_tax_data(taxid)
 genome = genome_name.split(" ")
 print("insert into species (genus_name, species_name, strain_name, ncbi_txid, lineage) values ('"+genome[0]+"','"+genome[1]+"','','"+taxid+"','"+data[0]['Lineage']+"');")
+
 exit(0)
+# ToDoList
+# Search how to retreive genome assembly info automatically
+search = Entrez.esearch(term = "txid"+taxid+"[orgn]", db = "genome", retmode = "xml")
+record = Entrez.read(search)
+print(record)
 # Successful!
 
 # Retrieve the assembly information

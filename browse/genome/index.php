@@ -30,7 +30,6 @@ while($row = $result->fetch_object()) {
 $result->free();
 $con->close();
 
-echo($gid);
 ####--------------- Template Engine ---------------####
 $design = new Design;
 $design->loadData("index.dat");
