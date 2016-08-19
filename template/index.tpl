@@ -5,7 +5,7 @@
 <tr>
 <td>
 Welcome to ECEP!<br><br>
-This is a platform to support the emerging field of the comparative epigenomics. We are interested in the dynamics of the gene regulation, and it's biochemistry, molecular mechanisms, and molecular evolution. Please let us know if you have any comments or suggestions to improve this platform. <u>Contact: <i>epigenomedb@gmail.com</i></u><br>
+This is a platform to support the emerging field of the comparative epigenomics. We are interested in the dynamics of the gene regulation, and it's biochemistry, molecular mechanisms, and molecular evolution (<a href='intro.php'>Intro</a>). Please let us know if you have any comments or suggestions to improve this platform. <u>Contact: <i>epigenomedb@gmail.com</i></u><br>
 <br>
 Bioinformatics and Genomics program, The Genome Science Institute at Penn State University<br>
 Suppored by Center for Eukaryotic Gene Regulation, Center for Comparative Genomics and Bioinformatics<br>
