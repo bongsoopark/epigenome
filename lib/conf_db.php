@@ -40,6 +40,12 @@ $DBConf["ANAYSIS_DB"] = "analysis";
 $DBConf["ANAYSIS_USER"] = "bongsoo";
 $DBConf["ANAYSIS_PASS"] = "450NFrear";
 
+$DBConf["DATASET_DB_TYPE"] = "MySQL";
+$DBConf["DATASET_HOST"] = "localhost";
+$DBConf["DATASET_DB"] = "dataset";
+$DBConf["DATASET_USER"] = "bongsoo";
+$DBConf["DATASET_PASS"] = "450NFrear";
+
 function connectNewDB ($name) {
 	return new mysqli($DBConf[$name."_HOST"], $DBConf[$name."_USER"], $DBConf[$name."_PASS"], $DBConf[$name."_DB"]);
 }

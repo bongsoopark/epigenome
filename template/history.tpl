@@ -2,7 +2,10 @@
 <body>
 <h2>Eukaryotic Comparative Epigenomics Platform</h2>
 <br>
-<h3>ECEP History (v0.0.8)</h3>
+<h3>ECEP History (v0.0.10)</h3>
+2016-08-22 Dataset database, ngs_assay table have been added.<br>
+2016-08-22 74 RPgene ChIP-Exo samples have been added(Pugh Lab).<br>
+2016-08-22 Reference genome feature browser has been added.<br>
 2016-08-19 Reference genome feature database was designed.<br>
 2016-08-18 Five genome, reference features were uploaded on the epigenomedb directories.<br>
 2016-08-18 Yeast, mouse, human proteomes have been uploaded.<br>

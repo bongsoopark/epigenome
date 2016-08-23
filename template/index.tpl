@@ -20,7 +20,7 @@ Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</
 <h3>Database Statistics</h3>
 <a href='browse/species.php'>5 Species (NCBI, Taxonomy)</a><br>
 <a href='browse/genomes.php'>5 Genomes (NCBI, UCSC)</a><br>
-XX Datasets (Public)<br>
+<a href='browse/datasets.php'>74 Datasets (Public accessible)</a><br>
 XX NGS Tools (Galaxy)<br>
 <br>
 </td>
@@ -37,12 +37,13 @@ BWA-MEM<br>
 Bowtie2<br>
 HISAT2<br>
 PiCard<br>
-GPS...
+etc...<br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'>
 <h3>User Statistics</h3>
-XXXX Visits this week<br>
-XXXX Anayses done this week<br>
+XXX Visits this week<br>
+XXX Anayses done this week<br>
+XXX Laboratories support this database<br>
 <br><br>
 </td></tr><table>
 <div style='width:800px'><a class="twitter-timeline" href="https://twitter.com/epigenomedb">Tweets by epigenomedb</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
