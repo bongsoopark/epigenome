@@ -33,6 +33,11 @@ while($row = $result->fetch_object()) {
 	list($row->proteome) = $result2->fetch_row();
 	$result2->free();
 	$row->proteome = number_format($row->proteome);
+	$sql2 = "SELECT count(*) from genome_features where genome_id='".$row->id."';";
+	$result2 = $con->query($sql2);
+	list($row->reference_features) = $result2->fetch_row();
+	$result2->free();
+	$row->reference_features = number_format($row->reference_features);
 	array_push($data2, $row);
 }
 $result->free();

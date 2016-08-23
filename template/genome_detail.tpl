@@ -48,7 +48,7 @@ The species and lineage information are derived from NCBI Taxonomy database. The
 <a href='/epigenomedb/genome_assembly/%%$DATA->epigenomedb%%/%%$DATA->epigenomedb%%_protein.faa' target='_blank'>Protein fasta download [NCBI]<img src='/epigenome/img/link.jpeg' width=20></a>
 <br><br>
 <h3>Genomic features</h3>
-Browse the reference features<br>
+<a href='/epigenome/browse/feature/?gid=%%$gid%%'>Browse the reference features</a><br>
 <a href='/epigenomedb/genome_assembly/%%$DATA->epigenomedb%%/%%$DATA->epigenomedb%%_genomic.gff' target='_blank'>Genomic feature download [NCBI]<img src='/epigenome/img/link.jpeg' width=20></a>
 <br><br>
 <br><br>

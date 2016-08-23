@@ -13,7 +13,7 @@ The species and lineage information are derived from NCBI Taxonomy database. The
 %%!if($DATA_CNT2 != 0)%%
 %%!section(data = $DATA2)%%
 <tr><td><a href='/epigenome/browse/genome/?gid=%%$DATA2[_sidx]->assembly_id%%'>%%$DATA2[_sidx]->assembly_id%%</a></td><td>%%$DATA2[_sidx]->db_key%%</td><td>%%$DATA2[_sidx]->chromosome%%</td><td><a href='/epigenome/browse/proteome/?gid=%%$DATA2[_sidx]->assembly_id%%'>%%$DATA2[_sidx]->proteome%%</a></td>
-<td>&nbsp;</td></tr>
+<td><a href='/epigenome/browse/feature/?gid=%%$DATA2[_sidx]->assembly_id%%'>%%$DATA2[_sidx]->reference_features%%</a></td></tr>
 %%!endsection%%
 %%!endif%%
 </table>
