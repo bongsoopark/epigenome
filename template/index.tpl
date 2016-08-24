@@ -11,7 +11,7 @@ Bioinformatics and Genomics program, The Genome Science Institute at Penn State 
 Suppored by Center for Eukaryotic Gene Regulation, Center for Comparative Genomics and Bioinformatics<br>
 <br>
 Designed and developed by Bongsoo Park, Ph.D<br>
-Inspired by Yeast, Mouse, and Human ENCODE projects<br>
+Inspired by Yeast, Mouse, and Human ENCODE projects (Galaxy/PEGR)<br>
 Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</td></tr></table>
 <br>
 
@@ -21,29 +21,30 @@ Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</
 <a href='browse/species.php'>5 Species (NCBI, Taxonomy)</a><br>
 <a href='browse/genomes.php'>5 Genomes (NCBI, UCSC)</a><br>
 <a href='browse/datasets.php'>74 Datasets (Public accessible)</a><br>
-XX NGS Tools (Galaxy)<br>
+<a href='#'>1 Studies (Publications)<br>
 <br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins</h3>
-XX CRs<br>
-XX TFs<br>
-XX HMs<br>
-BLAST Searching...<br>
+XX Chromatin Remodelers<br>
+XX Transcription Factors<br>
+XX Histone Modifying Enzymes<br>
+XX General Regulome Proteins<br>
 <br>
 </td></tr>
 <tr><td width=400 style='border:1px solid;border-color:#DDDDDD'>
-<h3>Top Five NGS Analysis</h3>
-BWA-MEM<br>
-Bowtie2<br>
-HISAT2<br>
-PiCard<br>
-etc...<br>
+<h3>Top NGS Workflow</h3>
+NGS Mapping by BWA<br>
+RNA-seq Analysis by HISAT2<br>
+SNP Analysis by GATK<br>
+Motif finding by multiGPS<br>
+<br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'>
 <h3>User Statistics</h3>
+XX Registered users<br>
 XXX Visits this week<br>
-XXX Anayses done this week<br>
-XXX Laboratories support this database<br>
+XXXX Anayses done this week<br>
+XX Laboratories support this database<br>
 <br><br>
 </td></tr><table>
 <div style='width:800px'><a class="twitter-timeline" href="https://twitter.com/epigenomedb">Tweets by epigenomedb</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
