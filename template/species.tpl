@@ -6,7 +6,7 @@ The species and lineage information are derived from NCBI Taxonomy database. The
 <a href='http://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi'>NCBI - Organisms commonly used in molecular research projects:</a><br>
 <a href='https://genome.ucsc.edu/cgi-bin/hgGateway'>UCSC - Genome gateway</a><br>
 <a href='#'>CEGR - Reference genomes</a><br>
-<a href='#'>CFGP - Plant & Phytobiome</a>
+<a href='http://cfgp.riceblast.snu.ac.kr/'>CFGP - Plant & Phytobiome</a>
 <br>
 <h4>Top five species frequently used</h4>
 %%!if($DATA_CNT != 0)%%

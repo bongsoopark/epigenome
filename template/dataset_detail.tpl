@@ -37,7 +37,7 @@ NGS Datasets are freely available after publications. We collected large dataset
     <td>%%$DATA3[_sidx]->genome%%</td>
     <td>%%$DATA3[_sidx]->index_count%%</td>
     <td>%%$DATA3[_sidx]->uniq_reads%%</td>
-    <td><a href='http://www.ncbi.nlm.nih.gov/sra/?term=%%%%$DATA3[_sidx]->sra_id%%%%'>%%$DATA3[_sidx]->sra_id%%<img src='/epigenome/img/link.jpeg' width=20></a></td>
+    <td><a href='http://www.ncbi.nlm.nih.gov/sra/?term=%%$DATA3[_sidx]->sra_id%%'>%%$DATA3[_sidx]->sra_id%%<img src='/epigenome/img/link.jpeg' width=20></a></td>
     <td>%%$DATA3[_sidx]->read_type%%</td>
 </tr>
 %%!endsection%%
