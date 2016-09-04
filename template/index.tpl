@@ -21,7 +21,7 @@ Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</
 <a href='browse/species.php'>5 Species (NCBI, Taxonomy)</a><br>
 <a href='browse/genomes.php'>5 Genomes (NCBI, UCSC)</a><br>
 <a href='browse/datasets.php'>74 Datasets (Public accessible)</a><br>
-<a href='#'>1 Studies (Publications)<br>
+<a href='browse/publications.php'>1 Studies (Publications)</a><br>
 <br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins</h3>
@@ -45,7 +45,7 @@ XX Registered users<br>
 XXX Visits this week<br>
 XXXX Anayses done this week<br>
 XX Laboratories support this database<br>
-<br><br>
+<br>
 </td></tr><table>
 <div style='width:800px'><a class="twitter-timeline" href="https://twitter.com/epigenomedb">Tweets by epigenomedb</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 <a href="https://twitter.com/intent/tweet?button_hashtag=epigenomedb" class="twitter-hashtag-button" data-show-count="false">Tweet #epigenomedb</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script><br>

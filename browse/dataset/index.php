@@ -11,7 +11,7 @@ if ($con->connect_error) {
 	echo("Database Connection Error");
 }
 
-$sql = "SELECT * from ngs_assay where assay='XO';";
+$sql = "SELECT * from ngs_assay where assay='$assay';";
 $result = $con->query($sql);
 $data3 = array();
 while($row = $result->fetch_object()) {
@@ -20,11 +20,13 @@ while($row = $result->fetch_object()) {
 $result->free();
 $con->close();
 
+$assay_name = ["XO"=>"ChIP-Exo","CS"=>"ChIP-Seq","RS"=>"RNA-Seq","MN"=>"MNase-Seq"];
+
 ####--------------- Template Engine ---------------####
 $design = new Design;
 $design->loadData("index.dat");
 $design->readTemplate("/dataset_detail.tpl");
-$design->parsing(array(
+$design->parsing(array("assay_name" => $assay_name[$assay],
 		"gid" => $gid, "DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2), 
 		"DATA3" => $data3, "DATA_CNT3" => count($data3), "tc" => $tc

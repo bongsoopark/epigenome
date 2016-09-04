@@ -6,7 +6,7 @@ NGS Datasets are freely available after publications. We collected large dataset
 <h3><a href='/epigenome/browse/species/?txid=%%$DATA2->ncbi_txid%%'>%%$DATA2->genus_name%% %%$DATA2->species_name%% %%$DATA2->strain_name%%</a></h3>
 %%$DATA2->lineage%%
 <br>
-<h3>ChIP-Exo</h3>
+<h3>%%$assay_name%%</h3>
 <table width=1000 border=1>
 <tr>
     <td><b>Chk</b></td>
