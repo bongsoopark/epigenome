@@ -10,7 +10,7 @@ This is a platform to support the emerging field of the comparative epigenomics.
 Bioinformatics and Genomics program, The Genome Science Institute at Penn State University<br>
 Suppored by Center for Eukaryotic Gene Regulation, Center for Comparative Genomics and Bioinformatics<br>
 <br>
-Designed and developed by Bongsoo Park, Ph.D<br>
+Designed and developed by <a href='http://sites.psu.edu/bongsoopark/'>Bongsoo Park, Ph.D</a><br>
 Inspired by Yeast, Mouse, and Human ENCODE projects (Galaxy/PEGR)<br>
 Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</td></tr></table>
 <br>
@@ -18,8 +18,8 @@ Project publicatoin : Manuscript in preparation (Target: Genome Research 2017)</
 <table width=800 style='border:1px solid;border-color:#DDDDDD'>
 <tr><td width=400 style='border:1px solid;border-color:#DDDDDD'>
 <h3>Database Statistics</h3>
-<a href='browse/species.php'>5 Species (NCBI, Taxonomy)</a><br>
-<a href='browse/genomes.php'>5 Genomes (NCBI, UCSC)</a><br>
+<a href='browse/species.php'>%%$number_of_species%% Species (NCBI, Taxonomy)</a><br>
+<a href='browse/genomes.php'>%%$number_of_genome%% Genomes (NCBI, UCSC)</a><br>
 <a href='browse/datasets.php'>74 Datasets (Public accessible)</a><br>
 <a href='browse/publications.php'>1 Studies (Publications)</a><br>
 <br>

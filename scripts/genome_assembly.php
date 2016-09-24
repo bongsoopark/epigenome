@@ -14,7 +14,7 @@ print("#hello world\n");
 print("#Retrieve genome assembly script\n");
 
 # Update the genome_id
-$sql = "SELECT epigenomedb from genome where id=5;";
+$sql = "SELECT epigenomedb from genome where id=7;";
 $result = $con->query($sql);
 $row = $result->fetch_object();
 $result->free();

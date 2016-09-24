@@ -2,7 +2,10 @@
 <body>
 <h2>Eukaryotic Comparative Epigenomics Platform</h2>
 <br>
-<h3>ECEP History (v0.0.10)</h3>
+<h3>ECEP History (v0.0.13)</h3>
+2016-09-24 2 Bos taurus genomes have been added.<br>
+2016-09-24 15 Species information has been added.<br>
+2016-09-24 The introduction page has been updated.<br>
 2016-08-22 Dataset database, ngs_assay table have been added.<br>
 2016-08-22 74 RPgene ChIP-Exo samples have been added(Pugh Lab).<br>
 2016-08-22 Reference genome feature browser has been added.<br>

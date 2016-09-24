@@ -3,6 +3,29 @@
 # By Bongsoo Park, Ph.D
 
 # Project Diary
+@2016-09-24 3:14AM
+I came back to my project.
+1 Month later, I forgot many things. What can I do?
+First, I would like to add more genomes. For examples,
+21 genomes in the main page of Taxonomy browser. 
+
+1) python3 check_taxonomy.py Bos taurus
+2) I created a sql file named "check_taxonomy.sql", then
+update the database, and main page. 
+3) I want to update the genome dataset too.
+first, manually insert new key
+insert into genome (species_id, assembly_id, db_key, epigenomedb) values ('6','GCA_000003205.6','','GCA_000003205.6_Btau_5.0.1');
+then, create shell script.
+php genome_assembly.php > genome_assembly.sh
+
+4) Bos Taurus genome have two assemblies, so this is the first 
+case that we have two genome version for one species.
+Copy and Paste the genome information from NCBI genome assembly.
+python genome_update.py 6 > genome_update.sql
+mysql -u bongsoo genome -p < genome_update.sql
+It's done. Currently, 6 genome doesn't have any proteome. 
+so, we will use assembly 7. UMD version.
+
 @2016-08-18 Afternoon
 1) Proteome update script has been updated.
 proteome_update.py will create the 'proteome_update.fa'
