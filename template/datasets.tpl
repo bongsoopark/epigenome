@@ -11,9 +11,11 @@ NGS Datasets are freely available after publications. We collected large dataset
 <br>
 <h4>Categorized by Assays</h4>
 &nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=XO'>72 ChIP-Exo</a><br>
+&nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=MN'>2 MNase-seq</a><br>
+&nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=DS'>0 DNase-seq</a><br>
+&nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=AS'>0 ATAC-seq</a><br>
 &nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=CS'>0 ChIP-seq</a><br>
 &nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=RS'>0 RNA-seq</a><br>
-&nbsp;&nbsp;<a href='/epigenome/browse/dataset/?assay=MN'>2 MNase-seq</a><br>
 <br>
 <h4>Categorized by Organisms</h4>
 &nbsp;&nbsp;74 Saccharomyces cerevisiae<br>

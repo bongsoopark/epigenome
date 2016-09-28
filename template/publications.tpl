@@ -6,17 +6,20 @@ The major source of publications is NCBI PubMed. NGS Datasets are freely availab
 <a href='http://www.ncbi.nlm.nih.gov/pubmed'>NCBI - PubMed</a><br>
 <br>
 <h4>Recent publications</h4>
-Molecular mechanisms of ribosomal protein gene coregulation. by Pugh Lab<br>
+Molecular mechanisms of ribosomal protein gene coregulation. Reja et al. by Pugh Lab<br>
+Heat Shock Epigenome Analysis in Yeast. Vinayachandran et al. by Pugh Lab<br>
 <br>
 <br>
 <h4>Categorized by Organisms</h4>
-&nbsp;&nbsp;1 Saccharomyces cerevisiae<br>
+&nbsp;&nbsp;2 Saccharomyces cerevisiae<br>
 &nbsp;&nbsp;0 Homo sapiens<br>
 &nbsp;&nbsp;0 Mus musculus<br>
 <br>
 <h4>Categorized by Studies</h4>
+&nbsp;&nbsp;1 Under Review<br>
 &nbsp;&nbsp;1 Publications<br>
 &nbsp;&nbsp;1 Laboratories<br>
+&nbsp;&nbsp;1 Institutes<br>
 <br>
 <br>
 %%FOOTER%%

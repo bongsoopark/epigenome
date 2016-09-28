@@ -29,7 +29,7 @@ $design->readTemplate("/dataset_detail.tpl");
 $design->parsing(array("assay_name" => $assay_name[$assay],
 		"gid" => $gid, "DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2), 
-		"DATA3" => $data3, "DATA_CNT3" => count($data3), "tc" => $tc
+		"DATA3" => $data3, "list_cnt" => count($data3), "tc" => $tc
 		));
 $design->display();
 ####--------------- Template Engine ---------------####

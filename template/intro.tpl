@@ -1,8 +1,5 @@
 %%HEADER%%
-<body>
-<h2>Eukaryotic Comparative Epigenomics Platform</h2>
-<br>
-<h3>ECEP - Introduction (v0.0.13)</h3>
+<h3>Introduction (v0.1.0)</h3>
 <b>Motivation:</b><br>
 <a href='https://www.genome.gov/27532724/epigenomics-fact-sheet/'>Epigenome</a> is a collection of the chemical compounds and proteins that surround the genomes of living organisms and control the regulatory mechanisms by cellular and environmental signals. Methylation or Histone modifications are well known regulatory mechanisms in epigenome layer. In fact, the cellular system triggered by environmental changes such as temporature, UV treatment, pH, ion influx, and etc. In eukaryotic organisms, this molecular mechanisms are more complicated because of the involvement of the chromatin structure. Protein families including Histone modification enzymes, chromatin remodelers, and transcription factors are major players to control the epigenome mechanisms by interacting with DNA. Epigenome change directly influences the mechanisms of DNA transcription, therefore transcription factors are major targets for epigenome research.<br><br>
 ENCODE and Epigenomics RoadMap projects are NIH led initiatives to supporting the advance of epigenome mechanisms. ENCODE incorporated many biochemical assays, and new molecular technologies introduced to produce large scaling datasets. DNA sequencing technology greatly applied to epigenome research. As a result, 'Omics' datasets are commonly used, and increased the numbers in the type of the assays and experimental samples. The ECEP (i-sep) will facilitate the easy-to-use bioinformatics analysis using any NGS reads (RNA-seq, ChIP-seq, DNase-seq, and MNase-seq). Moreover, it will provide the comparative genomics tools to understand the human genomes based on the observation from model organisms. Yeast, Fly, Mouse are good examples. Last updated 2016-09-24.<br><br>
