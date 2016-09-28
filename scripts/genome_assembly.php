@@ -13,8 +13,11 @@ if ($con->connect_error) {
 print("#hello world\n");
 print("#Retrieve genome assembly script\n");
 
+# You should change this number to register the genome 
+$num = 17;
+
 # Update the genome_id
-$sql = "SELECT epigenomedb from genome where id=7;";
+$sql = "SELECT epigenomedb from genome where id=$num;";
 $result = $con->query($sql);
 $row = $result->fetch_object();
 $result->free();
@@ -31,6 +34,11 @@ print("gunzip ".$epigenomedb."_genomic.fna.gz\n");
 print("gunzip ".$epigenomedb."_rna.fna.gz\n");
 print("gunzip ".$epigenomedb."_protein.faa.gz\n");
 print("gunzip ".$epigenomedb."_genomic.gff.gz\n");
-
+print("grep \">\" ".$epigenomedb."_protein.faa > protein_list.txt\n");
+print("echo 'python ../extract_proteome.py $num > extract_proteome.sql' > run.sh\n");
+print("echo 'python ../extract_feature.py $num ".$epigenomedb."_genomic.gff > extract_feature.sql' >> run.sh\n");
+ 
 print("mv *$epigenomedb* /home/html/epigenomedb/genome_assembly/$epigenomedb/.\n");
+print("mv run.sh /home/html/epigenomedb/genome_assembly/$epigenomedb/.\n");
+print("mv protein_list.txt /home/html/epigenomedb/genome_assembly/$epigenomedb/.\n");
 ?>

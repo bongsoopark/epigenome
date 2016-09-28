@@ -14,9 +14,8 @@ function visitCheck($ip_address, $request_uri) {
 	# IP Address check
 	# 450 Frear North Lab
 	$ip_list = array();
-	array_push($ip_list, "146.186.153.196");
+	array_push($ip_list, "172.29.0.71");
 	array_push($ip_list, "71.58.100.80");
-	array_push($ip_list, "73.79.233.140");
 	$flag = 0;
 	for ($i = 0 ; $i < count($ip_list) ; $i++) {
 		if ($ip_list[$i] == $ip_address) {
