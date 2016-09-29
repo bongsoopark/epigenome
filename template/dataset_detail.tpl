@@ -24,6 +24,7 @@ NGS Datasets are freely available after publications. We collected large dataset
 </tr>
 <form name=list method=post action=/epigenome/save_to_cart.php>
 <input type=hidden id=sample_ids name=sample_ids value="">
+<input type=hidden id=a name=a value="save">
 <input type=hidden id=redirect name=redirect value="/epigenome/browse/dataset/?assay=%%$assay%%">
 %%!if($list_cnt != 0)%%
 %%!section(data = $DATA3)%%

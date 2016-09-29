@@ -15,19 +15,37 @@ if ($con->connect_error) {
 	echo("Database Connection Error");
 }
 
-for($i=0; $i < count($samples) ; $i++) {
-	$sample = split(":",$samples[$i]);
-	
-	$sql = "select count(*) from favorite_cart where user_id='0' and object_type='$sample[0]' and object_id='$sample[1]';";
-	$result = $con->query($sql);
-	list($cnt) = $result->fetch_row();
-	$result->free();
+if ($a == "save") {
+	for($i=0; $i < count($samples) ; $i++) {
+		$sample = split(":",$samples[$i]);
+		
+		$sql = "select count(*) from favorite_cart where user_id='0' and object_type='$sample[0]' and object_id='$sample[1]';";
+		$result = $con->query($sql);
+		list($cnt) = $result->fetch_row();
+		$result->free();
 
-	if ($cnt == 0) {
-		$sql = "insert into favorite_cart (user_id, object_type, object_id) values ('0','$sample[0]','$sample[1]');";
+		if ($cnt == 0) {
+			$sql = "insert into favorite_cart (user_id, object_type, object_id) values ('0','$sample[0]','$sample[1]');";
+			$con->query($sql);
+		}
+	}
+	if (count($sample) > 1) {
+		moveURLMessage($redirect, "Save to Favorite was successfull");
+	} else {
+		moveURLMessage($redirect, "There is no selected items");
+	}
+} else {
+	for($i=0; $i < count($samples) ; $i++) {
+		$sample = split(":",$samples[$i]);
+		
+		$sql = "delete from favorite_cart where user_id = '0' and object_type = '$sample[0]' and object_id='$sample[1]';";
 		$con->query($sql);
+	}
+	if (count($sample) > 1) {
+		moveURLMessage($redirect, "Remove from Favorite was successfull");
+	} else {
+		moveURLMessage($redirect, "There is no selected items");
 	}
 }
 mysql_close($con);
-moveURLMessage($redirect, "Save to Favorite was successfull");
 ?>
