@@ -26,7 +26,7 @@ $assay_name = ["XO"=>"ChIP-Exo","CS"=>"ChIP-Seq","RS"=>"RNA-Seq","MN"=>"MNase-Se
 $design = new Design;
 $design->loadData("index.dat");
 $design->readTemplate("/dataset_detail.tpl");
-$design->parsing(array("assay_name" => $assay_name[$assay],
+$design->parsing(array("assay_name" => $assay_name[$assay], "assay" => $assay,
 		"gid" => $gid, "DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2), 
 		"DATA3" => $data3, "list_cnt" => count($data3), "tc" => $tc

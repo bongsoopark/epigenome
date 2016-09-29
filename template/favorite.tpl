@@ -1,12 +1,13 @@
 %%HEADER%%
-<h3><a href='/epigenome/browse/datasets.php'>Datasets (NGS Assays)</a></h3>
-NGS Datasets are freely available after publications. We collected large dataset for the meta analysis. SRA and GEO are main resource for datasets. Also, yeast, model organisms, mouse, and human ENCODE datasets are available. Please let us know what other datasets you want to use for the analysis.
+<h3>Favorite Cart</h3>
+Favorite Cart is the repository of any given sequences or NGS assays. You can also save the reference features here. It is a cart of collection of sequence, so you can submit any additional jobs from here. 
 <h3><a href='/epigenome/browse/species/?txid=%%$DATA2->ncbi_txid%%'>%%$DATA2->genus_name%% %%$DATA2->species_name%% %%$DATA2->strain_name%%</a></h3>
-%%$DATA2->lineage%%
+<h3>1) Saved Sequences</h3>
+Empty
 <br>
-<h3>%%$assay_name%%</h3>
+<br>
+<h3>2) Saved NGS Assays</h3>
 <table width=1000 border=1>
-<tr><td colspan=13><a href='javascript:save_to_cart(document.list,"CHECKBOX",%%$list_cnt%%);'>Save to FAVORITE cart</a> <img src='/epigenome/img/help.gif'></td></tr>
 <tr>
     <td><b>Chk</b></td>
     <td><b>Target</b></td>
@@ -47,6 +48,13 @@ NGS Datasets are freely available after publications. We collected large dataset
 </form>
 </table>
 <br><br>
+<h3>3) Saved Reference features</h3>
+Empty
+<br>
+<br><br>
+<h3>4) Strategic Methods</h3>
+Empty
+<br>
 <br><br>
 %%FOOTER%%
 </html>

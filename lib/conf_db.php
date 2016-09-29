@@ -34,11 +34,11 @@ $DBConf["GENOME_DB"] = "genome";
 $DBConf["GENOME_USER"] = "bongsoo";
 $DBConf["GENOME_PASS"] = "450NFrear";
 
-$DBConf["ANAYSIS_DB_TYPE"] = "MySQL";
-$DBConf["ANAYSIS_HOST"] = "localhost";
-$DBConf["ANAYSIS_DB"] = "analysis";
-$DBConf["ANAYSIS_USER"] = "bongsoo";
-$DBConf["ANAYSIS_PASS"] = "450NFrear";
+$DBConf["ANALYSIS_DB_TYPE"] = "MySQL";
+$DBConf["ANALYSIS_HOST"] = "localhost";
+$DBConf["ANALYSIS_DB"] = "analysis";
+$DBConf["ANALYSIS_USER"] = "bongsoo";
+$DBConf["ANALYSIS_PASS"] = "450NFrear";
 
 $DBConf["DATASET_DB_TYPE"] = "MySQL";
 $DBConf["DATASET_HOST"] = "localhost";
@@ -47,6 +47,7 @@ $DBConf["DATASET_USER"] = "bongsoo";
 $DBConf["DATASET_PASS"] = "450NFrear";
 
 function connectNewDB ($name) {
+	global $DBConf;
 	return new mysqli($DBConf[$name."_HOST"], $DBConf[$name."_USER"], $DBConf[$name."_PASS"], $DBConf[$name."_DB"]);
 }
 // If you are connecting via TCP/IP rather than a UNIX socket remember to add the port number as a parameter.

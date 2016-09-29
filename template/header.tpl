@@ -20,4 +20,4 @@ function save_to_cart(form,name,cnt){
 <tr><td>
 <h3>"Epigenome analysis web portal - make it easy"</h3>
 </td><td><div align=right>
-<img src=/epigenome/img/help.png width=110><img src=/epigenome/img/cart_favorite.png width=50>&nbsp;&nbsp;</div></td></tr></table>
+<a href='/epigenome/'><img src=/epigenome/img/home.png width=52></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href='/epigenome/favorite/'><img src=/epigenome/img/cart_favorite.png width=48></a><a href='/epigenome/help.php'><img src=/epigenome/img/help.png width=110></a></div></td></tr></table>
