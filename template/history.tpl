@@ -1,5 +1,6 @@
 %%HEADER%%
-<h3>ECEP History (v0.1.2)</h3>
+<h3>ECEP History (v0.1.3)</h3>
+2016-10-01 Dev-Production arthitecture has been built via iGenomics.org<br>
 2016-09-28 Favorite Cart function has been advanced (PHP part).<br>
 2016-09-28 Favorite Cart function has been developed (UI part).<br>
 2016-09-27 20 Species (21 Genomes) have been uploaded in ECEP.<br>
