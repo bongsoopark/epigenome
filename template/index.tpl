@@ -3,7 +3,7 @@
 <tr>
 <td>
 Welcome to ECEP!<br><br>
-This is a platform to support the emerging field of the comparative epigenomics (combining comparative genome plus epigenomics). We are interested in the dynamics of the gene regulation, molecular mechanisms, and molecular evolution (<a href='intro.php'>Introduction</a>). As a proof-of-concept of this platform, we applied the yeast heat shock epigenome analysis currently manuscript in preparation. Please let us know if you have any comments or suggestions to improve this platform.<br><u>Contact: <i>epigenomedb@gmail.com</i></u><br>
+This is a platform to support the emerging field of the comparative epigenomics (comparative genomics & epigenomics). We are interested in the dynamics of the gene regulation, molecular mechanisms, and molecular evolution (<a href='intro.php'>Introduction</a>). As a proof-of-concept of this platform, we applied the yeast heat shock epigenome analyses (Manuscript in preparation). Please let us know if you have any comments or suggestions to improve this platform.<br><u>Contact: <i>epigenomedb@gmail.com</i></u><br>
 <br>
 <br>
 <font style='font-size:13px;'>
@@ -24,27 +24,27 @@ Project citation: <i>Manuscript in preparation</i> (Target: Bioinformatics 2017)
 <a href='browse/publications.php'>2 Studies (Publications)</a><br>
 <br>
 </td>
-<td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins</h3>
+<td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins (Yeast)</h3>
 XX Chromatin Remodelers<br>
 XX Transcription Factors<br>
-XX Histone Modifications<br>
+<a href='regulome/?class=hm'>25 Histone Modifications</a><br>
 XX General Regulome Proteins<br>
 <br>
 </td></tr>
 <tr><td width=400 style='border:1px solid;border-color:#DDDDDD'>
 <h3>Genomics Education</h3>
 XX Genomics pipelines (Simple)<br>
-XX Galaxy workflows (Production)<br>
-XX Strategic methods (Reproducible)<br>
+XX Galaxy workflows (Reproducible)<br>
+XX Strategic methods (Journal production)<br>
 XX Q/A about ECEP<br>
 <br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'>
 <h3>User Statistics</h3>
 XXX Visits this week<br>
-XXX Anayses done this week<br>
-XXX Laboratories support this database<br>
-XXX Available resources (CPU,RAM,Storage)<br>
+0 Anayses done this week<br>
+1 Laboratories support this database<br>
+2 Available resources (CPU,RAM,Storage)<br>
 <br>
 </td></tr><table>
 <div style='width:800px'><a class="twitter-timeline" href="https://twitter.com/epigenomedb">Tweets by epigenomedb</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></div>

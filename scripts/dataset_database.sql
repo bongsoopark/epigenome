@@ -42,6 +42,21 @@ CREATE TABLE `ngs_assay` (
   `laboratory` varchar(40) DEFAULT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=MyISAM AUTO_INCREMENT=75 DEFAULT CHARSET=utf8;
+
+CREATE TABLE `regulome_class` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `regulome_class` varchar(40) DEFAULT NULL,
+  `note` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+
+CREATE TABLE `regulome_genes` (
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,
+  `regulome_id` int(11) unsigned not null default 0,
+  `genome_id` int(11) unsigned not null default 0,
+  `gene_id` int(11) unsigned not null default 0,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
