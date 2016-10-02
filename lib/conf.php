@@ -16,6 +16,7 @@ function visitCheck($ip_address, $request_uri) {
 	$ip_list = array();
 	array_push($ip_list, "172.29.0.71");
 	array_push($ip_list, "71.58.100.80");
+	array_push($ip_list, "146.186.149.139");
 	$flag = 0;
 	for ($i = 0 ; $i < count($ip_list) ; $i++) {
 		if ($ip_list[$i] == $ip_address) {
@@ -23,7 +24,6 @@ function visitCheck($ip_address, $request_uri) {
 			break;
 		}
 	}
-
 	if ($flag == 1) {
 		# MySQL connection
 		$con = new mysqli("localhost", "bongsoo", "450NFrear", "analysis");

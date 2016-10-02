@@ -12,7 +12,6 @@ include "./lib/sample.php";
 # Security check controller
 # Only available for certain query
 # The security check is a part of conf.php now.
-
 # MySQL connection
 $con = new mysqli($DBConf["GENOME_HOST"], $DBConf["GENOME_USER"], $DBConf["GENOME_PASS"], $DBConf["GENOME_DB"]);
 if ($con->connect_error) {
