@@ -22,13 +22,15 @@ Project citation: <i>Manuscript in preparation</i> (Target: Bioinformatics 2017)
 <a href='browse/genomes.php'>%%$number_of_genome%% Genomes (NCBI, UCSC)</a><br>
 <a href='browse/datasets.php'>74 Datasets (Public accessible)</a><br>
 <a href='browse/publications.php'>2 Studies (Publications)</a><br>
+<input type=text size=30>[Search]<br>
 <br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins (Yeast)</h3>
-XX Chromatin Remodelers<br>
-XX Transcription Factors<br>
-<a href='regulome/?class=hm'>25 Histone Modifications</a><br>
-XX General Regulome Proteins<br>
+<a href='regulome/?class=cm'>12 Chromatin Remodelers</a><br>
+<a href='regulome/?class=hm'>25 Histone Modifying Enzymes</a><br>
+<a href='regulome/?class=tf'>32 General Transcription Factors</a><br>
+<a href='regulome/?class=tf2'>XX Specific Transcription Factors</a><br>
+<a href='regulome/?class=sr'>XX Signal Recepter Proteins</a><br>
 <br>
 </td></tr>
 <tr><td width=400 style='border:1px solid;border-color:#DDDDDD'>
@@ -41,7 +43,7 @@ XX Q/A about ECEP<br>
 </td>
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'>
 <h3>User Statistics</h3>
-XXX Visits this week<br>
+X Visits this week<br>
 0 Anayses done this week<br>
 1 Laboratories support this database<br>
 2 Available resources (CPU,RAM,Storage)<br>

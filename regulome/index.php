@@ -11,11 +11,18 @@ if ($con->connect_error) {
 	echo("Database Connection Error");
 }
 
-$sql = "SELECT * from regulome_class;";
+$sql = "SELECT * from regulome_class where regulome_type='$class' order by id asc;";
 $result = $con->query($sql);
 $data3 = array();
 while($row = $result->fetch_object()) {
-	array_push($data3, $row);
+	$regulome_id = $row->id;
+	$sql2 = "SELECT * from regulome_genes where regulome_id='$regulome_id';";
+	$result2 = $con->query($sql2);
+	while($row2 = $result2->fetch_object()) {
+		$row2->regulome_class = $row->regulome_class;
+		array_push($data3, $row2);
+	}
+	$result2->free();
 }
 $result->free();
 $con->close();
@@ -24,7 +31,7 @@ $con->close();
 $design = new Design;
 $design->loadData("index.dat");
 $design->readTemplate("/regulome_detail.tpl");
-$design->parsing(array("assay_name" => $assay_name[$assay], "assay" => $assay,
+$design->parsing(array("class" => $class, "assay" => $assay,
 		"gid" => $gid, "DATA" => $data, "DATA_CNT" => count($data), 
 		"DATA2" => $data2, "DATA_CNT2" => count($data2), 
 		"DATA3" => $data3, "list_cnt" => count($data3), "tc" => $tc
