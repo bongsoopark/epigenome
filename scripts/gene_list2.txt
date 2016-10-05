@@ -1,0 +1,428 @@
+SGD:S000004646	NCBITaxon:559292	SGD:S000004646	MCM1	Transcription factor	mads box protein pthr11945	SGD	YMR043W|FUN80|transcription factor MCM1
+SGD:S000001592	NCBITaxon:559292	SGD:S000001592	HAP4	Transcription factor		SGD	YKL109W|transcription factor HAP4
+SGD:S000000911	NCBITaxon:559292	SGD:S000000911	FLO8	Transcription factor	single stranded dna binding protein pthr12610	SGD	YER109C|PHD5|STA10|YER108C|transcription factor FLO8
+SGD:S000002871	NCBITaxon:559292	SGD:S000002871	STP1	Transcription factor		SGD	YDR463W|BAP1|SSY2
+SGD:S000002856	NCBITaxon:559292	SGD:S000002856	ADA2	Transcription coactivator	transcriptional adaptor 2 (ada2)-related pthr12374	SGD	YDR448W|SWI8|chromatin-binding transcription regulator ADA2
+SGD:S000004256	NCBITaxon:559292	SGD:S000004256	PDR8	Transcription factor	family not named pthr31405	SGD	YLR266C
+SGD:S000004172	NCBITaxon:559292	SGD:S000004172	SWI6	Transcription cofactor	ankyrin repeat protein pthr24193	SGD	YLR182W|PSL8|SDS11|transcriptional regulator SWI6
+SGD:S000004774	NCBITaxon:559292	SGD:S000004774	MSS11	Transcription factor	family not named pthr10919	SGD	YMR164C
+SGD:S000002214	NCBITaxon:559292	SGD:S000002214	MBP1	Transcription factor	l-asparaginase pthr11707	SGD	YDL056W|transcription factor MBP1
+SGD:S000002530	NCBITaxon:559292	SGD:S000002530	INO2	Transcription factor		SGD	YDR123C|DIE1|SCS1
+SGD:S000001221	NCBITaxon:559292	SGD:S000001221	STB5	Transcription factor	family not named pthr31944	SGD	YHR178W
+SGD:S000001048	NCBITaxon:559292	SGD:S000001048	STP2	Transcription factor	zinc finger protein pthr11389	SGD	YHR006W
+SGD:S000005012	NCBITaxon:559292	SGD:S000005012	FKH2	Forkhead family transcription factor	family not named pthr11829	SGD	YNL068C|forkhead family transcription factor FKH2
+SGD:S000001393	NCBITaxon:559292	SGD:S000001393	FKH1	Forkhead family transcription factor	family not named pthr11829	SGD	YIL131C|forkhead family transcription factor FKH1
+SGD:S000006390	NCBITaxon:559292	SGD:S000006390	PZF1	Transcription factor IIIA (TFIIIA)	zinc finger protein pthr11389	SGD	YPR186C|TFC2
+SGD:S000002602	NCBITaxon:559292	SGD:S000002602	MSS116	Mitochondrial transcription elongation factor	family not named pthr24031	SGD	YDR194C|ATP-dependent RNA helicase
+SGD:S000006290	NCBITaxon:559292	SGD:S000006290	SUA7	Transcription factor TFIIB	transcription initiation factor iib-related pthr11618	SGD	YPR086W|SOH4|TFIIB|transcription factor TFIIB
+SGD:S000006213	NCBITaxon:559292	SGD:S000006213	SUT2	Zn2Cys6 family transcription factor		SGD	YPR009W
+SGD:S000004623	NCBITaxon:559292	SGD:S000004623	MAC1	Copper-sensing transcription factor		SGD	YMR021C|CUA1
+SGD:S000004621	NCBITaxon:559292	SGD:S000004621	STB4	Putative transcription factor	uncharacterized transcriptional regulatory protein pthr31001	SGD	YMR019W
+SGD:S000001521	NCBITaxon:559292	SGD:S000001521	RGT1	Glucose-responsive transcription factor	sox transcription factor pthr10270	SGD	YKL038W
+SGD:S000004004	NCBITaxon:559292	SGD:S000004004	PPR1	Zinc finger transcription factor	uncharacterized transcriptional regulatory protein pthr31001	SGD	YLR014C
+SGD:S000004246	NCBITaxon:559292	SGD:S000004246	HAP1	Zinc finger transcription factor	family not named pthr31405	SGD	YLR256W|CYP1
+SGD:S000001166	NCBITaxon:559292	SGD:S000001166	NDT80	Meiosis-specific transcription factor		SGD	YHR124W|transcription factor NDT80
+SGD:S000003592	NCBITaxon:559292	SGD:S000003592	ZAP1	Zinc-regulated transcription factor	zinc finger protein pthr11389	SGD	YJL056C|ZRG10
+SGD:S000002264	NCBITaxon:559292	SGD:S000002264	PHO2	Homeobox transcription factor	family not named pthr24326	SGD	YDL106C|BAS2|GRF10|phoB
+SGD:S000000680	NCBITaxon:559292	SGD:S000000680	TUP1	General repressor of transcription	wd40 repeat protein pthr22847	SGD	YCR084C|AAR1|AER2|AMM1|CRT4|CYC9|FLK1|ROX4|SFL2|UMR7|chromatin-silencing transcriptional regulator TUP1
+SGD:S000005639	NCBITaxon:559292	SGD:S000005639	AZF1	Zinc-finger transcription factor	zinc finger protein pthr11389	SGD	YOR113W
+SGD:S000000162	NCBITaxon:559292	SGD:S000000162	SEF1	Putative transcription factor	family not named pthr31845	SGD	YBL066C
+SGD:S000003134	NCBITaxon:559292	SGD:S000003134	CUP2	Copper-binding transcription factor		SGD	YGL166W|ACE1
+SGD:S000000048	NCBITaxon:559292	SGD:S000000048	OAF1	Oleate-activated transcription factor	family not named pthr31069	SGD	YAL051W|YAF1|oleate-activated transcription factor OAF1
+SGD:S000005609	NCBITaxon:559292	SGD:S000005609	WHI5	Repressor of G1 transcription		SGD	YOR083W|transcriptional repressor WHI5
+SGD:S000000661	NCBITaxon:559292	SGD:S000000661	HCM1	Forkhead transcription factor	family not named pthr11829	SGD	YCR065W
+SGD:S000001807	NCBITaxon:559292	SGD:S000001807	BAS1	Myb-related transcription factor	myb-like dna-binding protein myb pthr10641	SGD	YKR099W
+SGD:S000006010	NCBITaxon:559292	SGD:S000006010	RLM1	MADS-box transcription factor	mads box protein pthr11945	SGD	YPL089C
+SGD:S000002660	NCBITaxon:559292	SGD:S000002660	BTT1	Heterotrimeric nascent polypeptide-associated complex beta3 subunit	transcription factor btf3 pthr10351	SGD	YDR252W|CCR4-NOT core subunit BTT1
+SGD:S000006269	NCBITaxon:559292	SGD:S000006269	ROX1	Heme-dependent repressor of hypoxic genes	sox transcription factor pthr10270	SGD	YPR065W|REO1
+SGD:S000003498	NCBITaxon:559292	SGD:S000003498	YGR266W	Protein of unknown function	transcription factor btf3 pthr10351	SGD	
+SGD:S000005958	NCBITaxon:559292	SGD:S000005958	EGD1	Subunit beta1 of the nascent polypeptide-associated complex (NAC)	transcription factor btf3 pthr10351	SGD	YPL037C
+SGD:S000004482	NCBITaxon:559292	SGD:S000004482	YML020W	Putative protein of unknown function	transcription factor btf3 pthr10351	SGD	
+SGD:S000002621	NCBITaxon:559292	SGD:S000002621	UPC2	Sterol regulatory element binding protein	sox transcription factor pthr10270	SGD	YDR213W|MOX4
+SGD:S000004972	NCBITaxon:559292	SGD:S000004972	CRZ1	Transcription factor, activates transcription of stress response genes	zinc finger protein pthr11389	SGD	YNL027W|DNA-binding transcription factor CRZ1|HAL8|TCN1
+SGD:S000000703	NCBITaxon:559292	SGD:S000000703	RDS1	Putative zinc cluster transcription factor	family not named pthr31069	SGD	YCR106W
+SGD:S000004391	NCBITaxon:559292	SGD:S000004391	BDF1	Protein involved in transcription initiation	falz-related bromodomain-containing proteins pthr22880	SGD	YLR399C|chromatin-binding protein BDF1
+SGD:S000006400	NCBITaxon:559292	SGD:S000006400	YPR196W	Putative maltose-responsive transcription factor	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	putative maltose-responsive transcription factor
+SGD:S000005230	NCBITaxon:559292	SGD:S000005230	CUS2	Putative checkpoint factor in transcription	splicing factor u2af-associated protein 2 pthr15608	SGD	YNL286W|U2 snRNP complex subunit CUS2
+SGD:S000005890	NCBITaxon:559292	SGD:S000005890	PIP2	Autoregulatory, oleate-activated transcription factor	family not named pthr31069	SGD	YOR363C|OAF2|oleate-activated transcription factor PIP2
+SGD:S000005842	NCBITaxon:559292	SGD:S000005842	SFG1	Nuclear protein putative transcription factor		SGD	YOR315W
+SGD:S000002228	NCBITaxon:559292	SGD:S000002228	BDF2	Protein involved in transcription initiation	falz-related bromodomain-containing proteins pthr22880	SGD	YDL070W
+SGD:S000006219	NCBITaxon:559292	SGD:S000006219	YPR015C	Putative zinc finger transcription factor	zinc finger protein pthr14596	SGD	
+SGD:S000001488	NCBITaxon:559292	SGD:S000001488	BYE1	Negative regulator of transcription elongation	transcription elongation factor s-ii pthr11477	SGD	YKL005C
+SGD:S000002503	NCBITaxon:559292	SGD:S000002503	GIS1	Histone demethylase and transcription factor	jumonji domain containing protein pthr10694	SGD	YDR096W|histone demethylase GIS1
+SGD:S000003041	NCBITaxon:559292	SGD:S000003041	HSF1	Trimeric heat shock transcription factor	heat shock transcription factor pthr10015	SGD	YGL073W|EXA3|MAS3|stress-responsive transcription factor HSF1
+SGD:S000003011	NCBITaxon:559292	SGD:S000003011	DST1	General transcription elongation factor TFIIS	transcription elongation factor s-ii pthr11477	SGD	YGL043W|P37|PPR2|S-II|SII|TFIIS
+SGD:S000000735	NCBITaxon:559292	SGD:S000000735	GCN4	bZIP transcriptional activator of amino acid biosynthetic genes	jun transcription factor-related pthr11462	SGD	YEL009C|AAS101|AAS3|ARG9|amino acid starvation-responsive transcription factor GCN4
+SGD:S000000402	NCBITaxon:559292	SGD:S000000402	TAF5	Subunit (90 kDa) of TFIID and SAGA complexes	transcription initiation factor tfiid pthr19879	SGD	YBR198C|TAF90|TafII90|chromatin modification protein
+SGD:S000003481	NCBITaxon:559292	SGD:S000003481	MGA1	Protein similar to heat shock transcription factor	heat shock transcription factor pthr10015	SGD	YGR249W
+SGD:S000004166	NCBITaxon:559292	SGD:S000004166	RFX1	Major transcriptional repressor of DNA-damage-regulated genes	rfx transcription factor family pthr12619	SGD	YLR176C|CRT1
+SGD:S000003908	NCBITaxon:559292	SGD:S000003908	HMS2	Protein with similarity to heat shock transcription factors	heat shock transcription factor pthr10015	SGD	YJR147W
+SGD:S000005666	NCBITaxon:559292	SGD:S000005666	SFL1	Transcriptional repressor and activator	heat shock transcription factor pthr10015	SGD	YOR140W
+SGD:S000001249	NCBITaxon:559292	SGD:S000001249	SKN7	Nuclear response regulator and transcription factor	heat shock transcription factor pthr10015	SGD	YHR206W|BRY1|POS9|kinase-regulated stress-responsive transcription factor SKN7
+SGD:S000000638	NCBITaxon:559292	SGD:S000000638	TAF2	TFIID subunit (150 kDa)	transcription initiation factor tfiid pthr15137	SGD	YCR042C|TAF150|TSM1|TafII150
+SGD:S000003348	NCBITaxon:559292	SGD:S000003348	SPT6	Nucleosome remodeling protein	transcription elongation factor spt6 pthr10145	SGD	YGR116W|CRE2|SSN20|chromatin-remodeling histone chaperone SPT6
+SGD:S000006098	NCBITaxon:559292	SGD:S000006098	CUP9	Homeodomain-containing transcriptional repressor	homeobox protein transcription factors pthr11850	SGD	YPL177C
+SGD:S000003506	NCBITaxon:559292	SGD:S000003506	TAF1	TFIID subunit, involved in RNA pol II transcription initiation	transcription initiation factor tfiid pthr13900	SGD	YGR274C|KAT4|TAF130|TAF145|TafII130|TafII145
+SGD:S000003064	NCBITaxon:559292	SGD:S000003064	TOS8	Homeodomain-containing protein and putative transcription factor	homeobox protein transcription factors pthr11850	SGD	YGL096W
+SGD:S000004466	NCBITaxon:559292	SGD:S000004466	YAP1	Basic leucine zipper (bZIP) transcription factor		SGD	YML007W|DNA-binding transcription factor YAP1|PAR1|PDR4|SNQ3
+SGD:S000004443	NCBITaxon:559292	SGD:S000004443	LEU3	Zinc-knuckle transcription factor, repressor and activator	family not named pthr31845	SGD	YLR451W|leucine-responsive transcriptional regulator LEU3
+SGD:S000006337	NCBITaxon:559292	SGD:S000006337	SPN1	Protein involved in RNA polymerase II transcription	family not named pthr31574	SGD	YPR133C|IWS1
+SGD:S000006308	NCBITaxon:559292	SGD:S000006308	FHL1	Regulator of ribosomal protein (RP) transcription	family not named pthr11829	SGD	YPR104C|SPP42
+SGD:S000003237	NCBITaxon:559292	SGD:S000003237	TFG2	TFIIF (Transcription Factor II) middle subunit	general transcription factor iif subunit 2 pthr10445	SGD	YGR005C|transcription factor IIF subunit TFG2
+SGD:S000003223	NCBITaxon:559292	SGD:S000003223	FZF1	Transcription factor involved in sulfite metabolism	zinc finger protein pthr11389	SGD	YGL254W|NRC299|RSU1|SUL1
+SGD:S000002667	NCBITaxon:559292	SGD:S000002667	YAP6	Basic leucine zipper (bZIP) transcription factor		SGD	YDR259C|HAL7
+SGD:S000002661	NCBITaxon:559292	SGD:S000002661	MET32	Zinc-finger DNA-binding transcription factor	zinc finger protein pthr11389	SGD	YDR253C
+SGD:S000002624	NCBITaxon:559292	SGD:S000002624	ADR1	Carbon source-responsive zinc-finger transcription factor		SGD	YDR216W|DNA-binding transcription factor ADR1
+SGD:S000005688	NCBITaxon:559292	SGD:S000005688	YRR1	Zn2-Cys6 zinc-finger transcription factor	family not named pthr31405	SGD	YOR162C|PDR2
+SGD:S000005166	NCBITaxon:559292	SGD:S000005166	SSU72	Phosphatase and transcription/RNA-processing factor	family not named pthr20383	SGD	YNL222W|RNA polymerase II subunit A C-terminal domain phosphatase
+SGD:S000005959	NCBITaxon:559292	SGD:S000005959	MET31	Zinc-finger DNA-binding transcription factor		SGD	YPL038W
+SGD:S000003418	NCBITaxon:559292	SGD:S000003418	TFG1	TFIIF (Transcription Factor II) largest subunit	tfiif-alpha pthr13011	SGD	YGR186W|RAP74|SSU71|transcription factor IIF subunit TFG1
+SGD:S000000560	NCBITaxon:559292	SGD:S000000560	KAR4	Transcription factor required for response to pheromones	karyogamy protein kar4-related pthr13107	SGD	YCL055W
+SGD:S000001001	NCBITaxon:559292	SGD:S000001001	YAP3	Basic leucine zipper (bZIP) transcription factor		SGD	YHL009C
+SGD:S000004173	NCBITaxon:559292	SGD:S000004173	TOS4	Putative transcription factor, contains Forkhead Associated domain	ribosomal protein l7ae family member pthr23105	SGD	YLR183C
+SGD:S000004794	NCBITaxon:559292	SGD:S000004794	RGM1	Putative zinc finger DNA binding transcription factor	krueppel c2h2-type zinc-finger pthr23223	SGD	YMR182C
+SGD:S000004783	NCBITaxon:559292	SGD:S000004783	HOT1	Transcription factor for glycerol biosynthetic genes		SGD	YMR172W
+SGD:S000004541	NCBITaxon:559292	SGD:S000004541	WAR1	Homodimeric Zn2Cys6 zinc finger transcription factor		SGD	YML076C
+SGD:S000004546	NCBITaxon:559292	SGD:S000004546	TDA9	Transcription factor that regulates acetate production	zinc finger protein pthr11389	SGD	YML081W|AAF1
+SGD:S000003130	NCBITaxon:559292	SGD:S000003130	SUT1	Zn(II)2Cys6 family transcription factor		SGD	YGL162W
+SGD:S000001220	NCBITaxon:559292	SGD:S000001220	YHR177W	Putative transcription factor containing a WOPR domain		SGD	GON3
+SGD:S000002909	NCBITaxon:559292	SGD:S000002909	PLM2	Putative transcription factor, contains Forkhead Associated domain	ribosomal protein l7ae family member pthr23105	SGD	YDR501W
+SGD:S000006054	NCBITaxon:559292	SGD:S000006054	RDS2	Transcription factor involved in regulating gluconeogenesis	family not named pthr31986	SGD	YPL133C
+SGD:S000006003	NCBITaxon:559292	SGD:S000006003	MOT1	Essential protein involved in regulation of transcription	swi/snf-related matrix-associated actin-dependent regulator of chromatin subfamily-related pthr10799	SGD	YPL082C|BTAF1|BUR3|DNA-binding ATPase|END10|LPF4
+SGD:S000005468	NCBITaxon:559292	SGD:S000005468	INO4	Transcription factor involved in phospholipid synthesis		SGD	YOL108C
+SGD:S000005449	NCBITaxon:559292	SGD:S000005449	HAL9	Putative transcription factor containing a zinc finger	family not named pthr31944	SGD	YOL089C
+SGD:S000005428	NCBITaxon:559292	SGD:S000005428	RTG1	Transcription factor (bHLH) involved in interorganelle communication	basic helix-loop-helix/leucine zipper transcription factor pthr10014	SGD	YOL067C
+SGD:S000005388	NCBITaxon:559292	SGD:S000005388	YAP7	Putative basic leucine zipper (bZIP) transcription factor		SGD	YOL028C
+SGD:S000002488	NCBITaxon:559292	SGD:S000002488	PDC2	Transcription factor for thiamine-regulated genes	transposon pthr19303	SGD	YDR081C
+SGD:S000003003	NCBITaxon:559292	SGD:S000003003	MIG1	Transcription factor involved in glucose repression	early growth response protein-related pthr10042	SGD	YGL035C|CAT4|SSN1|TDS22|transcription factor MIG1
+SGD:S000000842	NCBITaxon:559292	SGD:S000000842	GLN3	Transcriptional activator of genes regulated by nitrogen catabolite r	transcription factor gata (gata binding factor) pthr10071	SGD	YER040W|nitrogen-responsive transcriptional regulator GLN3
+SGD:S000005720	NCBITaxon:559292	SGD:S000005720	TOA1	TFIIA large subunit	transcription initiation factor iia subunit 1 pthr12694	SGD	YOR194C|transcription initiation factor IIA large subunit
+SGD:S000003206	NCBITaxon:559292	SGD:S000003206	HAP2	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex	transcription factor nf-y alpha-related pthr12632	SGD	YGL237C
+SGD:S000000117	NCBITaxon:559292	SGD:S000000117	HAP3	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex	ccaat-binding transcription factor-related pthr11064	SGD	YBL021C
+SGD:S000001608	NCBITaxon:559292	SGD:S000001608	RRN3	Protein required for transcription of rDNA by RNA polymerase I	transcription initiation factor ia (rrn3) pthr12790	SGD	YKL125W|rDNA-binding RNA polymerase I transcriptional factor
+SGD:S000003080	NCBITaxon:559292	SGD:S000003080	TAF6	Subunit (60 kDa) of TFIID and SAGA complexes	transcription initiation factor tfiid subunit 6 pthr10221	SGD	YGL112C|TAF60|TafII60
+SGD:S000001511	NCBITaxon:559292	SGD:S000001511	TFA1	TFIIE large subunit	transcription initiation factor iie, alpha subunit pthr13097	SGD	YKL028W|transcription factor TFIIE subunit TFA1
+SGD:S000000961	NCBITaxon:559292	SGD:S000000961	BUR6	Subunit of a heterodimeric NC2 transcription regulator complex	histone-like transcription factor ccaat-related pthr10252	SGD	YER159C|NCB1|negative cofactor 2 transcription regulator complex subunit BUR6
+SGD:S000005174	NCBITaxon:559292	SGD:S000005174	ELA1	Elongin A	transcription elongation factor b polypeptide 3 pthr15141	SGD	YNL230C|elongin A
+SGD:S000003478	NCBITaxon:559292	SGD:S000003478	BRF1	TFIIIB B-related factor	transcription initiation factor iib-related pthr11618	SGD	YGR246C|PCF4|TDS4|TFIIIB70|transcription factor TFIIIB subunit BRF1
+SGD:S000002805	NCBITaxon:559292	SGD:S000002805	NCB2	Subunit of a heterodimeric NC2 transcription regulator complex	ccaat-binding transcription factor-related pthr11064	SGD	YDR397C|YDR1|negative cofactor 2 transcription regulator complex subunit NCB2
+SGD:S000002800	NCBITaxon:559292	SGD:S000002800	SPT3	Subunit of the SAGA and SAGA-like transcriptional regulatory complexes	transcription initiation factor tfiid/supt3-related pthr11380	SGD	YDR392W|transcriptional regulator SPT3
+SGD:S000000327	NCBITaxon:559292	SGD:S000000327	TFC1	Subunit of RNA polymerase III transcription initiation factor complex	general transcription factor iiic, polypeptide 5 pthr13230	SGD	YBR123C|tau 95|transcription factor TFIIIC subunit TFC1
+SGD:S000005885	NCBITaxon:559292	SGD:S000005885	HAP5	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex	histone-like transcription factor ccaat-related pthr10252	SGD	YOR358W
+SGD:S000003646	NCBITaxon:559292	SGD:S000003646	GZF3	GATA zinc finger protein	transcription factor gata (gata binding factor) pthr10071	SGD	YJL110C|DEH1|NIL2
+SGD:S000003601	NCBITaxon:559292	SGD:S000003601	DLS1	Subunit of ISW2/yCHRAC chromatin accessibility complex	histone-like transcription factor ccaat-related pthr10252	SGD	YJL065C
+SGD:S000004744	NCBITaxon:559292	SGD:S000004744	GAT2	Protein containing GATA family zinc finger motifs	transcription factor gata (gata binding factor) pthr10071	SGD	YMR136W
+SGD:S000004582	NCBITaxon:559292	SGD:S000004582	TAF8	TFIID subunit (65 kDa)	transcription initiation factor tfiid subunit 8 pthr23307	SGD	YML114C|TAF65|TafII65
+SGD:S000004564	NCBITaxon:559292	SGD:S000004564	TAF13	TFIID subunit (19 kDa)	transcription initiation factor tfiid/supt3-related pthr11380	SGD	YML098W|FUN81|TAF19|TafII19
+SGD:S000003995	NCBITaxon:559292	SGD:S000003995	SSL1	Subunit of the core form of RNA polymerase transcription factor TFIIH	general transcription factor iih subunit 2 pthr12695	SGD	YLR005W|TFIIH/NER complex subunit SSL1
+SGD:S000028510	NCBITaxon:559292	SGD:S000028510	SUS1	Component of both the SAGA histone acetylase and TREX-2 complexes	enhancer of yellow 2 transcription factor pthr12514	SGD	YBR111W-A
+SGD:S000005509	NCBITaxon:559292	SGD:S000005509	DCP1	Subunit of the Dcp1p-Dcp2p decapping enzyme complex	transcription factor smif (decapping enzyme dcp1) pthr16290	SGD	YOL149W|MRT2
+SGD:S000002574	NCBITaxon:559292	SGD:S000002574	TAF10	Subunit (145 kDa) of TFIID and SAGA complexes	transcription initiation factor tfiid subunit 10 pthr21242	SGD	YDR167W|TAF23|TAF25|TafII25
+SGD:S000002528	NCBITaxon:559292	SGD:S000002528	DPB4	Subunit of DNA pol epsilon and of ISW2 chromatin accessibility complex	ccaat-binding transcription factor-related pthr11064	SGD	YDR121W|DNA polymerase epsilon noncatalytic subunit
+SGD:S000002719	NCBITaxon:559292	SGD:S000002719	TFB1	Subunit of TFIIH and nucleotide excision repair factor 3 complexes	transcription initiation factor iih-related pthr12856	SGD	YDR311W|TFIIH/NER complex subunit TFB1
+SGD:S000002707	NCBITaxon:559292	SGD:S000002707	BFR2	Component of the SSU and 90S preribosomes	aatf protein (apoptosis antagonizing transcription factor) pthr15565	SGD	YDR299W|rRNA-processing protein BFR2
+SGD:S000000482	NCBITaxon:559292	SGD:S000000482	DPB3	Third-largest subunit of DNA polymerase II (DNA polymerase epsilon)	histone-like transcription factor ccaat-related pthr10252	SGD	YBR278W|DNA polymerase epsilon noncatalytic subunit
+SGD:S000001873	NCBITaxon:559292	SGD:S000001873	GAT1	Transcriptional activator of nitrogen catabolite repression genes	transcription factor gata (gata binding factor) pthr10071	SGD	YFL021W|MEP80|NIL1
+SGD:S000004849	NCBITaxon:559292	SGD:S000004849	TAF9	Subunit (17 kDa) of TFIID and SAGA complexes	transcription initiation factor tfiid component pthr12075	SGD	YMR236W|TAF17|TafII17|chromatin modification protein
+SGD:S000001770	NCBITaxon:559292	SGD:S000001770	TFA2	TFIIE small subunit	transcription initiation factor iie, beta subunit pthr12716	SGD	YKR062W|transcription factor TFIIE subunit TFA2
+SGD:S000001541	NCBITaxon:559292	SGD:S000001541	TOA2	TFIIA small subunit	transcription initiation factor iia subunit 2 pthr10966	SGD	YKL058W|transcription initiation factor IIA subunit gamma
+SGD:S000000847	NCBITaxon:559292	SGD:S000000847	ACA1	ATF/CREB family basic leucine zipper (bZIP) transcription factor	cyclic-amp response element binding protein pthr19304	SGD	YER045C
+SGD:S000005558	NCBITaxon:559292	SGD:S000005558	HMS1	bHLH protein with similarity to myc-family transcription factors	dna replication licensing factor pthr11630	SGD	YOR032C
+SGD:S000004470	NCBITaxon:559292	SGD:S000004470	SPT5	Spt4p/5p (DSIF) transcription elongation factor complex subunit	suppressor of ty 5 pthr11125	SGD	YML010W|transcription elongation factor SPT5
+SGD:S000003295	NCBITaxon:559292	SGD:S000003295	SPT4	Spt4p/5p (DSIF) transcription elongation factor complex subunit	suppressor of ty 4 pthr12882	SGD	YGR063C|transcription elongation factor SPT4
+SGD:S000006151	NCBITaxon:559292	SGD:S000006151	USV1	Putative transcription factor containing a C2H2 zinc finger	krueppel c2h2-type zinc-finger pthr23223	SGD	YPL230W|NSF1
+SGD:S000004395	NCBITaxon:559292	SGD:S000004395	SFP1	Regulates transcription of ribosomal protein and biogenesis genes	juxtaposed with another zinc finger protein 1 pthr23057	SGD	YLR403W|[ISP(+)]|[ISP+]|zinc-coordinating transcription factor SFP1
+SGD:S000001381	NCBITaxon:559292	SGD:S000001381	RPI1	Transcription factor, allelic differences between S288C and Sigma1278b	family not named pthr10919	SGD	YIL119C
+SGD:S000003279	NCBITaxon:559292	SGD:S000003279	TFC4	Subunit of RNA polymerase III transcription initiation factor complex	transcription initiation factor iiic (tfiiic), polypeptide 3-related pthr23082	SGD	YGR047C|PCF1|tau 131|transcription factor TFIIIC subunit TFC4
+SGD:S000000199	NCBITaxon:559292	SGD:S000000199	RTG3	bHLH/Zip transcription factor for retrograde (RTG) and TOR pathways	basic helix-loop-helix/leucine zipper transcription factor pthr10014	SGD	YBL103C
+SGD:S000000121	NCBITaxon:559292	SGD:S000000121	RRN10	Protein involved in promoting high level transcription of rDNA		SGD	YBL025W
+SGD:S000000110	NCBITaxon:559292	SGD:S000000110	RRN6	Component of the core factor (CF) rDNA transcription factor complex		SGD	YBL014C
+SGD:S000001457	NCBITaxon:559292	SGD:S000001457	YAP5	Basic leucine zipper (bZIP) iron-sensing transcription factor		SGD	YIR018W
+SGD:S000006226	NCBITaxon:559292	SGD:S000006226	SDD4	Putative transcription factor, as suggested by computational analysis	krueppel c2h2-type zinc-finger pthr23223	SGD	YPR022C
+SGD:S000005698	NCBITaxon:559292	SGD:S000005698	YRM1	Zinc finger transcription factor involved in multidrug resistance	family not named pthr31405	SGD	YOR172W
+SGD:S000004507	NCBITaxon:559292	SGD:S000004507	RRN11	Component of the core factor (CF) rDNA transcription factor complex		SGD	YML043C
+SGD:S000003039	NCBITaxon:559292	SGD:S000003039	AFT1	Transcription factor involved in iron utilization and homeostasis		SGD	YGL071W|DNA-binding transcription factor AFT1|RCS1
+SGD:S000004645	NCBITaxon:559292	SGD:S000004645	ARG80	Transcription factor involved in regulating arginine-responsive genes	mads box protein pthr11945	SGD	YMR042W|ARGR1|ARGRI
+SGD:S000002178	NCBITaxon:559292	SGD:S000002178	RPN4	Transcription factor that stimulates expression of proteasome genes	zinc finger protein pthr11389	SGD	YDL020C|SON1|UFD5|stress-regulated transcription factor RPN4
+SGD:S000000932	NCBITaxon:559292	SGD:S000000932	COM2	Transcription factor that binds IME1 Upstream Activation Signal (UAS)	zinc finger protein pthr14596	SGD	YER130C
+SGD:S000005970	NCBITaxon:559292	SGD:S000005970	DIG1	MAP kinase-responsive inhibitor of the Ste12p transcription factor		SGD	YPL049C|RST1
+SGD:S000005928	NCBITaxon:559292	SGD:S000005928	TFC8	Subunit of RNA polymerase III transcription initiation factor complex		SGD	YPL007C|tau 60|transcription factor TFIIIC subunit TFC8
+SGD:S000002888	NCBITaxon:559292	SGD:S000002888	DIG2	MAP kinase-responsive inhibitor of the Ste12p transcription factor		SGD	YDR480W|RST2
+SGD:S000005864	NCBITaxon:559292	SGD:S000005864	TEA1	Ty1 enhancer activator involved in Ty enhancer-mediated transcription	family not named pthr31313	SGD	YOR337W
+SGD:S000004213	NCBITaxon:559292	SGD:S000004213	IFH1	Coactivator, regulates transcription of ribosomal protein (RP) genes		SGD	YLR223C
+SGD:S000001126	NCBITaxon:559292	SGD:S000001126	STE12	Transcription factor that is activated by a MAPK signaling cascade		SGD	YHR084W|homeodomain family transcription factor STE12
+SGD:S000004131	NCBITaxon:559292	SGD:S000004131	RRN5	Protein involved in transcription of rDNA by RNA polymerase I		SGD	YLR141W
+SGD:S000004121	NCBITaxon:559292	SGD:S000004121	ACE2	Transcription factor required for septum destruction after cytokinesis	zinc finger protein pthr14596	SGD	YLR131C|DNA-binding transcription factor ACE2
+SGD:S000003562	NCBITaxon:559292	SGD:S000003562	RRN7	Component of the core factor (CF) rDNA transcription factor complex		SGD	YJL025W
+SGD:S000002266	NCBITaxon:559292	SGD:S000002266	KIN28	Serine/threonine protein kinase, subunit of transcription factor TFIIH	cell division protein kinase pthr24056	SGD	YDL108W|TFIIH complex serine/threonine-protein kinase subunit KIN28
+SGD:S000002238	NCBITaxon:559292	SGD:S000002238	THI3	Regulatory protein that binds Pdc2p and Thi2p transcription factors	thiamine pyrophosphate enzymes pthr18968	SGD	YDL080C|KID1|branched-chain-2-oxoacid decarboxylase THI3
+SGD:S000001643	NCBITaxon:559292	SGD:S000001643	ELF1	Transcription elongation factor with a conserved zinc finger domain	uncharacterized pthr20934	SGD	YKL160W
+SGD:S000005111	NCBITaxon:559292	SGD:S000005111	SKO1	Basic leucine zipper transcription factor of the ATF/CREB family	cyclic-amp response element binding protein pthr19304	SGD	YNL167C|ACR1
+SGD:S000004565	NCBITaxon:559292	SGD:S000004565	ARG81	Zinc finger transcription factor involved in arginine-responsive genes		SGD	YML099C|ARGR2|ARGRII
+SGD:S000001405	NCBITaxon:559292	SGD:S000001405	SSL2	Component of RNA polymerase transcription factor TFIIH holoenzyme	rad25/xp-b dna repair helicase pthr11274	SGD	YIL143C|LOM3|RAD25|TFIIH/NER complex ATPase/helicase subunit SSL2
+SGD:S000003149	NCBITaxon:559292	SGD:S000003149	GTS1	Protein involved in Arf3p regulation and in transcription regulation	centaurin/arf pthr23180	SGD	YGL181W|FHT1|LSR1
+SGD:S000007603	NCBITaxon:559292	SGD:S000007603	TFB5	Component of RNA polymerase II general transcription factor TFIIH		SGD	YDR079C-A|TFIIH complex subunit TFB5
+SGD:S000005160	NCBITaxon:559292	SGD:S000005160	RAP1	Essential DNA-binding transcription regulator that binds many loci		SGD	YNL216W|DNA-binding transcription factor RAP1|GRF1|TBA1|TUF1
+SGD:S000002553	NCBITaxon:559292	SGD:S000002553	SWI5	Transcription factor that recruits Mediator and Swi/Snf complexes	zinc finger protein pthr14596	SGD	YDR146C|DNA-binding transcription factor SWI5
+SGD:S000001298	NCBITaxon:559292	SGD:S000001298	CST6	Basic leucine zipper (bZIP) transcription factor from ATF/CREB family	cyclic-amp response element binding protein pthr19304	SGD	YIL036W|ACA2|SHF1
+SGD:S000002928	NCBITaxon:559292	SGD:S000002928	URC2	Putative Zn(II)2Cys6 motif containing transcription factor		SGD	YDR520C|RRT4
+SGD:S000000386	NCBITaxon:559292	SGD:S000000386	SMP1	MADS-box transcription factor involved in osmotic stress response	mads box protein pthr11945	SGD	YBR182C
+SGD:S000005636	NCBITaxon:559292	SGD:S000005636	TFC7	RNA pol III transcription initiation factor complex (TFIIIC) subunit	phosphoglycerate mutase pthr23029	SGD	YOR110W|tau 55|transcription factor TFIIIC subunit TFC7
+SGD:S000002770	NCBITaxon:559292	SGD:S000002770	TFC6	Subunit of RNA polymerase III transcription initiation factor complex		SGD	YDR362C|tau 91|transcription factor TFIIIC subunit TFC6
+SGD:S000000287	NCBITaxon:559292	SGD:S000000287	TEC1	Transcription factor targeting filamentation genes and Ty1 expression	transcriptional enhancer factor (tef) related pthr11834	SGD	YBR083W|ROC1
+SGD:S000000237	NCBITaxon:559292	SGD:S000000237	EDS1	Putative zinc cluster protein, predicted to be a transcription factor	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	YBR033W
+SGD:S000002981	NCBITaxon:559292	SGD:S000002981	PDR1	Transcription factor that regulates the pleiotropic drug response	uncharacterized transcriptional regulatory protein pthr31001	SGD	YGL013C|AMY1|ANT1|BOR2|CYH3|NRA2|SMR2|TIL1|TPE1|TPE3|drug-responsive transcription factor PDR1
+SGD:S000000483	NCBITaxon:559292	SGD:S000000483	PAF1	Component of the Paf1p complex involved in transcription elongation	family not named pthr23188	SGD	YBR279W
+SGD:S000001863	NCBITaxon:559292	SGD:S000001863	HAC1	Basic leucine zipper (bZIP) transcription factor (ATF/CREB1 homolog)		SGD	YFL031W|ERN4|IRE15|transcription factor HAC1
+SGD:S000001842	NCBITaxon:559292	SGD:S000001842	ZNF1	Zinc cluster transcription factor that regulates respiratory growth	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	YFL052W|DNA-binding domain containing protein|ROP1
+SGD:S000004883	NCBITaxon:559292	SGD:S000004883	RRN9	Protein involved in promoting high level transcription of rDNA		SGD	YMR270C
+SGD:S000001799	NCBITaxon:559292	SGD:S000001799	SRL3	GTB motif (G1/S transcription factor binding) containing protein		SGD	YKR091W|DNA-binding protein SRL3|WHI7
+SGD:S000000001	NCBITaxon:559292	SGD:S000000001	TFC3	Subunit of RNA polymerase III transcription initiation factor complex		SGD	YAL001C|FUN24|TSV115|tau 138|transcription factor TFIIIC subunit TFC3
+SGD:S000006169	NCBITaxon:559292	SGD:S000006169	GAL4	DNA-binding transcription factor required for activating GAL genes	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	YPL248C|GAL81|galactose-responsive transcription factor GAL4
+SGD:S000005592	NCBITaxon:559292	SGD:S000005592	MSA1	Activator of G1-specific transcription factors MBF and SBF		SGD	YOR066W|YOR29-17
+SGD:S000004984	NCBITaxon:559292	SGD:S000004984	BDP1	Essential subunit of RNA polymerase III transcription factor (TFIIIB)	rna polymerase iii transcription initiation factor b pthr22929	SGD	"YNL039W|B""|TFC5|TFC7|TFIIIB90|transcription factor TFIIIB subunit BDP1"
+SGD:S000005505	NCBITaxon:559292	SGD:S000005505	CTR9	Component of the Paf1p complex involved in transcription elongation	tpr repeat nuclear phosphoprotein/ctr9 pthr14027	SGD	YOL145C|CDP1
+SGD:S000001303	NCBITaxon:559292	SGD:S000001303	GVP36	BAR domain protein that localizes to early and late Golgi vesicles	transcription initiation factor tfiid 55 kd subunit-related pthr12228	SGD	YIL041W
+SGD:S000006352	NCBITaxon:559292	SGD:S000006352	YPR148C	Protein of unknown function	transcription initiation factor tfiid 55 kd subunit-related pthr12228	SGD	
+SGD:S000006260	NCBITaxon:559292	SGD:S000006260	TFB4	Subunit of TFIIH complex	transcription initiation factor iih (tfiih), polypeptide 3-related pthr12831	SGD	YPR056W|TFIIH/NER complex subunit TFB4
+SGD:S000003095	NCBITaxon:559292	SGD:S000003095	SOH1	Subunit of the RNA polymerase II mediator complex	mediator of rna polymerase ii transcription subunit (soh1) pthr13186	SGD	YGL127C|MED31
+SGD:S000002893	NCBITaxon:559292	SGD:S000002893	VPS72	Htz1p-binding component of the SWR1 complex	yl-1 protein (transcription factor-like 1) pthr13275	SGD	YDR485C|SWC2
+SGD:S000002412	NCBITaxon:559292	SGD:S000002412	MAF1	Highly conserved negative regulator of RNA polymerase III	repressor of rna polymerase iii transcription maf1 pthr22504	SGD	YDR005C|RNA polymerase III-inhibiting protein MAF1
+SGD:S000004840	NCBITaxon:559292	SGD:S000004840	TAF7	TFIID subunit (67 kDa)	transcription initiation factor tfiid 55 kd subunit-related pthr12228	SGD	YMR227C|TAF67|TafII67
+SGD:S000004968	NCBITaxon:559292	SGD:S000004968	FAP1	Protein that binds to Fpr1p	nuclear transcription factor, x-box binding 1 (nfx1) pthr12360	SGD	YNL023C
+SGD:S000005554	NCBITaxon:559292	SGD:S000005554	CIN5	Basic leucine zipper (bZIP) transcription factor of the yAP-1 family		SGD	YOR028C|HAL6|YAP4
+SGD:S000001930	NCBITaxon:559292	SGD:S000001930	PHO4	Basic helix-loop-helix (bHLH) transcription factor of the myc-family		SGD	YFR034C|phoD|phosphate-sensing transcription factor PHO4
+SGD:S000005253	NCBITaxon:559292	SGD:S000005253	STB1	Protein with role in regulation of MBF-specific transcription at Start		SGD	YNL309W
+SGD:S000004477	NCBITaxon:559292	SGD:S000004477	TAF11	TFIID subunit (40 kDa)	family not named pthr13218	SGD	YML015C|TAF40|TafII40
+SGD:S000002716	NCBITaxon:559292	SGD:S000002716	SRB7	Subunit of the RNA polymerase II mediator complex	rna polymerase ii holoenzyme component srb7 pthr13381	SGD	YDR308C|MED21|SSX1
+SGD:S000000950	NCBITaxon:559292	SGD:S000000950	SPT15	TATA-binding protein (TBP)	tata-box binding protein pthr10126	SGD	YER148W|BTF1|TATA-binding protein|TBP|TBP1
+SGD:S000004607	NCBITaxon:559292	SGD:S000004607	TAF4	TFIID subunit (48 kDa)		SGD	YMR005W|MPT1|TAF48|TSG2|TafII48
+SGD:S000005293	NCBITaxon:559292	SGD:S000005293	CSE2	Subunit of the RNA polymerase II mediator complex		SGD	YNR010W|MED9
+SGD:S000001100	NCBITaxon:559292	SGD:S000001100	MED6	Subunit of the RNA polymerase II mediator complex	med-6-related pthr13104	SGD	YHR058C|mediator complex subunit MED6
+SGD:S000002163	NCBITaxon:559292	SGD:S000002163	MED2	Subunit of the RNA polymerase II mediator complex		SGD	YDL005C
+SGD:S000005411	NCBITaxon:559292	SGD:S000005411	GAL11	Subunit of the RNA polymerase II mediator complex		SGD	YOL051W|ABE1|MED15|RAR3|SDS4|SPT13
+SGD:S000001083	NCBITaxon:559292	SGD:S000001083	SRB2	Subunit of the RNA polymerase II mediator complex		SGD	YHR041C|HRS2|MED20
+SGD:S000000824	NCBITaxon:559292	SGD:S000000824	SRB4	Subunit of the RNA polymerase II mediator complex		SGD	YER022W|MED17
+SGD:S000000189	NCBITaxon:559292	SGD:S000000189	ROX3	Subunit of the RNA polymerase II mediator complex		SGD	YBL093C|MED19|NUT3|SSN7|SSX2
+SGD:S000000677	NCBITaxon:559292	SGD:S000000677	SRB8	Subunit of the RNA polymerase II mediator complex	suppressor of rna polymerase b srb8-related pthr22795	SGD	YCR081W|GIG1|MED12|NUT6|SSN5|YCR080W
+SGD:S000000397	NCBITaxon:559292	SGD:S000000397	MED8	Subunit of the RNA polymerase II mediator complex		SGD	YBR193C
+SGD:S000000457	NCBITaxon:559292	SGD:S000000457	SRB6	Subunit of the RNA polymerase II mediator complex		SGD	YBR253W|MED22
+SGD:S000005143	NCBITaxon:559292	SGD:S000005143	GCR2	Transcriptional activator of genes involved in glycolysis		SGD	YNL199C
+SGD:S000004061	NCBITaxon:559292	SGD:S000004061	RGR1	Subunit of the RNA polymerase II mediator complex	mediator complex subunit pthr12809	SGD	YLR071C|MED14
+SGD:S000005700	NCBITaxon:559292	SGD:S000005700	MED4	Subunit of the RNA polymerase II mediator complex		SGD	YOR174W
+SGD:S000005821	NCBITaxon:559292	SGD:S000005821	UAF30	Subunit of UAF (upstream activation factor) complex	brg-1 associated factor 60 (baf60) pthr13844	SGD	YOR295W
+SGD:S000001416	NCBITaxon:559292	SGD:S000001416	IMP2'	Transcriptional activator involved in maintenance of ion homeostasis		SGD	YIL154C|IMP2
+SGD:S000003119	NCBITaxon:559292	SGD:S000003119	NUT1	Component of the RNA polymerase II mediator complex		SGD	YGL151W|MED5|SSX4
+SGD:S000006050	NCBITaxon:559292	SGD:S000006050	TAF14	Subunit of TFIID, TFIIF, INO80, SWI/SNF, and NuA3 complexes	yeats domain pthr23195	SGD	YPL129W|ANC1|SWP29|TAF30|TATA-binding protein-associated factor TAF14|TFG3|TafII30
+SGD:S000001318	NCBITaxon:559292	SGD:S000001318	VHR1	Transcriptional activator		SGD	YIL056W
+SGD:S000004718	NCBITaxon:559292	SGD:S000004718	MED11	Subunit of the RNA polymerase II mediator complex		SGD	YMR112C
+SGD:S000005932	NCBITaxon:559292	SGD:S000005932	TAF3	TFIID subunit (47 kDa)		SGD	YPL011C|TAF47|TafII47
+SGD:S000005292	NCBITaxon:559292	SGD:S000005292	NRM1	Transcriptional co-repressor of MBF-regulated gene expression		SGD	YNR009W
+SGD:S000001462	NCBITaxon:559292	SGD:S000001462	DAL81	Positive regulator of genes in multiple nitrogen degradation pathways	family not named pthr31668	SGD	YIR023W|DURL|UGA35
+SGD:S000000913	NCBITaxon:559292	SGD:S000000913	SWI4	DNA binding component of the SBF complex (Swi4p-Swi6p)		SGD	YER111C|ART1|SBF complex DNA-binding subunit SWI4
+SGD:S000002851	NCBITaxon:559292	SGD:S000002851	SSN2	Subunit of the RNA polymerase II mediator complex	rag1-activating protein 1 pthr10791	SGD	YDR443C|MED13|NUT8|RYE3|SCA1|SRB9|SSX5|UME2
+SGD:S000002450	NCBITaxon:559292	SGD:S000002450	NRG1	Transcriptional repressor	zinc finger protein pthr11389	SGD	YDR043C|transcriptional regulator NRG1
+SGD:S000000572	NCBITaxon:559292	SGD:S000000572	HMLALPHA2	Silenced copy of ALPHA2 at HML		SGD	YCL067C|ALPHA2|homeodomain mating type protein alpha2
+SGD:S000002993	NCBITaxon:559292	SGD:S000002993	PGD1	Subunit of the RNA polymerase II mediator complex		SGD	YGL025C|HRS1|MED3
+SGD:S000002631	NCBITaxon:559292	SGD:S000002631	CRF1	Transcriptional corepressor		SGD	YDR223W
+SGD:S000005899	NCBITaxon:559292	SGD:S000005899	NDD1	Transcriptional activator essential for nuclear division		SGD	YOR372C
+SGD:S000001871	NCBITaxon:559292	SGD:S000001871	BUD27	Unconventional prefoldin protein involved in translation initiation	nut2 and uxt pthr13345	SGD	YFL023W|URI1
+SGD:S000005755	NCBITaxon:559292	SGD:S000005755	WTM2	Transcriptional modulator	wd40 repeat family pthr22850	SGD	YOR229W|transcriptional modulator
+SGD:S000003336	NCBITaxon:559292	SGD:S000003336	SRB5	Subunit of the RNA polymerase II mediator complex		SGD	YGR104C|MED18
+SGD:S000002615	NCBITaxon:559292	SGD:S000002615	UME6	Rpd3L histone deacetylase complex subunit	glycosyltransferase pthr12526	SGD	YDR207C|CAR80|DNA-binding transcriptional regulator UME6|NIM2|RIM16
+SGD:S000006403	NCBITaxon:559292	SGD:S000006403	ARR1	Transcriptional activator of the basic leucine zipper (bZIP) family		SGD	YPR199C|ACR1|YAP8
+SGD:S000000516	NCBITaxon:559292	SGD:S000000516	SGF29	Component of the HAT/Core module of the SAGA, SLIK, and ADA complexes	uncharacterized pthr21539	SGD	YCL010C
+SGD:S000006372	NCBITaxon:559292	SGD:S000006372	NUT2	Subunit of the RNA polymerase II mediator complex	nut2 and uxt pthr13345	SGD	YPR168W|MED10|mediator complex subunit NUT2
+SGD:S000006274	NCBITaxon:559292	SGD:S000006274	MED1	Subunit of the RNA polymerase II mediator complex		SGD	YPR070W
+SGD:S000005495	NCBITaxon:559292	SGD:S000005495	MED7	Subunit of the RNA polymerase II mediator complex	family not named pthr21428	SGD	YOL135C|mediator complex subunit MED7
+SGD:S000004410	NCBITaxon:559292	SGD:S000004410	CDC73	Component of the Paf1p complex	cdc73 domain protein pthr12466	SGD	YLR418C
+SGD:S000004642	NCBITaxon:559292	SGD:S000004642	SUB1	Transcriptional regulator	rna polymerase ii transcriptional coactivator pthr13215	SGD	YMR039C|TSP1|chromatin-binding transcription coactivator SUB1
+SGD:S000000571	NCBITaxon:559292	SGD:S000000571	HMLALPHA1	Silenced copy of ALPHA1 at HML		SGD	YCL066W|ALPHA1|transcriptional co-activator mating type protein alpha
+SGD:S000000636	NCBITaxon:559292	SGD:S000000636	MATALPHA1	Transcriptional co-activator that regulates mating-type-specific genes		SGD	YCR040W|ALPHA1|transcriptional co-activator mating type protein alpha
+SGD:S000005364	NCBITaxon:559292	SGD:S000005364	SIN3	Component of both the Rpd3S and Rpd3L histone deacetylase complexes	sin3b-related pthr12346	SGD	YOL004W|CPE1|GAM2|RPD1|SDI1|SDS16|UME4|transcriptional regulator SIN3
+SGD:S000004640	NCBITaxon:559292	SGD:S000004640	MSN2	Stress-responsive transcriptional activator		SGD	YMR037C|stress-responsive transcriptional activator MSN2
+SGD:S000001545	NCBITaxon:559292	SGD:S000001545	MSN4	Stress-responsive transcriptional activator	zinc finger protein pthr14596	SGD	YKL062W|stress-responsive transcriptional activator MSN4
+SGD:S000002552	NCBITaxon:559292	SGD:S000002552	TAF12	Subunit (61/68 kDa) of TFIID and SAGA complexes	family not named pthr12264	SGD	YDR145W|TAF61|TAF68|TafII61|TafII68
+SGD:S000005180	NCBITaxon:559292	SGD:S000005180	SIN4	Subunit of the RNA polymerase II mediator complex		SGD	YNL236W|BEL2|GAL22|MED16|RYE1|SDI3|SSF5|SSN4|SSX3|TSF3
+SGD:S000003484	NCBITaxon:559292	SGD:S000003484	GCN5	Catalytic subunit of ADA and SAGA histone acetyltransferase complexes	falz-related bromodomain-containing proteins pthr22880	SGD	YGR252W|AAS104|ADA4|KAT2|SWI9|histone acetyltransferase GCN5
+SGD:S000002545	NCBITaxon:559292	SGD:S000002545	HPR1	Subunit of THO/TREX complexes		SGD	YDR138W|TRF1
+SGD:S000005083	NCBITaxon:559292	SGD:S000005083	THO2	Subunit of the THO complex	tho2 protein pthr21597	SGD	YNL139C|LDB5|RLR1|ZRG13
+SGD:S000005996	NCBITaxon:559292	SGD:S000005996	GCR1	Transcriptional activator of genes involved in glycolysis		SGD	YPL075W|LPF10|SIT3|transcription regulator GCR1
+SGD:S000005649	NCBITaxon:559292	SGD:S000005649	LEO1	Component of the Paf1 complex	leo1 protein pthr23146	SGD	YOR123C
+SGD:S000000101	NCBITaxon:559292	SGD:S000000101	PDR3	Transcriptional activator of the pleiotropic drug resistance network	uncharacterized transcriptional regulatory protein pthr31001	SGD	YBL005W|AMY2|TPE2|drug-responsive transcription factor PDR3
+SGD:S000007253	NCBITaxon:559292	SGD:S000007253	MBF1	Transcriptional coactivator	endothelial differentiation-related factor 1 (multiprotein bridging factor 1) pthr10245	SGD	YOR298C-A|SUF13
+SGD:S000000316	NCBITaxon:559292	SGD:S000000316	CYC8	General transcriptional co-repressor	glucose repression mediator protein pthr14017	SGD	YBR112C|CRT8|SSN6|[OCT1+]|[OCT]|transcription regulator CYC8
+SGD:S000005047	NCBITaxon:559292	SGD:S000005047	MET4	Leucine-zipper transcriptional activator		SGD	YNL103W
+SGD:S000002859	NCBITaxon:559292	SGD:S000002859	YHP1	Homeobox transcriptional repressor	family not named pthr24329	SGD	YDR451C
+SGD:S000001456	NCBITaxon:559292	SGD:S000001456	MET28	bZIP transcriptional activator in the Cbf1p-Met4p-Met28p complex	ccaat/enhancer binding protein pthr23334	SGD	YIR017C
+SGD:S000001772	NCBITaxon:559292	SGD:S000001772	OAF3	Putative transcriptional repressor with Zn(2)-Cys(6) finger		SGD	YKR064W
+SGD:S000005201	NCBITaxon:559292	SGD:S000005201	SIP3	Putative sterol transfer protein	family not named pthr14248	SGD	YNL257C|LAM3
+SGD:S000003213	NCBITaxon:559292	SGD:S000003213	RTF1	Subunit of RNAPII-associated chromatin remodeling Paf1 complex	uncharacterized pthr13115	SGD	YGL244W|CSL3
+SGD:S000004893	NCBITaxon:559292	SGD:S000004893	CAT8	Zinc cluster transcriptional activator	uncharacterized transcriptional regulatory protein pthr31001	SGD	YMR280C|DIL1|DNA-binding transcription factor CAT8|MSP8
+SGD:S000000443	NCBITaxon:559292	SGD:S000000443	ERT1	Transcriptional regulator	family not named pthr31986	SGD	YBR239C
+SGD:S000004489	NCBITaxon:559292	SGD:S000004489	YOX1	Homeobox transcriptional repressor	family not named pthr24326	SGD	YML027W
+SGD:S000005942	NCBITaxon:559292	SGD:S000005942	ECM23	Non-essential protein of unconfirmed function		SGD	YPL021W|SRD2
+SGD:S000004003	NCBITaxon:559292	SGD:S000004003	GAT3	Protein containing GATA family zinc finger motifs		SGD	YLR013W
+SGD:S000001452	NCBITaxon:559292	SGD:S000001452	GAT4	Protein containing GATA family zinc finger motifs		SGD	YIR013C
+SGD:S000003175	NCBITaxon:559292	SGD:S000003175	SPT16	Subunit of the heterodimeric FACT complex (Spt16p-Pob3p)	cdc68 related pthr13980	SGD	YGL207W|CDC68|SSF1|chromatin-remodeling protein SPT16
+SGD:S000005705	NCBITaxon:559292	SGD:S000005705	SYC1	Subunit of the APT subcomplex of cleavage and polyadenylation factor		SGD	YOR179C|cleavage polyadenylation factor subunit SYC1
+SGD:S000004674	NCBITaxon:559292	SGD:S000004674	MOT3	Transcriptional repressor, activator	family not named pthr10919	SGD	YMR070W|ROX7|[MOT3+]|[MOT3]
+SGD:S000002840	NCBITaxon:559292	SGD:S000002840	NPL3	RNA-binding protein	family not named pthr24012	SGD	YDR432W|MTR13|MTS1|NAB1|NOP3|mRNA-binding protein NPL3
+SGD:S000029660	NCBITaxon:559292	SGD:S000029660	MATA1	Expressed copy (at MATa) of a1		SGD	A1
+SGD:S000005879	NCBITaxon:559292	SGD:S000005879	TFB6	Subunit of TFIIH complex		SGD	YOR352W|TFIIH complex subunit TFB6
+SGD:S000002329	NCBITaxon:559292	SGD:S000002329	UGA3	Transcriptional activator for GABA-dependent induction of GABA genes	glycosyltransferase pthr12526	SGD	YDL170W
+SGD:S000001731	NCBITaxon:559292	SGD:S000001731	YKR023W	Putative protein of unknown function	thyroid receptor interacting protein related pthr12963	SGD	
+SGD:S000000986	NCBITaxon:559292	SGD:S000000986	TOG1	Transcriptional activator of oleate genes	uncharacterized transcriptional regulatory protein pthr31001	SGD	YER184C
+SGD:S000003016	NCBITaxon:559292	SGD:S000003016	RPT6	ATPase of the 19S regulatory particle of the 26S proteasome	26s protease regulatory subunit pthr23073	SGD	YGL048C|CIM3|CRL3|SCB68|SUG1|proteasome regulatory particle base subunit RPT6
+SGD:S000003177	NCBITaxon:559292	SGD:S000003177	MIG2	Zinc finger transcriptional repressor	zinc finger protein pthr11389	SGD	YGL209W|MLZ1
+SGD:S000003821	NCBITaxon:559292	SGD:S000003821	CBF1	Basic helix-loop-helix (bHLH) protein	sterol regulatory element-binding protein pthr12565	SGD	YJR060W|CEP1|CP1|CPF1|GFII
+SGD:S000002831	NCBITaxon:559292	SGD:S000002831	CAD1	AP-1-like basic leucine zipper (bZIP) transcriptional activator		SGD	YDR423C|YAP2
+SGD:S000006060	NCBITaxon:559292	SGD:S000006060	UME1	Component of both the Rpd3S and Rpd3L histone deacetylase complexes	wd40 repeat family pthr22850	SGD	YPL139C|WTM3
+SGD:S000004045	NCBITaxon:559292	SGD:S000004045	SPT8	Subunit of the SAGA transcriptional regulatory complex	family not named pthr19852	SGD	YLR055C|SAGA complex subunit SPT8
+SGD:S000004515	NCBITaxon:559292	SGD:S000004515	GAL80	Transcriptional regulator involved in the repression of GAL genes	oxidoreductases pthr22604	SGD	YML051W|transcription regulator GAL80
+SGD:S000000635	NCBITaxon:559292	SGD:S000000635	MATALPHA2	Homeobox-domain protein		SGD	YCR039C|ALPHA2|homeodomain mating type protein alpha2
+SGD:S000001012	NCBITaxon:559292	SGD:S000001012	OPI1	Transcriptional regulator of a variety of genes	lipin pthr12181	SGD	YHL020C|transcriptional regulator OPI1
+SGD:S000001668	NCBITaxon:559292	SGD:S000001668	ASH1	Component of the Rpd3L histone deacetylase complex		SGD	YKL185W|DNA-binding transcription repressor ASH1
+SGD:S000005564	NCBITaxon:559292	SGD:S000005564	HIR2	Subunit of HIR nucleosome assembly complex	member of the hir1 family of wd-repeat proteins pthr13831	SGD	YOR038C|SPT1
+SGD:S000004367	NCBITaxon:559292	SGD:S000004367	STP3	Zinc-finger protein of unknown function		SGD	YLR375W
+SGD:S000003901	NCBITaxon:559292	SGD:S000003901	HIR3	Subunit of the HIR complex		SGD	YJR140C|HPC1
+SGD:S000000104	NCBITaxon:559292	SGD:S000000104	HIR1	Subunit of the HIR complex	member of the hir1 family of wd-repeat proteins pthr13831	SGD	YBL008W
+SGD:S000003625	NCBITaxon:559292	SGD:S000003625	SIP4	C6 zinc cluster transcriptional activator	uncharacterized transcriptional regulatory protein pthr31001	SGD	YJL089W
+SGD:S000002206	NCBITaxon:559292	SGD:S000002206	STP4	Protein containing a Kruppel-type zinc-finger domain		SGD	YDL048C
+SGD:S000029688	NCBITaxon:559292	SGD:S000029688	MAL43	MAL-activator protein		SGD	MALR
+SGD:S000029659	NCBITaxon:559292	SGD:S000029659	MAL63	MAL-activator protein		SGD	MALR
+SGD:S000002441	NCBITaxon:559292	SGD:S000002441	LYS14	Transcriptional activator involved in regulating lysine biosynthesis	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	YDR034C
+SGD:S000004717	NCBITaxon:559292	SGD:S000004717	YMR111C	Protein of unknown function		SGD	
+SGD:S000006212	NCBITaxon:559292	SGD:S000006212	HAA1	Transcriptional activator involved in adaptation to weak acid stress		SGD	YPR008W
+SGD:S000005967	NCBITaxon:559292	SGD:S000005967	ELC1	Elongin C, conserved among eukaryotes	family not named pthr20648	SGD	YPL046C|elongin C
+SGD:S000004534	NCBITaxon:559292	SGD:S000004534	POB3	Subunit of the heterodimeric FACT complex (Spt16p-Pob3p)	swi/snf-related chromatin binding protein pthr13711	SGD	YML069W|FACT complex subunit POB3
+SGD:S000003854	NCBITaxon:559292	SGD:S000003854	IME1	Master regulator of meiosis that is active only during meiotic events		SGD	YJR094C|transcription factor IME1
+SGD:S000001098	NCBITaxon:559292	SGD:S000001098	RSC30	Component of the RSC chromatin remodeling complex		SGD	YHR056C
+SGD:S000000694	NCBITaxon:559292	SGD:S000000694	HMRA1	Silenced copy of a1 at HMR	family not named pthr24325	SGD	YCR097W|YCR097WB
+SGD:S000006175	NCBITaxon:559292	SGD:S000006175	HFI1	Adaptor protein required for structural integrity of the SAGA complex	family not named pthr21277	SGD	YPL254W|ADA1|GAN1|SRM12|SUP110
+SGD:S000001392	NCBITaxon:559292	SGD:S000001392	ASG1	Zinc cluster protein proposed to be a transcriptional regulator	uncharacterized transcriptional regulatory protein pthr31001	SGD	YIL130W
+SGD:S000003977	NCBITaxon:559292	SGD:S000003977	YLL054C	Putative protein of unknown function with similarity to Pip2p	family not named pthr31069	SGD	
+SGD:S000005907	NCBITaxon:559292	SGD:S000005907	RDR1	Transcriptional repressor involved in regulating multidrug resistance	family not named pthr31779	SGD	YOR380W
+SGD:S000004268	NCBITaxon:559292	SGD:S000004268	YLR278C	Zinc-cluster protein	serine/threonine protein kinase pthr11584	SGD	
+SGD:S000000501	NCBITaxon:559292	SGD:S000000501	MAL33	MAL-activator protein	uncharacterized transcriptional regulatory protein pthr31001	SGD	YBR297W|MAL3R|MALR|transcription factor MAL33
+SGD:S000005346	NCBITaxon:559292	SGD:S000005346	YNR063W	Putative zinc-cluster protein of unknown function		SGD	
+SGD:S000003741	NCBITaxon:559292	SGD:S000003741	YJL206C	Putative protein of unknown function	uncharacterized transcriptional regulatory protein pthr31001	SGD	
+SGD:S000000354	NCBITaxon:559292	SGD:S000000354	TBS1	Protein of unknown function	family not named pthr10919	SGD	YBR150C
+SGD:S000003520	NCBITaxon:559292	SGD:S000003520	MAL13	MAL-activator protein	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	YGR288W|MALR|transcription factor MAL13
+SGD:S000001705	NCBITaxon:559292	SGD:S000001705	YKL222C	Protein of unknown function	family not named pthr31405	SGD	
+SGD:S000000830	NCBITaxon:559292	SGD:S000000830	MIG3	Transcriptional regulator		SGD	YER028C
+SGD:S000002806	NCBITaxon:559292	SGD:S000002806	UTP5	Subunit of U3-containing Small Subunit (SSU) processome complex		SGD	YDR398W
+SGD:S000004775	NCBITaxon:559292	SGD:S000004775	PAH1	Mg2+-dependent phosphatidate (PA) phosphatase	lipin pthr12181	SGD	YMR165C|SMP2|phosphatidate phosphatase PAH1
+SGD:S000000648	NCBITaxon:559292	SGD:S000000648	RSC6	Component of the RSC chromatin remodeling complex	brg-1 associated factor 60 (baf60) pthr13844	SGD	YCR052W
+SGD:S000004218	NCBITaxon:559292	SGD:S000004218	ECM22	Sterol regulatory element binding protein	4-deoxy-l-threo-5-hexosulose-uronate ketol-isomerase-related pthr30025	SGD	YLR228C
+SGD:S000004680	NCBITaxon:559292	SGD:S000004680	RCO1	Essential component of the Rpd3S histone deacetylase complex	family not named pthr25462	SGD	YMR075W
+SGD:S000000971	NCBITaxon:559292	SGD:S000000971	RPH1	JmjC domain-containing histone demethylase	jumonji domain containing protein pthr10694	SGD	YER169W|KDM4
+SGD:S000005937	NCBITaxon:559292	SGD:S000005937	SWI1	Subunit of the SWI/SNF chromatin remodeling complex	rbp-related pthr13964	SGD	YPL016W|ADR6|GAM3|LPA1|[SWI(+)]|[SWI+]
+SGD:S000002134	NCBITaxon:559292	SGD:S000002134	FUN19	Non-essential protein of unknown function	transcriptional adaptor 2 (ada2)-related pthr12374	SGD	YAL034C
+SGD:S000001526	NCBITaxon:559292	SGD:S000001526	PHD1	Transcriptional activator that enhances pseudohyphal growth		SGD	YKL043W
+SGD:S000004088	NCBITaxon:559292	SGD:S000004088	CHA4	DNA binding transcriptional activator	family not named pthr31313	SGD	YLR098C|SIL2|SIL3
+SGD:S000004527	NCBITaxon:559292	SGD:S000004527	MFT1	Subunit of the THO complex	maintenance of killer 16 (mak16) protein-related pthr23405	SGD	YML062C|MFT52
+SGD:S000001210	NCBITaxon:559292	SGD:S000001210	THP2	Subunit of the THO and TREX complexes		SGD	YHR167W
+SGD:S000004841	NCBITaxon:559292	SGD:S000004841	MTF1	Mitochondrial RNA polymerase specificity factor		SGD	YMR228W|RNA polymerase specificity factor
+SGD:S000005785	NCBITaxon:559292	SGD:S000005785	RPT4	ATPase of the 19S regulatory particle of the 26S proteasome	26s protease regulatory subunit pthr23073	SGD	YOR259C|CRL13|PCS1|SUG2|proteasome regulatory particle base subunit RPT4
+SGD:S000003276	NCBITaxon:559292	SGD:S000003276	RME1	Zinc finger protein involved in control of meiosis	zinc finger protein pthr11389	SGD	YGR044C|CSP1
+SGD:S000005258	NCBITaxon:559292	SGD:S000005258	DAL82	Positive regulator of allophanate inducible genes		SGD	YNL314W|DURM
+SGD:S000004580	NCBITaxon:559292	SGD:S000004580	CTK3	Gamma subunit of C-terminal domain kinase I		SGD	YML112W
+SGD:S000000444	NCBITaxon:559292	SGD:S000000444	THI2	Transcriptional activator of thiamine biosynthetic genes		SGD	YBR240C|PHO6|phoF
+SGD:S000001742	NCBITaxon:559292	SGD:S000001742	DAL80	Negative regulator of genes in multiple nitrogen degradation pathways		SGD	YKR034W|UGA43
+SGD:S000000041	NCBITaxon:559292	SGD:S000000041	PTA1	Subunit of holo-CPF	symplekin-related pthr15245	SGD	YAL043C|FUN39|RNA-processing protein PTA1
+SGD:S000003388	NCBITaxon:559292	SGD:S000003388	PTI1	Essential component of CPF (cleavage and polyadenylation factor)		SGD	YGR156W|cleavage polyadenylation factor subunit PTI1
+SGD:S000006123	NCBITaxon:559292	SGD:S000006123	AFT2	Iron-regulated transcriptional activator		SGD	YPL202C
+SGD:S000005756	NCBITaxon:559292	SGD:S000005756	WTM1	Transcriptional modulator	wd40 repeat family pthr22850	SGD	YOR230W|transcriptional modulator
+SGD:S000002718	NCBITaxon:559292	SGD:S000002718	SUM1	Transcriptional repressor that regulates middle-sporulation genes		SGD	YDR310C
+SGD:S000005274	NCBITaxon:559292	SGD:S000005274	RPD3	Histone deacetylase, component of both the Rpd3S and Rpd3L complexes	histone deacetylase pthr10625	SGD	YNL330C|MOF6|REC3|SDI2|SDS6|histone deacetylase RPD3
+SGD:S000005865	NCBITaxon:559292	SGD:S000005865	YOR338W	Putative protein of unknown function	transcriptional adaptor 2 (ada2)-related pthr12374	SGD	
+SGD:S000002433	NCBITaxon:559292	SGD:S000002433	NSI1	RNA polymerase I termination factor	myb-like dna-binding protein myb pthr10641	SGD	YDR026C|YTT1
+SGD:S000006043	NCBITaxon:559292	SGD:S000006043	TFB2	Subunit of TFIIH and nucleotide excision repair factor 3 complexes	tfiih, polypeptide 4 pthr13152	SGD	YPL122C|TFIIH/NER complex subunit TFB2
+SGD:S000006227	NCBITaxon:559292	SGD:S000006227	EAF3	Component of the Rpd3S histone deacetylase complex	mortality factor 4-like protein pthr10880	SGD	YPR023C
+SGD:S000005968	NCBITaxon:559292	SGD:S000005968	SGF11	Integral subunit of SAGA histone acetyltransferase complex		SGD	YPL047W|SAGA histone acetyltransferase complex subunit SGF11
+SGD:S000005306	NCBITaxon:559292	SGD:S000005306	SNF12	73 kDa subunit of the SWI/SNF chromatin remodeling complex	brg-1 associated factor 60 (baf60) pthr13844	SGD	YNR023W|SWP73
+SGD:S000002636	NCBITaxon:559292	SGD:S000002636	PCF11	mRNA 3' end processing factor	pre-mrna cleavage complex ii pthr15921	SGD	YDR228C
+SGD:S000006007	NCBITaxon:559292	SGD:S000006007	ELP3	Subunit of Elongator complex	histone acetyltransferase-related pthr11135	SGD	YPL086C|Elongator subunit ELP3|HPA1|KAT9|KTI8|TOT3
+SGD:S000003639	NCBITaxon:559292	SGD:S000003639	GSM1	Putative zinc cluster protein of unknown function	family not named pthr31986	SGD	YJL103C
+SGD:S000002709	NCBITaxon:559292	SGD:S000002709	CFT1	RNA-binding subunit of the mRNA cleavage and polyadenylation factor	dna repair/rna processing cpsf family pthr10644	SGD	YDR301W|YHH1
+SGD:S000001595	NCBITaxon:559292	SGD:S000001595	ABF1	DNA binding protein with possible chromatin-reorganizing activity		SGD	YKL112W|BAF1|DNA-binding protein ABF1|GFI|OBF1|REB2|SBF-B|SBF1
+SGD:S000003865	NCBITaxon:559292	SGD:S000003865	SOD1	Cytosolic copper-zinc superoxide dismutase	superoxide dismutase [cu-zn]-related pthr10003	SGD	YJR104C|CRS4|superoxide dismutase SOD1
+SGD:S000003651	NCBITaxon:559292	SGD:S000003651	ASF1	Nucleosome assembly factor	anti-silencing protein 1 pthr12040	SGD	YJL115W|CIA1|nucleosome assembly factor ASF1
+SGD:S000006049	NCBITaxon:559292	SGD:S000006049	TBF1	Telobox-containing general regulatory factor	family not named pthr32197	SGD	YPL128C|LPI16
+SGD:S000001363	NCBITaxon:559292	SGD:S000001363	XBP1	Transcriptional repressor		SGD	YIL101C
+SGD:S000002829	NCBITaxon:559292	SGD:S000002829	ARO80	Zinc finger transcriptional activator of the Zn2Cys6 family	family not named pthr31644	SGD	YDR421W
+SGD:S000005969	NCBITaxon:559292	SGD:S000005969	CAM1	One of two isoforms of the gamma subunit of eEF1B	glutathione s-transferase, gst, superfamily, gst domain containing pthr11260	SGD	YPL048W|CPBP|TEF3|translation elongation factor EF1B gamma
+SGD:S000003888	NCBITaxon:559292	SGD:S000003888	RSF2	Zinc-finger protein	zinc finger protein pthr11389	SGD	YJR127C|ZMS1
+SGD:S000004618	NCBITaxon:559292	SGD:S000004618	SOK2	Nuclear protein that negatively regulates pseudohyphal differentiation		SGD	YMR016C
+SGD:S000029657	NCBITaxon:559292	SGD:S000029657	MAL23	MAL-activator protein		SGD	MALR
+SGD:S000000611	NCBITaxon:559292	SGD:S000000611	SRD1	Protein involved in the processing of pre-rRNA to mature rRNA		SGD	YCR018C
+SGD:S000005508	NCBITaxon:559292	SGD:S000005508	SPT20	Subunit of the SAGA transcriptional regulatory complex		SGD	YOL148C|ADA5
+SGD:S000000493	NCBITaxon:559292	SGD:S000000493	SNF5	Subunit of the SWI/SNF chromatin remodeling complex	snf5 pthr10019	SGD	YBR289W|HAF4|SWI10|TYE4
+SGD:S000000973	NCBITaxon:559292	SGD:S000000973	RAD3	5' to 3' DNA helicase	dna repair dead helicase rad3/xp-d subfamily member pthr11472	SGD	YER171W|REM1|TFIIH/NER complex ATP-dependent 5'-3' DNA helicase subunit RAD3
+SGD:S000002868	NCBITaxon:559292	SGD:S000002868	TFB3	Subunit of TFIIH and nucleotide excision repair factor 3 complexes	family not named pthr12683	SGD	YDR460W|RIG2|TFIIH/NER complex subunit TFB3
+SGD:S000002711	NCBITaxon:559292	SGD:S000002711	RSC3	Component of the RSC chromatin remodeling complex		SGD	YDR303C
+SGD:S000001498	NCBITaxon:559292	SGD:S000001498	PUT3	Transcriptional activator	family not named pthr31944	SGD	YKL015W
+SGD:S000003221	NCBITaxon:559292	SGD:S000003221	RTG2	Sensor of mitochondrial dysfunction	exopolyphosphatase pthr30005	SGD	YGL252C
+SGD:S000001019	NCBITaxon:559292	SGD:S000001019	RIM101	Cys2His2 zinc-finger transcriptional repressor	krueppel c2h2-type zinc-finger pthr23223	SGD	YHL027W|RIM1|alkaline-responsive transcriptional regulator RIM101
+SGD:S000003543	NCBITaxon:559292	SGD:S000003543	CTK2	Beta subunit of C-terminal domain kinase I (CTDK-I)	cyclin pthr10026	SGD	YJL006C
+SGD:S000004846	NCBITaxon:559292	SGD:S000004846	TRI1	Non-essential sumoylated protein of unknown function	brg-1 associated factor 60 (baf60) pthr13844	SGD	YMR233W
+SGD:S000005816	NCBITaxon:559292	SGD:S000005816	SNF2	Catalytic subunit of the SWI/SNF chromatin remodeling complex	swi/snf-related matrix-associated actin-dependent regulator of chromatin subfamily-related pthr10799	SGD	YOR290C|GAM1|HAF1|SWI/SNF catalytic subunit SNF2|SWI2|TYE3
+SGD:S000000019	NCBITaxon:559292	SGD:S000000019	CCR4	Component of the CCR4-NOT transcriptional complex	carbon catabolite repressor protein 4 pthr12121	SGD	YAL021C|CCR4-NOT core exoribonuclease subunit CCR4|FUN27|NUT21
+SGD:S000001622	NCBITaxon:559292	SGD:S000001622	CTK1	Catalytic (alpha) subunit of C-terminal domain kinase I (CTDK-I)	cell division protein kinase pthr24056	SGD	YKL139W|cyclin-dependent serine/threonine protein kinase CTK1
+SGD:S000002165	NCBITaxon:559292	SGD:S000002165	RPT2	ATPase of the 19S regulatory particle of the 26S proteasome	26s protease regulatory subunit pthr23073	SGD	YDL007W|YHS4|YTA5|proteasome regulatory particle base subunit RPT2
+SGD:S000001628	NCBITaxon:559292	SGD:S000001628	RPT1	ATPase of the 19S regulatory particle of the 26S proteasome	26s protease regulatory subunit pthr23073	SGD	YKL145W|CIM5|YTA3|proteasome regulatory particle base subunit RPT1
+SGD:S000005643	NCBITaxon:559292	SGD:S000005643	RPT5	ATPase of the 19S regulatory particle of the 26S proteasome	26s protease regulatory subunit pthr23073	SGD	YOR117W|YTA1|proteasome regulatory particle base subunit RPT5
+SGD:S000002802	NCBITaxon:559292	SGD:S000002802	RPT3	ATPase of the 19S regulatory particle of the 26S proteasome	26s protease regulatory subunit pthr23073	SGD	YDR394W|YNT1|YTA2|proteasome regulatory particle base subunit RPT3
+SGD:S000001501	NCBITaxon:559292	SGD:S000001501	SWD2	Subunit of the COMPASS (Set1C) histone H3K4 methyltransferase complex	wd40 repeat protein swd2 pthr19861	SGD	YKL018W|CPS35|SAF37|WD-repeat containing protein SWD2
+SGD:S000003234	NCBITaxon:559292	SGD:S000003234	SWC4	Component of the Swr1p complex that incorporates Htz1p into chromatin	family not named pthr12855	SGD	YGR002C|EAF2|GOD1
+SGD:S000005173	NCBITaxon:559292	SGD:S000005173	URE2	Nitrogen catabolite repression transcriptional regulator	glutathione s-transferase, gst, superfamily, gst domain containing pthr11260	SGD	YNL229C|[URE3]
+SGD:S000004267	NCBITaxon:559292	SGD:S000004267	YSH1	Endoribonuclease	cleavage and polyadenylation specificity factor pthr11203	SGD	YLR277C|BRR5|cleavage polyadenylation factor subunit YSH1
+SGD:S000000307	NCBITaxon:559292	SGD:S000000307	SIF2	WD40 repeat-containing subunit of Set3C histone deacetylase complex	wd40 repeat protein pthr22846	SGD	YBR103W|EMB1
+SGD:S000000763	NCBITaxon:559292	SGD:S000000763	RAD23	Protein with ubiquitin-like N terminus	uv excision repair protein rad23 pthr10621	SGD	YEL037C
+SGD:S000003272	NCBITaxon:559292	SGD:S000003272	KSS1	Mitogen-activated protein kinase (MAPK)	mitogen-activated protein kinase pthr24055	SGD	YGR040W|mitogen-activated serine/threonine-protein kinase KSS1
+SGD:S000000964	NCBITaxon:559292	SGD:S000000964	RAD4	Protein that recognizes and binds damaged DNA (with Rad23p) during NER	dna repair protein xp-c / rad4 pthr12135	SGD	YER162C
+SGD:S000006229	NCBITaxon:559292	SGD:S000006229	CCL1	Cyclin associated with protein kinase Kin28p	cyclin pthr10026	SGD	YPR025C|TFIIH complex kinase subunit CCL1
+SGD:S000005952	NCBITaxon:559292	SGD:S000005952	PHO85	Cyclin-dependent kinase	cell division protein kinase pthr24056	SGD	YPL031C|LDB15|cyclin-dependent serine/threonine-protein kinase PHO85|phoU
+SGD:S000004966	NCBITaxon:559292	SGD:S000004966	HDA1	Putative catalytic subunit of a class II histone deacetylase complex	histone deacetylase pthr10625	SGD	YNL021W|histone deacetylase HDA1
+SGD:S000000976	NCBITaxon:559292	SGD:S000000976	GRX4	Glutathione-dependent oxidoreductase	glutaredoxin-related protein pthr10293	SGD	YER174C|monothiol glutaredoxin GRX4
+SGD:S000002505	NCBITaxon:559292	SGD:S000002505	GRX3	Glutathione-dependent oxidoreductase	glutaredoxin-related protein pthr10293	SGD	YDR098C|monothiol glutaredoxin GRX3
+SGD:S000002789	NCBITaxon:559292	SGD:S000002789	YRA1	Nuclear polyadenylated RNA-binding protein	rna and export factor binding protein pthr19965	SGD	YDR381W|RNA-binding protein YRA1|SHE11
+SGD:S000003118	NCBITaxon:559292	SGD:S000003118	INO80	ATPase and nucleosome spacing factor	swi/snf-related matrix-associated actin-dependent regulator of chromatin subfamily-related pthr10799	SGD	YGL150C|chromatin-remodeling ATPase INO80
+SGD:S000002566	NCBITaxon:559292	SGD:S000002566	SAC3	mRNA export factor	80 kda mcm3-associated protein pthr12436	SGD	YDR159W|LEP1
+SGD:S000001113	NCBITaxon:559292	SGD:S000001113	PCL5	Cyclin	uncharacterized pthr15615	SGD	YHR071W
+SGD:S000006362	NCBITaxon:559292	SGD:S000006362	CUR1	Sorting factor, central regulator of spatial protein quality control		SGD	YPR158W
+SGD:S000003490	NCBITaxon:559292	SGD:S000003490	RAD2	Single-stranded DNA endonuclease	xp-g/rad2 dna repair endonuclease family pthr11081	SGD	YGR258C|ssDNA endodeoxyribonuclease RAD2
+SGD:S000003958	NCBITaxon:559292	SGD:S000003958	GRC3	Polynucleotide kinase present on rDNA	cleavage/polyadenylation factor ia subunit clp1p pthr12755	SGD	YLL035W|polynucleotide 5'-hydroxyl-kinase
+SGD:S000004001	NCBITaxon:559292	SGD:S000004001	LOT6	FMN-dependent NAD(P)H:quinone reductase	chromate reductase pthr30543	SGD	YLR011W|flavin-dependent quinone reductase
+SGD:S000006102	NCBITaxon:559292	SGD:S000006102	CTI6	Component of the Rpd3L histone deacetylase complex	mixed-lineage leukemia 5, mll5 pthr16286	SGD	YPL181W|RXT1
+SGD:S000000979	NCBITaxon:559292	SGD:S000000979	BMH1	14-3-3 protein, major isoform	14-3-3 protein pthr18860	SGD	YER177W|14-3-3 family protein BMH1|APR6
+SGD:S000000922	NCBITaxon:559292	SGD:S000000922	SCS2	Integral ER membrane protein, regulates phospholipid metabolism	vesicle-associated membrane protein-associated protein pthr10809	SGD	YER120W|phosphatidylinositol-binding protein SCS2
+SGD:S000005871	NCBITaxon:559292	SGD:S000005871	TYE7	Serine-rich protein that contains a bHLH DNA binding motif		SGD	YOR344C|SGC1
+SGD:S000004778	NCBITaxon:559292	SGD:S000004778	CEP3	Essential kinetochore protein		SGD	YMR168C|CBF3|CBF3B|CSL1
+SGD:S000002603	NCBITaxon:559292	SGD:S000002603	REF2	RNA-binding protein		SGD	YDR195W|RNA-processing protein REF2
+SGD:S000002812	NCBITaxon:559292	SGD:S000002812	RPB7	RNA polymerase II subunit B16	dna-directed rna polymerase ii, iii pthr12709	SGD	YDR404C|B16|DNA-directed RNA polymerase II subunit RPB7
+SGD:S000004029	NCBITaxon:559292	SGD:S000004029	RIC1	Protein involved in retrograde transport to the cis-Golgi network		SGD	YLR039C
+SGD:S000004264	NCBITaxon:559292	SGD:S000004264	MCM5	Component of the Mcm2-7 hexameric helicase complex	dna replication licensing factor pthr11630	SGD	YLR274W|BOB1|CDC46|MCM DNA helicase complex subunit MCM5
+SGD:S000003158	NCBITaxon:559292	SGD:S000003158	CDC55	Non-essential regulatory subunit B of protein phosphatase 2A (PP2A)	protein phosphatase pp2a regulatory subunit b pthr11871	SGD	YGL190C|TMR4|protein phosphatase 2A regulatory subunit CDC55
+SGD:S000000935	NCBITaxon:559292	SGD:S000000935	GLC7	Type 1 S/T protein phosphatase (PP1) catalytic subunit	serine/threonine protein phosphatase pthr11668	SGD	YER133W|CID1|DIS2|DIS2S1|PP1|type 1 serine/threonine-protein phosphatase catalytic subunit GLC7
+SGD:S000000347	NCBITaxon:559292	SGD:S000000347	SUP45	Polypeptide release factor (eRF1) in translation termination	peptide chain release factor subunit 1 pthr10113	SGD	YBR143C|SAL4|SUP1|SUP47|eRF1|translation termination factor eRF1
+SGD:S000002325	NCBITaxon:559292	SGD:S000002325	FAP7	Essential NTPase required for small ribosome subunit synthesis	pos9-activating factor fap7-related pthr12595	SGD	YDL166C|nucleoside-triphosphatase
+SGD:S000003238	NCBITaxon:559292	SGD:S000003238	PRP18	Splicing factor and component of snRNP U5	pre-mrna splicing factor-related pthr13007	SGD	YGR006W|mRNA splicing protein PRP18
+SGD:S000003676	NCBITaxon:559292	SGD:S000003676	RPB4	RNA polymerase II subunit B32	dna-directed rna polymerase ii pthr21297	SGD	YJL140W|B32|CTF15|DNA-directed RNA polymerase II subunit RPB4
+SGD:S000000758	NCBITaxon:559292	SGD:S000000758	MCM3	Protein involved in DNA replication	dna replication licensing factor pthr11630	SGD	YEL032W|MCM DNA helicase complex subunit MCM3
+SGD:S000000406	NCBITaxon:559292	SGD:S000000406	MCM7	Component of the Mcm2-7 hexameric helicase complex	dna replication licensing factor pthr11630	SGD	YBR202W|CDC47|mini-chromosome maintenance complex protein 7
+SGD:S000004093	NCBITaxon:559292	SGD:S000004093	CDC45	DNA replication initiation factor	cdc45-related protein pthr10507	SGD	YLR103C|DNA replication initiation factor CDC45|SLD4
+SGD:S000000292	NCBITaxon:559292	SGD:S000000292	POL30	Proliferating cell nuclear antigen (PCNA)	proliferating cell nuclear antigen pthr11352	SGD	YBR088C|PCNA|proliferating cell nuclear antigen
+SGD:S000003210	NCBITaxon:559292	SGD:S000003210	KAP114	Karyopherin, responsible for nuclear import of specific proteins		SGD	YGL241W
+SGD:S000001537	NCBITaxon:559292	SGD:S000001537	DEF1	RNAPII degradation factor		SGD	YKL054C|DNA damage-responsive RNA polymerase-degradation factor DEF1|VID31
+SGD:S000005103	NCBITaxon:559292	SGD:S000005103	ASI2	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex		SGD	YNL159C
+SGD:S000006046	NCBITaxon:559292	SGD:S000006046	KAP120	Karyopherin responsible for the nuclear import of Rpf1p		SGD	YPL125W|LPH2
+SGD:S000000221	NCBITaxon:559292	SGD:S000000221	KAP104	Transportin or cytosolic karyopherin beta 2	importin beta pthr10527	SGD	YBR017C
+SGD:S000000909	NCBITaxon:559292	SGD:S000000909	GLE2	RNA export factor associated with the nuclear pore complex (NPC)	mrna export factor and bub3 pthr10971	SGD	YER107C|RAE1|RNA export factor GLE2
+SGD:S000004725	NCBITaxon:559292	SGD:S000004725	ASI1	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex	uncharacterized ring zinc finger-containing protein pthr12183	SGD	YMR119W|putative ubiquitin-protein ligase ASI1
+SGD:S000004953	NCBITaxon:559292	SGD:S000004953	ASI3	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex	uncharacterized ring zinc finger-containing protein pthr12183	SGD	YNL008C|putative ubiquitin-protein ligase ASI3
+SGD:S000005783	NCBITaxon:559292	SGD:S000005783	CDC31	Calcium-binding component of the spindle pole body (SPB) half-bridge	ef-hand calcium-binding domain containing protein pthr10891	SGD	YOR257W|DSK1|centrin
+SGD:S000000313	NCBITaxon:559292	SGD:S000000313	CMD1	Calmodulin	calcium binding protein pthr23050	SGD	YBR109C|CaM|calmodulin
+SGD:S000002588	NCBITaxon:559292	SGD:S000002588	SCC2	Subunit of cohesin loading factor (Scc2p-Scc4p)	nipped-b-like protein (delangin) scc2-related pthr21704	SGD	YDR180W|cohesin-loading factor complex subunit SCC2
+SGD:S000001072	NCBITaxon:559292	SGD:S000001072	SLT2	Serine/threonine MAP kinase	mitogen-activated protein kinase pthr24055	SGD	YHR030C|BYC2|LYT2|MPK1|SLK2|mitogen-activated serine/threonine-protein kinase SLT2
