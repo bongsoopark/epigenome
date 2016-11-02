@@ -17,6 +17,7 @@ function visitCheck($ip_address, $request_uri) {
 	array_push($ip_list, "172.29.0.71");
 	array_push($ip_list, "71.58.100.80");
 	array_push($ip_list, "146.186.149.139");
+	array_push($ip_list, "146.186.149.140");
 	$flag = 0;
 	for ($i = 0 ; $i < count($ip_list) ; $i++) {
 		if ($ip_list[$i] == $ip_address) {

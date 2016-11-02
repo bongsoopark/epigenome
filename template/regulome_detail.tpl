@@ -1,11 +1,11 @@
 %%HEADER%%
-%%!if($class=="tf")%%
+%%!if($class=="gtf")%%
 <h3><a href='#'>Regulome (General Transcription Factors)</a></h3>
 In molecular biology and genetics, a transcription factor (sometimes called a sequence-specific DNA-binding factor) is a protein that binds to specific DNA sequences, thereby controlling the rate of transcription of genetic information from DNA to messenger RNA.[1][2] Transcription factors perform this function alone or with other proteins in a complex, by promoting (as an activator), or blocking (as a repressor) the recruitment of RNA polymerase (the enzyme that performs the transcription of genetic information from DNA to RNA) to specific genes.<br>
 <br>
 A defining feature of transcription factors is that they contain one or more DNA-binding domains (DBDs), which attach to specific sequences of DNA adjacent to the genes that they regulate.[6][7] Additional proteins such as coactivators, chromatin remodelers, histone acetylases, deacetylases, kinases, and methylases, while also playing crucial roles in gene regulation, lack DNA-binding domains, and, therefore, are not classified as transcription factors.<br>
 %%!endif%%
-%%!if($class=="tf2")%%
+%%!if($class=="tf")%%
 <h3><a href='#'>Regulome (Specific Transcription Factors)</a></h3>
 Most eukaryotic genes are also regulated by specific transcription factors. Unlike general transcription factors, specific transcription factors control the transcription of specific target genes (not all of the genes in the genome).
 Why are specific transcription factors needed? For many genes, general transcription factors alone are not enough (will not cause much transcription). Instead, the right set of specific transcription factors must also be present to put the gene in its "on" state. This means the gene is expressed only under certain conditions, which are signaled by the specific transcription factors.

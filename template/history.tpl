@@ -1,5 +1,6 @@
 %%HEADER%%
-<h3>ECEP History (v0.1.4)</h3>
+<h3>ECEP History (v0.1.5)</h3>
+2016-11-02 SWI/SNF chromatin remodelers have been added.<br>
 2016-10-02 Regulome classes have been added(CR,HM,TF).<br>
 2016-10-01 Dev-Production arthitecture has been built via iGenomics.org<br>
 2016-09-28 Favorite Cart function has been advanced (PHP part).<br>

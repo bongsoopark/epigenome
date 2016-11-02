@@ -28,8 +28,8 @@ Project citation: <i>Manuscript in preparation</i> (Target: Bioinformatics 2017)
 <td vAlign=top style='border:1px solid;border-color:#DDDDDD'><h3>Regulome Proteins (Yeast)</h3>
 <a href='regulome/?class=cm'>47 Chromatin Remodelers</a><br>
 <a href='regulome/?class=hm'>25 Histone Modifying Enzymes</a><br>
-<a href='regulome/?class=tf'>32 General Transcription Factors</a><br>
-<a href='regulome/?class=tf2'>XX Specific Transcription Factors</a><br>
+<a href='regulome/?class=gtf'>32 General Transcription Factors</a><br>
+<a href='regulome/?class=tf'>XX Specific Transcription Factors</a><br>
 <a href='regulome/?class=sr'>XX Other Regulator Proteins</a><br>
 <br>
 </td></tr>

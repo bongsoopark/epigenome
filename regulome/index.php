@@ -11,7 +11,7 @@ if ($con->connect_error) {
 	echo("Database Connection Error");
 }
 
-$sql = "SELECT * from regulome_class where regulome_type='$class' order by id asc;";
+$sql = "SELECT * from regulome_class where regulome_type='$class' order by regulome_class asc;";
 $result = $con->query($sql);
 $data3 = array();
 while($row = $result->fetch_object()) {
