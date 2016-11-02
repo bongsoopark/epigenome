@@ -37,6 +37,9 @@ $result = $con->query($sql);
 list($number_of_genome) = $result->fetch_row();
 $result->free();
 $con->close();
+
+# Number of protein retrieve
+
 ####--------------- Template Engine ---------------####
 $design = new Design;
 $design->loadData("index.dat");
