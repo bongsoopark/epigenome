@@ -30,7 +30,7 @@ Project citation: <i>Manuscript in preparation</i> (Target: Bioinformatics 2017)
 <a href='regulome/?class=hm'>28 Histone Modifying Enzymes</a><br>
 <a href='regulome/?class=gtf'>32 General Transcription Factors</a><br>
 <a href='regulome/?class=tf'>XX Specific Transcription Factors</a><br>
-<a href='regulome/?class=sr'>XX Other Regulator Proteins</a><br>
+<a href='regulome/?class=sr'>7 Other Regulator Proteins</a><br>
 <br>
 </td></tr>
 <tr><td width=400 style='border:1px solid;border-color:#DDDDDD'>

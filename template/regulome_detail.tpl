@@ -20,6 +20,10 @@ Chromatin remodeling is the dynamic modification of chromatin architecture to al
 Histones are highly basic, nuclear proteins that provide physical means for eukaryotic DNA to be organized and packaged into chromatin. It has been shown that both the histone tails and globular domains are subjected to a diverse array of the posttranslational covalent modifications (for example, acetylation and methylation), and that such modifications are pivotal for regulating chromatin dynamics and transcriptional output of the gene/genome. Histone modifying enzymes are important in this molecular mechanism. Currently, 25 genes were classified to Histone modifying enzymes in Yeast.<br><br>
 *Abbreviations: HAT (histone acetyltransferase), HMT (histone methyltransferase), HDM (histone demethylase), and HDAC (histone deacetylase).[dbHiMo]<br>
 %%!endif%%
+%%!if($class=="sr")%%
+<h3><a href='#'>Other regulatory proteins: %%$regulome_cnt%%)</a></h3>
+Nuc: Nucloesome remodeling protein
+%%!endif%%
 <br>
 <h3>%%$assay_name%%</h3>
 <table width=1000 border=1>
@@ -31,6 +35,7 @@ Histones are highly basic, nuclear proteins that provide physical means for euka
     <td><b>Gene name</b></td>
     <td><b>Description</b></td>
     <td><b>Accession#</b></td>
+    <td><b>Notes</b></td>
 </tr>
 <form name=list method=post action=/epigenome/save_to_cart.php>
 <input type=hidden id=sample_ids name=sample_ids value="">
@@ -45,6 +50,7 @@ Histones are highly basic, nuclear proteins that provide physical means for euka
     <td>%%$DATA3[_sidx]->gene_name%%</td>
     <td>%%$DATA3[_sidx]->celltype%%</td>
     <td>%%$DATA3[_sidx]->mutation%%</td>
+    <td><input type=text size=10 value='%%$DATA3[_sidx]->notes%%'></td>
 </tr>
 %%!endsection%%
 %%!endif%%
