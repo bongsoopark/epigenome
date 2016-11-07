@@ -34,8 +34,6 @@ Nuc: Nucloesome remodeling protein
     <td><b>Locus name</b></td>
     <td><b>Gene name</b></td>
     <td><b>Description</b></td>
-    <td><b>Accession#</b></td>
-    <td><b>Notes</b></td>
 </tr>
 <form name=list method=post action=/epigenome/save_to_cart.php>
 <input type=hidden id=sample_ids name=sample_ids value="">
@@ -48,9 +46,7 @@ Nuc: Nucloesome remodeling protein
     <td>%%$DATA3[_sidx]->regulome_class%%</td>
     <td>%%$DATA3[_sidx]->locus_name%%</td>
     <td>%%$DATA3[_sidx]->gene_name%%</td>
-    <td>%%$DATA3[_sidx]->celltype%%</td>
-    <td>%%$DATA3[_sidx]->mutation%%</td>
-    <td><input type=text size=10 value='%%$DATA3[_sidx]->notes%%'></td>
+    <td>%%$DATA3[_sidx]->note%%</td>
 </tr>
 %%!endsection%%
 %%!endif%%

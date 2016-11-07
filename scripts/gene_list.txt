@@ -1,369 +1,416 @@
-# Transcription Factor and Other collection
-# Bongsoo Park, Last updated 2016/11/05
-# Penn State University
-# InterPro Scanning #1
-# GO Term Search (Transcription factors)
-YHR084W	STE12	STE	IPR003120	Transcription factor that is activated by a MAPK signaling cascade
-YLR451W	LEU3	Zinc-knuckleTranscriptionFactor,Repressor,Activator	IPR001138;PTHR31845	Leucine-responsive
-YER111C	SWI4	APSES	IPR003163
-YNL216W	RAP1	Myb/SANT	IPR001005
-YMR043W	MCM1	MADS	IPR002100
-YJR060W	CBF1	bHLH	IPR001092
-YHR206W	SKN7	HSF	IPR000232	Kinase-regulated stress responsive
-YML007W	YAP1	bZIP	IPR004827
-YPL248C	GAL4	Zinc	IPR001138;PTHR30025	Galactose-responsiveTF
-YEL009C	GCN4	bZIP	IPR004827	AmonoAcidStarvationResponsive
-YFR034C	PHO4	bHLH	IPR001092
-YGL071W	AFT1	AFT	IPR014842	iron utilization and homeostasis
-YMR037C	MSN2	C2H2;StressResponse	IPR007087
-YKL062W	MSN4	C2H2;StressResponse	IPR007087
-YNL068C	FKH2	Forkhead	IPR001766
-YDL056W	MBP1	APSES	IPR003163
-YDR423C	CAD1	bZIP	IPR004827
-YFL021W	GAT1	GATA	IPR000679;PTHR10071	NitrogenCataboliteRepressionGenes
-YGL013C	PDR1	Zinc	IPR001138
-YPR065W	ROX1	Sox	IPR022097
-YBR049C	REB1	MADF	IPR006578
-YDL020C	RPN4	C2H2	IPR007087	stimulates expression of proteasome genes
-YDL106C	PHO2	Homeodomain	IPR001356
-YBL103C	RTG3	bHLH	IPR001092	retrograde (RTG) and TOR pathways
-YBR083W	TEC1	TEA	IPR000818;PTHR11834
-YGL073W	HSF1	HSF	IPR000232
-YKL015W	PUT3	Zinc	IPR001138
-YOR028C	CIN5	bZIP	IPR004827
-YER169W	RPH1	C2H2	IPR007087
-YIL131C	FKH1	Forkhead	IPR001766
-YJL089W	SIP4	Zinc	IPR001138
-YKR099W	BAS1	MybTranscriptionFactor	PTHR11945
-YPR104C	FHL1	Forkhead	IPR001766	RPgeneRegulation
-YDR253C	MET32	C2H2	IPR007087
-YDR310C	SUM1	AT	IPR014476
-YER040W	GLN3	GATA	IPR000679	Nitrogen-responsive
-YKL112W	ABF1	
-YLR403W	SFP1	C2H2	IPR007087	Regulates transcription of ribosomal protein and biogenesis genes
-YMR070W	MOT3	C2H2	IPR007087
-YPL049C	DIG1	MAPKinaseResponsiveInhibitor	
-YDR480W	DIG2	MAPKinaseResponsiveInhibitor
-YPL202C	AFT2	AFT	IPR014842
-YDR259C	YAP6	bZIP	IPR004827
-YHR178W	STB5	Zinc	IPR001138
-YJL110C	GZF3	GATA	IPR000679
-YLR131C	ACE2	C2H2	IPR007087;PTHR14596
-YNL167C	SKO1	bZIP	IPR004827	Basic leucine zipper transcription factor of the ATF/CREB family
-YPL038W	MET31	C2H2	IPR007087
-YDL170W	UGA3	Zinc	IPR001138
-YGL035C	MIG1	C2H2	IPR007087	GlucoseRepression
-YKL109W	HAP4	CBF/NF-Y	IPR003958
-YLR176C	RFX1	RFX	IPR003150	Major transcriptional regulator of DNA-damage regulated genes
-YOL028C	YAP7	bZIP	IPR004827	Putative
-YOR344C	TYE7	bHLH	IPR001092
-YPL089C	RLM1	MADS	IPR002100
-YCR106W	RDS1	PutativeZincCluster	PTHR31069
-YHL009C	YAP3	bZIP	IPR004827
-YKL038W	RGT1	GlucoseResponseTF-Zinc	IPR001138
-YKL043W	PHD1	APSES	IPR003163
-YKR034W	DAL80	GATA	IPR000679
-YLR182W	SWI6	Dubious
-YDR146C	SWI5	ZincFinger	PTHR14596	Transcription factor that recruits Mediator and Swi/Snf complexes
-YDR216W	ADR1	C2H2	IPR007087
-YDR421W	ARO80	Zinc	IPR001138
-YLR098C	CHA4	Zinc	IPR001138
-YLR256W	HAP1	Zinc	IPR001138
-YNL103W	MET4	bZIP	IPR004827
-YPL177C	CUP9	Homeodomain;TranscriptionalRepressor	IPR001356
-YBR182C	SMP1	MADS	IPR002100	Osmotic stress response
-YBR240C	THI2	Zinc	IPR001138
-YCR039C	MATALPHA2	Homeodomain	IPR001356
-YDR463W	STP1	C2H2	IPR007087
-YGL237C	HAP2	CBF/NF-Y	IPR003958	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
-YHL027W	RIM101	C2H2	IPR007087
-YHR124W	NDT80	Ndt80/PhoG	IPR024061
-YIL101C	XBP1	APSES	IPR003163
-YIR018W	YAP5	bZIP	IPR004827	iron-sensing transcription factor
-YML027W	YOX1	Homeodomain	IPR001356
-YML099C	ARG81	Zinc	IPR001138	Zinc finger transcription factor involved in arginine-responsive genes
-YMR021C	MAC1	Copper-sensingTF	IPR001083
-YMR042W	ARG80	MADS	IPR002100	regulating arginine-responsive genes
-YOL067C	RTG1	bHLH	IPR001092	Interorganelle communication
-YOR162C	YRR1	Zn2Cys6	IPR001138
-YDR123C	INO2	bHLH	IPR001092
-YFL031W	HAC1	bZIP	IPR004827	ATF/CREB1 homolog
-YGL209W	MIG2	C2H2	IPR007087
-YHR006W	STP2	C2H2	IPR007087
-YIL036W	CST6	bZIP	IPR004827	ATF/CREB family
-YIR023W	DAL81	Zinc	IPR001138
-YJL056C	ZAP1	Zinc	PHTR11389
-YLR013W	GAT3	GATA	IPR000679
-YLR228C	ECM22	Zinc	IPR001138
-YMR019W	STB4	PutativeTF-Zinc	IPR001138
-YNL027W	CRZ1	C2H2	IPR007087
-YNL314W	DAL82	Unknown-DNA-binding	
-YOL108C	INO4	bHLH	IPR001092	Phospholipid synthesis
-YOL116W	MSN1	
-YAL051W	OAF1	Oleate-activatedTF-Zinc	IPR001138
-YJL206C	Zinc	IPR001138
-YKL185W	ASH1	GATA	IPR000679
-YMR016C	SOK2	APSES	IPR003163
-YOR113W	AZF1	C2H2	IPR007087
-YOR140W	SFL1	HSF	IPR000232
-YOR358W	HAP5	CBF/NF-Y	IPR003958;PTHR10252	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
-YPR199C	ARR1	bZIP	IPR004827
-YBL021C	HAP3	CBF/NF-Y	IPR003958	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
-YCR018C	SRD1	GATA	IPR000679
-YDL048C	STP4	C2H2	IPR007087
-YDR213W	UPC2	Sox	PTHR10270
-YDR451C	YHP1	Homeodomain;TranscriptionRepressor	IPR001356;PTHR24329
-YDR520C	URC2	Zn2Cyc6	IPR001138	Putative
-YER088C	DOT6	Myb/SANT	IPR001005
-YER130C	COM2	None	PTHR14596	binds IME1 Upstream Activation Signal (UAS)
-YGL254W	FZF1	C2H2	IPR007087	SulfiteMetabolism
-YGR044C	RME1	C2H2	IPR007087
-YGR249W	MGA1	HSF	IPR000232
-YIR017C	MET28	bZIP	IPR004827;PTHR23334
-YML081W	C2H2	IPR007087
-YNL309W	STB1	None	regulation of MBF-specific transcription at Start
-YOL089C	HAL9	Zinc	IPR001138	Putative
-YOR380W	RDR1	Zinc	IPR001138
-YPL128C	TBF1	Myb/SANT	IPR001005
-YBL054W	TOD6	Myb/SANT	IPR001005
-YBR150C	TBS1	Zinc	IPR001138
-YDR026C	Myb/SANT	IPR001005
-YER028C	MIG3	C2H2	IPR007087
-YER068W	MOT2	RRM	IPR000504
-YGL131C	SNT2	Myb/SANT	IPR001005
-YGL162W	SUT1	Zn2Cys6	IPR001138
-YGL192W	IME4	Dubious
-YGR040W	KSS1	Dubious
-YJL103C	GSM1	Zinc	IPR001138
-YKL222C	Zinc	IPR001138
-YML076C	WAR1	Zn2Cys6	IPR001138
-YOR032C	HMS1	bHLH	IPR001092
-YPL133C	RDS2	Zinc	IPR001138;PTHR31986	Gluconeogenesis
-YPL139C	UME1	Dubious
-YPR196W	None	PutativeMaltose-responseTF	IPR001138;PTHR30025
-MATA1	Homeodomain	IPR001356
-YBR033W	EDS1	Zinc	IPR001138	PutativeZincClusterProtein
-YBR066C	NRG2	C2H2	IPR007087
-YBR239C	ERT1	Zinc;TranscriptionalRegulator	IPR001138;PTHR31986
-YBR297W	MAL33	Zinc	IPR001138
-YDL042C	SIR2	Dubious
-YDR034C	LYS14	Zinc	IPR001138
-YDR227W	SIR4	Dubious
-YER045C	ACA1	bZIP	IPR004827	ATF/CREB family
-YER161C	SPT2	Lambda	IPR010982
-YER184C		Zinc	IPR001138
-YGL181W	GTS1	AT	IPR014476;PTHR23180	Arf3p regulation and in transcription regulation
-YGR067C	C2H2	IPR007087
-YIR013C	GAT4	GATA	IPR000679
-YJR127C	RSF2	C2H2	IPR007087
-YKL020C	SPT23	TIG	IPR002909
-YKL032C	IXR1	Dubious
-YLL054C	Zinc	IPR001138
-YLR014C	PPR1	Zinc	IPR001138
-YLR278C	Zinc	IPR001138
-YLR442C	SIR3	Dubious
-YML051W	GAL80	Dubious
-YMR164C	MSS11	LIS1-homology	PTHR10919
-YMR182C	RGM1	PutativeZincFingerDNABinding;C2H2	IPR007087
-YNR063W	Zinc	IPR001138
-YPL230W	USV1	C2H2	IPR007087	PutativeTF
-YPR009W	SUT2	Zn2Cys6	IPR001138
-YPR013C	CMR3	C2H2	IPR007087
-MATA1-MATALPHA2-dimer	a1-alpha2-dimer	Homeodomain	IPR001356
-YBL008W	HIR1	Dubious
-YBR089C-A	NHP6B	Sox	IPR022097
-YDR096W	GIS1	HistoneDemethylase-TF	PTHR10694
-YDR303C	RSC3	Zinc	IPR001138
-YDR477W	SNF1	Dubious
-YER051W	JHD1	Dubious
-YFL044C	OTU1	C2H2	IPR007087
-YGL166W	CUP2	Copper-bindingTF	IPR001083
-YHL020C	OPI1	OPI1	IPR013927
-YHR056C	RSC30	Zinc	IPR001138
-YIL130W	ASG1	YML113W	DAT1	YMR053C	STB2	Glucocorticoid	IPR001409
-YMR168C	CEP3	Zinc	IPR001138
-YMR280C	CAT8	Zinc;TranscriptionActivator	IPR001138;PTHR31001
-YOR038C	HIR2	Dubious
-YOR172W	YRM1	Zinc	IPR001138	involved in multidrug resistance
-YOR337W	TEA1	Zinc	IPR001138;PTHR31313	Ty1 enhancer activator involved in Ty enhancer-mediated transcription
-YOR363C	PIP2	AutoregulatoryOleate-ActivatedTF-Zinc	PTHR31069	Oleate-activated
-YPR052C	NHP6A	Sox	IPR022097
-YBR267W	REI1	C2H2	IPR007087
-YCL067C	HMLALPHA2	Homeodomain	IPR001356
-YCR065W	HCM1	Forkhead	IPR001766
-YDR009W	GAL3	Dubious
-YDR081C	PDC2	Homeodomain	IPR001356	Thiamine-regulated genes
-YDR169C	STB3	YDR266C	C2H2	IPR007087
-YDR277C	MTH1	Dubious
-YGL096W	TOS8	Homeodomain	IPR001356	PutativeTranscriptionFactor
-YGL197W	MDS3	Lambda	IPR010982
-YGR097W	ASK10	Dubious
-YGR288W	MAL13	Zinc	IPR001138
-YJL127C	SPT10	C2H2	IPR007087
-YJR140C	HIR3	Dubious
-YJR147W	HMS2	HSF	IPR000232
-YKR064W	OAF3	Zn2-Cyc6	IPR001138
-YLR113W	HOG1	Dubious
-YLR223C	IFH1	Coactivator-RPGenes
-YLR266C	PDR8	Zinc	IPR001138
-YMR075W	RCO1	Dubious
-YOR230W	WTM1	Dubious
-YOR298C-A	MBF1	Lambda;TranscriptionalCoActivator	IPR010982;PTHR10245
-YPR008W	HAA1	Copper	IPR001083
-YPR015C	None	C2H2	IPR007087
-YPR022C	C2H2	IPR007087
-YPR054W	SMK1	Dubious
-MAL63	Zinc	IPR001138
-YCR096C	HMRA2	Homeodomain	IPR001356
-YDL002C	NHP10	Sox	IPR022097
-YDL166C	FAP7	Dubious
-YDR174W	HMO1	Sox	IPR022097
-YER069W	ARG5,6	
-YER109C	FLO8	None	PTHR12610
-YFL052W	ZNF1	Zinc	IPR001138	Zinc cluster transcription factor that regulates respiratory growth
-YGR089W	NNF2	Dubious
-YIL119C	RPI1	MybLikeDomain	PTHR10919	
-YKL005C	BYE1	Dubious
-YKL072W	STB6	Dubious
-YKR101W	SIR1	Dubious
-YLR375W	STP3	C2H2	IPR007087
-YML065W	ORC1	YMR072W	ABF2	Sox	IPR022097
-YNL132W	KRE33	Dubious
-YNL257C	SIP3	PutativeSterolTransferProtein	PTHR14248
-YNR054C	ESF2	Dubious
-YOR077W	RTS2	C2H2	IPR007087
-YOR229W	WTM2	TranscriptionalModulator	PTHR22850
-YPL021W	ECM23	GATA	IPR000679
-YPR086W	SUA7	TFIIB	PTHR11618
-YPR186C	PZF1	C2H2	IPR007087	GTF-TFC2
-YDR252W	BTT1	TranscriptionFactorBTF3	PTHR10351	
-YGR266W	None	TranscriptionFactorBTF3	PTHR10351	
-YPL037C	EGD1	TranscriptionFactorBTF3	PTHR10351	
-YBL066C	SEF1	PutativeTranscriptionFactor	PTHR31845
-YOR315W	SFG1	PutativeTranscriptionFactor
-YDR501W	PLM2	PutativeTranscriptionFactor;Forkhead	PTHR23105
-YHR177W	GON3	PutativeTranscriptionFactor	
-YPR022C	SDD4	PutativeTranscriptionFactor;C2H2	PTHR23223
-YDR448W	ADA2	TranscriptionCoactivator	PTHR12374
-YLR182W	SWI6	TranscriptionCofactor	PTHR24193
-YER148W	SPT15	TBP	IPR000814
-YDR096W	GIS1	TranscriptionFactor;jumonji-Domain	PTHR11462	Histone demethylase	
-YJR147W	HMS2	HSF	PTHR10015
-YGR116W	SPT6	NucleosomeRemodelingProtein	PTHR10145
-YPL082C	MOT1	DNA-bindingATPase	PTHR10799	SWI/SNF-related matrix-associated actin-dependent regulator
-YML081W	TDA9	TranscriptionFactorAcetateProduction	PTHR11389
-YMR172W	HOT1	TranscriptionFactorGlycerolBiosynthetic	
-YCL055W	KAR4	TranscriptionFactorPheromoneResponse	PTHR13107
-YPR133C	SPN1	Non-DNA-BindingTranscriptionFactor	PTHR31574	RNA polymerase II transcription
-YOL145C	CTR9	Non-DNA-BindingTranscriptionFactor	PTHR14027	Component of the Paf1p complex involved in transcription elongation
-YER159C	BUR6	HistoneLikeTranscriptionFactor	PTHR10252
-YGR246C	BRF1	TFIIIB-B-relatedFactor	PTHR11618
-YDR397C	NCB2	CCAAT-Binding-TF	PTHR11064	negative cofactor 2 transcription regulator complex subunit NCB2
-YDR392W	SPT3	SAGA-likeTranscriptionInitiationFactor	PTHR11380
-YCL010C	SGF29	HAT/CORE-SAGA
-YML010W	SPT5	SPT4p/5p(DSIF)	PTHR11125	transcription elongation factor complex subunit
-YGR063C	SPT4	SPT4p/5p(DSIF)	PTHR12882	transcription elongation factor complex subunit
-YBR123C	TFC1	TFIIIC-SubUnit	PTHR13230	GTF-TFIIIC
-YAL001C	TFC3	TFIIIC-SubUnit	None	GTF-TFIIIC
-YGR047C	TFC4	TFIIIC-SubUnit	PTHR23082	GTF-TFIIIC
-YPL007C	TFC8	TFIIIC-SubUnit	PF12660	GTF-TFIIIC
-YOR110W	TFC7	TFIIIC-SubUnit	PTHR23029	GTF_TFIIIC
-YDR362C	TFC6	TFIIIC-SubUnit	None	GTF_TFIIIC
-YNL039W	BDP1	TFIIIC-SubUnit	PTHR22929	GTF-TFIIIC
-YJL065C	DLS1	ISW2/yCHRAC-ChromatinRemodeler	PTHR10252
-YMR136W	GAT2	GATABindingFactor	PTHR10071
-YBR111W-A	SUS1	SAGA-HistoneAcetylase/TREX-2	PTHR12514
-YOR066W	MSA1	RegulationOfCellSizz
-YDL080C	THI3	RegulatoryProtein	PTHR18968
-YKL160W	ELF1	TranscriptionElogationFactor	PTHR20934
-YBR279W	PAF1	TranscriptionElogationFactor	PTHR23188
-YDR138W	HPR1	TranscriptionElogation;THO/TREXComplex
-YNL139C	THO2	Ribbon-helix-helix;THOComplex	IPR010985;PTHR21597
-YLR418C	CDC73	Paf1Complex	PTHR12466
-YOR123C	LEO1	Paf1Complex	PTHR23146
-YGL244W	RTF1	Paf1Complex	PTHR13115
-YFL052W	ZNF1	ZincCluster	PTHR30025
-YKR091W	SRL3	GTB-Motif-TF	
-YGL127C	SOH1	RNAPolII-Mediator	PTHR13186
-YDR308C	SRB7	RNAPolII-Mediator	PTHR13381
-YHR058C	MED6	RNAPolII-Mediator	PTHR13104
-YDL005C	MED2	RNAPolII-Mediator
-YOL051W	GAL11	RNAPolII-Mediator
-YHR041C	SRB2	RNAPolII-Mediator
-YER022W	SRB4	RNAPolII-Mediator
-YBL093C	ROX3	RNAPolII-Mediator
-YCR081W	SRB8	RNAPolII-Mediator
-YBR193C	MED8	RNAPolII-Mediator
-YBR253W	SRB6	RNAPolII-Mediator
-YLR071C	RGR1	RNAPolII-Mediator
-YOR174W	MED4	RNAPolII-Mediator
-YGL151W	NUT1	RNAPolII-Mediator
-YPR168W	NUT2	RNAPolII-Mediator
-YMR112C	MED11	RNAPolII-Mediator
-YDR443C	SSN2	RNAPolII-Mediator
-YGL025C	PGD1	RNAPolII-Mediator
-YGR104C	SRB5	RNAPolII-Mediator
-YPR070W	MED1	RNAPolII-Mediator
-YOL135C	MED7	RNAPolII-Mediator
-YNL236W	SIN4	RNAPolII-Mediator
-YNR010W	CSE2	RNAPolII-Mediator
-YNL023C	FAP1	NuclearTranscriptionFactor	PTHR12360
-YDR005C	MAF1	RNAPolIII-Repression	PTHR22504
-YCR084C	TUP1	GeneralRepressorTranscription	PTHR22847
-YOR083W	WHI5	TranscriptionRepressor	
-YNR009W	NRM1	TranscriptionRepressor	
-YDR223W	CRF1	TranscriptionRepressor	
-YDR043C	NRG1	C2H2;TranscriptionalRepressor	IPR007087;PTHR11389
-YDR194C	MSS116	MitochondrialTranscriptionElongationFactor	PTHR24031
-YGL043W	DST1	GeneralTranscriptionElongationFactor	PTHR11477	GTF-TFIIS
-YKL005C	BYE1	NegativeTranscriptionElongationFactor	PTHR11477	GTF-TFIIS
-YNL230C	ELA1	TranscriptionElongationFactor	PTHR15141
-YNL199C	GCR2	TranscriptionActivator	None	Glycolsys
-YIL056W	VHR1	TranscriptionActivator	
-YIL154C	IMP2	TranscriptionActivator
-YPL075W	GCR1	TranscriptionActivator
-YOR372C	NDD1	TranscriptionActivator
-YBL005W	PDR3	TranscriptinoActivator	IPR001138
-YCL066W	HMLALPHA1	TranscriptionalCoActivator
-YCR040W	MATALPHA1	TranscriptionalCoActivator
-YBR112C	CYC8	TranscriptionalCoActivator	PTHR14017
-YOR372C	NDD1	TranscriptionActivator
-YOR295W	UAF30	UAF(UpstreamActivationFactor)Complex	PTHR13844
-YMR039C	SUB1	TranscriptionalRegulator	PTHR13215
-YDR207C	UME6	Zinc;HistoneDeacetylaseComplexSubunit	PTHR12526;IPR001138
-YOL004W	SIN3	Rpd3SHistoneDeacetylaseComplexSubunit	PTHR12346
-YGL207W	SPT16	FACTComplex;ChromatinRemodeling	PTHR13980
-YML069W	POB3	FACTComplex;ChromatinRemodeling	PTHR13711
-YJR094C	IME1	MasterRegulatorMeiosis
-YBR109C	CMD1	CalciumSignaling
-YOR257W	CDC31	CalciumSignaling
-YMR119W	ASI1	TranscriptionFactorCatabolicProcess
-YNL195C	ASI2	TranscriptionFactorCatabolicProcess
-YNL008C	ASI3	TranscriptionFactorCatabolicProcess
-YER107C	GLE2	mRNAExportByHeatShock
-YPL125W	KAP120	proteinTransporterActivity
-YBR017C	KAP104	proteinTransporterActivity
-YGL241W	KAP114	proteinTransporterActivity
-YKL054C	DEF1	RNAPIIdegradationFactor
-YBR088C	POL30	ChromatinSilencing
-YML020W	None	PutativeTF	PTHR10351
-YLR399C	BDF1	BromoDomainFactor	PTHR22880
-YNL286W	CUS2	PutativeCheckpointFactor	PTHR15608
-YNL222W	SSU72	Phosphatase and transcription/RNA-processing factor	PTHR20383
-YKR062W	TFA2	TFIIE small subunit	PTHR12716
-YKL028W	TFA1	TFIIE large subunit	PTHR13097
-YOR194C	TOA1	TFIIA large subunit	PTHR12694
-YGL112C	TAF6	TFIID/SAGA subunit	PTHR10221
-YGR246C	BRF1	TFIIIB B-related factor	PTHR11618
-YDR167W	TAF10	Subunit (145 kDa) of TFIID and SAGA complexes	PTHR21242
-YDL108W	KIN28	Serine/threonine protein kinase, subunit of transcription factor TFIIH
-YIL143C	SSL2	TFIIH	PTHR11274
-YDR079C-A	TFB5	TFIIH subunit	
-YPR056W	TFB4	TFIIH subunit	pthr12831
-YMR227C	TAF7	TFIID subunit	PTHR12228	
-YML015C	TAF11	TFIID subunit	PTHR13218	
-YMR005W	TAF4	TFIID subunit
-YBL014C	RRN6	RegulationRNAPolymeraseI	NONE	Component of the core factor (CF) rDNA transcription factor complex
-YKL125W	RRN3	rDNA-BindingTranscriptionFactor	PTHR12790	RNA polymerase I transcription
-YLR141W	RRN5	rDNA-BindingTranscriptionFactor
-YJL025W	RRN7	rDNA-BindingTranscriptionFactor	NONE	Component of the core factor (CF) rDNA transcription factor complex
+MCM1	YMR043W	Transcription factor
+HAP4	YKL109W	Transcription factor
+FLO8	YER109C	Transcription factor
+STP1	YDR463W	Transcription factor
+ADA2	YDR448W	Transcription coactivator
+PDR8	YLR266C	Transcription factor
+SWI6	YLR182W	Transcription cofactor
+MSS11	YMR164C	Transcription factor
+MBP1	YDL056W	Transcription factor
+INO2	YDR123C	Transcription factor
+STB5	YHR178W	Transcription factor
+STP2	YHR006W	Transcription factor
+FKH2	YNL068C	Forkhead family transcription factor
+FKH1	YIL131C	Forkhead family transcription factor
+PZF1	YPR186C	Transcription factor IIIA (TFIIIA)
+MSS116	YDR194C	Mitochondrial transcription elongation factor
+SUA7	YPR086W	Transcription factor TFIIB
+SUT2	YPR009W	Zn2Cys6 family transcription factor
+MAC1	YMR021C	Copper-sensing transcription factor
+STB4	YMR019W	Putative transcription factor
+RGT1	YKL038W	Glucose-responsive transcription factor
+PPR1	YLR014C	Zinc finger transcription factor
+HAP1	YLR256W	Zinc finger transcription factor
+NDT80	YHR124W	Meiosis-specific transcription factor
+ZAP1	YJL056C	Zinc-regulated transcription factor
+PHO2	YDL106C	Homeobox transcription factor
+TUP1	YCR084C	General repressor of transcription
+AZF1	YOR113W	Zinc-finger transcription factor
+SEF1	YBL066C	Putative transcription factor
+CUP2	YGL166W	Copper-binding transcription factor
+OAF1	YAL051W	Oleate-activated transcription factor
+WHI5	YOR083W	Repressor of G1 transcription
+HCM1	YCR065W	Forkhead transcription factor
+BAS1	YKR099W	Myb-related transcription factor
+RLM1	YPL089C	MADS-box transcription factor
+BTT1	YDR252W	Heterotrimeric nascent polypeptide-associated complex beta3 subunit
+ROX1	YPR065W	Heme-dependent repressor of hypoxic genes
+EGD1	YPL037C	Subunit beta1 of the nascent polypeptide-associated complex (NAC)
+UPC2	YDR213W	Sterol regulatory element binding protein
+CRZ1	YNL027W	Transcription factor, activates transcription of stress response genes
+RDS1	YCR106W	Putative zinc cluster transcription factor
+BDF1	YLR399C	Protein involved in transcription initiation
+None	YPR196W	putative maltose-responsive transcription factor	Putative maltose-responsive transcription factor
+CUS2	YNL286W	Putative checkpoint factor in transcription
+PIP2	YOR363C	Autoregulatory, oleate-activated transcription factor
+SFG1	YOR315W	Nuclear protein putative transcription factor
+BDF2	YDL070W	Protein involved in transcription initiation
+BYE1	YKL005C	Negative regulator of transcription elongation
+GIS1	YDR096W	Histone demethylase and transcription factor
+HSF1	YGL073W	Trimeric heat shock transcription factor
+DST1	YGL043W	General transcription elongation factor TFIIS
+GCN4	YEL009C	bZIP transcriptional activator of amino acid biosynthetic genes
+TAF5	YBR198C	Subunit (90 kDa) of TFIID and SAGA complexes
+MGA1	YGR249W	Protein similar to heat shock transcription factor
+RFX1	YLR176C	Major transcriptional repressor of DNA-damage-regulated genes
+HMS2	YJR147W	Protein with similarity to heat shock transcription factors
+SFL1	YOR140W	Transcriptional repressor and activator
+SKN7	YHR206W	Nuclear response regulator and transcription factor
+TAF2	YCR042C	TFIID subunit (150 kDa)
+SPT6	YGR116W	Nucleosome remodeling protein
+CUP9	YPL177C	Homeodomain-containing transcriptional repressor
+TAF1	YGR274C	TFIID subunit, involved in RNA pol II transcription initiation
+TOS8	YGL096W	Homeodomain-containing protein and putative transcription factor
+YAP1	YML007W	Basic leucine zipper (bZIP) transcription factor
+LEU3	YLR451W	Zinc-knuckle transcription factor, repressor and activator
+SPN1	YPR133C	Protein involved in RNA polymerase II transcription
+FHL1	YPR104C	Regulator of ribosomal protein (RP) transcription
+TFG2	YGR005C	TFIIF (Transcription Factor II) middle subunit
+FZF1	YGL254W	Transcription factor involved in sulfite metabolism
+YAP6	YDR259C	Basic leucine zipper (bZIP) transcription factor
+MET32	YDR253C	Zinc-finger DNA-binding transcription factor
+ADR1	YDR216W	Carbon source-responsive zinc-finger transcription factor
+YRR1	YOR162C	Zn2-Cys6 zinc-finger transcription factor
+SSU72	YNL222W	Phosphatase and transcription/RNA-processing factor
+MET31	YPL038W	Zinc-finger DNA-binding transcription factor
+TFG1	YGR186W	TFIIF (Transcription Factor II) largest subunit
+KAR4	YCL055W	Transcription factor required for response to pheromones
+YAP3	YHL009C	Basic leucine zipper (bZIP) transcription factor
+TOS4	YLR183C	Putative transcription factor, contains Forkhead Associated domain
+RGM1	YMR182C	Putative zinc finger DNA binding transcription factor
+HOT1	YMR172W	Transcription factor for glycerol biosynthetic genes
+WAR1	YML076C	Homodimeric Zn2Cys6 zinc finger transcription factor
+TDA9	YML081W	Transcription factor that regulates acetate production
+SUT1	YGL162W	Zn(II)2Cys6 family transcription factor
+YHR177W	GON3	Putative transcription factor containing a WOPR domain
+PLM2	YDR501W	Putative transcription factor, contains Forkhead Associated domain
+RDS2	YPL133C	Transcription factor involved in regulating gluconeogenesis
+MOT1	YPL082C	Essential protein involved in regulation of transcription
+INO4	YOL108C	Transcription factor involved in phospholipid synthesis
+HAL9	YOL089C	Putative transcription factor containing a zinc finger
+RTG1	YOL067C	Transcription factor (bHLH) involved in interorganelle communication
+YAP7	YOL028C	Putative basic leucine zipper (bZIP) transcription factor
+PDC2	YDR081C	Transcription factor for thiamine-regulated genes
+MIG1	YGL035C	Transcription factor involved in glucose repression
+GLN3	YER040W	Transcriptional activator of genes regulated by nitrogen catabolite r
+TOA1	YOR194C	TFIIA large subunit
+HAP2	YGL237C	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
+HAP3	YBL021C	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
+RRN3	YKL125W	Protein required for transcription of rDNA by RNA polymerase I
+TAF6	YGL112C	Subunit (60 kDa) of TFIID and SAGA complexes
+TFA1	YKL028W	TFIIE large subunit
+BUR6	YER159C	Subunit of a heterodimeric NC2 transcription regulator complex
+ELA1	YNL230C	Elongin A
+BRF1	YGR246C	TFIIIB B-related factor
+NCB2	YDR397C	Subunit of a heterodimeric NC2 transcription regulator complex
+SPT3	YDR392W	Subunit of the SAGA and SAGA-like transcriptional regulatory complexes
+TFC1	YBR123C	Subunit of RNA polymerase III transcription initiation factor complex
+HAP5	YOR358W	Subunit of the Hap2p/3p/4p/5p CCAAT-binding complex
+GZF3	YJL110C	GATA zinc finger protein
+DLS1	YJL065C	Subunit of ISW2/yCHRAC chromatin accessibility complex
+GAT2	YMR136W	Protein containing GATA family zinc finger motifs
+TAF8	YML114C	TFIID subunit (65 kDa)
+TAF13	YML098W	TFIID subunit (19 kDa)
+SSL1	YLR005W	Subunit of the core form of RNA polymerase transcription factor TFIIH
+SUS1	YBR111W-A	Component of both the SAGA histone acetylase and TREX-2 complexes
+DCP1	YOL149W	Subunit of the Dcp1p-Dcp2p decapping enzyme complex
+TAF10	YDR167W	Subunit (145 kDa) of TFIID and SAGA complexes
+DPB4	YDR121W	Subunit of DNA pol epsilon and of ISW2 chromatin accessibility complex
+TFB1	YDR311W	Subunit of TFIIH and nucleotide excision repair factor 3 complexes
+BFR2	YDR299W	Component of the SSU and 90S preribosomes
+DPB3	YBR278W	Third-largest subunit of DNA polymerase II (DNA polymerase epsilon)
+GAT1	YFL021W	Transcriptional activator of nitrogen catabolite repression genes
+TAF9	YMR236W	Subunit (17 kDa) of TFIID and SAGA complexes
+TFA2	YKR062W	TFIIE small subunit
+TOA2	YKL058W	TFIIA small subunit
+ACA1	YER045C	ATF/CREB family basic leucine zipper (bZIP) transcription factor
+HMS1	YOR032C	bHLH protein with similarity to myc-family transcription factors
+SPT5	YML010W	Spt4p/5p (DSIF) transcription elongation factor complex subunit
+SPT4	YGR063C	Spt4p/5p (DSIF) transcription elongation factor complex subunit
+USV1	YPL230W	Putative transcription factor containing a C2H2 zinc finger
+SFP1	YLR403W	Regulates transcription of ribosomal protein and biogenesis genes
+RPI1	YIL119C	Transcription factor, allelic differences between S288C and Sigma1278b
+TFC4	YGR047C	Subunit of RNA polymerase III transcription initiation factor complex
+RTG3	YBL103C	bHLH/Zip transcription factor for retrograde (RTG) and TOR pathways
+RRN10	YBL025W	Protein involved in promoting high level transcription of rDNA
+RRN6	YBL014C	Component of the core factor (CF) rDNA transcription factor complex
+YAP5	YIR018W	Basic leucine zipper (bZIP) iron-sensing transcription factor
+SDD4	YPR022C	Putative transcription factor, as suggested by computational analysis
+YRM1	YOR172W	Zinc finger transcription factor involved in multidrug resistance
+RRN11	YML043C	Component of the core factor (CF) rDNA transcription factor complex
+AFT1	YGL071W	Transcription factor involved in iron utilization and homeostasis
+ARG80	YMR042W	Transcription factor involved in regulating arginine-responsive genes
+RPN4	YDL020C	Transcription factor that stimulates expression of proteasome genes
+COM2	YER130C	Transcription factor that binds IME1 Upstream Activation Signal (UAS)
+DIG1	YPL049C	MAP kinase-responsive inhibitor of the Ste12p transcription factor
+TFC8	YPL007C	Subunit of RNA polymerase III transcription initiation factor complex
+DIG2	YDR480W	MAP kinase-responsive inhibitor of the Ste12p transcription factor
+TEA1	YOR337W	Ty1 enhancer activator involved in Ty enhancer-mediated transcription
+IFH1	YLR223C	Coactivator, regulates transcription of ribosomal protein (RP) genes
+STE12	YHR084W	Transcription factor that is activated by a MAPK signaling cascade
+RRN5	YLR141W	Protein involved in transcription of rDNA by RNA polymerase I
+ACE2	YLR131C	Transcription factor required for septum destruction after cytokinesis
+RRN7	YJL025W	Component of the core factor (CF) rDNA transcription factor complex
+KIN28	YDL108W	Serine/threonine protein kinase, subunit of transcription factor TFIIH
+THI3	YDL080C	Regulatory protein that binds Pdc2p and Thi2p transcription factors
+ELF1	YKL160W	Transcription elongation factor with a conserved zinc finger domain
+SKO1	YNL167C	Basic leucine zipper transcription factor of the ATF/CREB family
+ARG81	YML099C	Zinc finger transcription factor involved in arginine-responsive genes
+SSL2	YIL143C	Component of RNA polymerase transcription factor TFIIH holoenzyme
+GTS1	YGL181W	Protein involved in Arf3p regulation and in transcription regulation
+TFB5	YDR079C-A	Component of RNA polymerase II general transcription factor TFIIH
+RAP1	YNL216W	Essential DNA-binding transcription regulator that binds many loci
+SWI5	YDR146C	Transcription factor that recruits Mediator and Swi/Snf complexes
+CST6	YIL036W	Basic leucine zipper (bZIP) transcription factor from ATF/CREB family
+URC2	YDR520C	Putative Zn(II)2Cys6 motif containing transcription factor
+SMP1	YBR182C	MADS-box transcription factor involved in osmotic stress response
+TFC7	YOR110W	RNA pol III transcription initiation factor complex (TFIIIC) subunit
+TFC6	YDR362C	Subunit of RNA polymerase III transcription initiation factor complex
+TEC1	YBR083W	Transcription factor targeting filamentation genes and Ty1 expression
+EDS1	YBR033W	Putative zinc cluster protein, predicted to be a transcription factor
+PDR1	YGL013C	Transcription factor that regulates the pleiotropic drug response
+PAF1	YBR279W	Component of the Paf1p complex involved in transcription elongation
+HAC1	YFL031W	Basic leucine zipper (bZIP) transcription factor (ATF/CREB1 homolog)
+ZNF1	YFL052W	Zinc cluster transcription factor that regulates respiratory growth
+RRN9	YMR270C	Protein involved in promoting high level transcription of rDNA
+SRL3	YKR091W	GTB motif (G1/S transcription factor binding) containing protein
+TFC3	YAL001C	Subunit of RNA polymerase III transcription initiation factor complex
+GAL4	YPL248C	DNA-binding transcription factor required for activating GAL genes
+MSA1	YOR066W	Activator of G1-specific transcription factors MBF and SBF
+BDP1	"YNL039W	Essential subunit of RNA polymerase III transcription factor (TFIIIB)
+CTR9	YOL145C	Component of the Paf1p complex involved in transcription elongation
+GVP36	YIL041W	BAR domain protein that localizes to early and late Golgi vesicles
+TFB4	YPR056W	Subunit of TFIIH complex
+SOH1	YGL127C	Subunit of the RNA polymerase II mediator complex
+VPS72	YDR485C	Htz1p-binding component of the SWR1 complex
+MAF1	YDR005C	Highly conserved negative regulator of RNA polymerase III
+TAF7	YMR227C	TFIID subunit (67 kDa)
+FAP1	YNL023C	Protein that binds to Fpr1p
+CIN5	YOR028C	Basic leucine zipper (bZIP) transcription factor of the yAP-1 family
+PHO4	YFR034C	Basic helix-loop-helix (bHLH) transcription factor of the myc-family
+STB1	YNL309W	Protein with role in regulation of MBF-specific transcription at Start
+TAF11	YML015C	TFIID subunit (40 kDa)
+SRB7	YDR308C	Subunit of the RNA polymerase II mediator complex
+SPT15	YER148W	TATA-binding protein (TBP)
+TAF4	YMR005W	TFIID subunit (48 kDa)
+CSE2	YNR010W	Subunit of the RNA polymerase II mediator complex
+MED6	YHR058C	Subunit of the RNA polymerase II mediator complex
+MED2	YDL005C	Subunit of the RNA polymerase II mediator complex
+GAL11	YOL051W	Subunit of the RNA polymerase II mediator complex
+SRB2	YHR041C	Subunit of the RNA polymerase II mediator complex
+SRB4	YER022W	Subunit of the RNA polymerase II mediator complex
+ROX3	YBL093C	Subunit of the RNA polymerase II mediator complex
+SRB8	YCR081W	Subunit of the RNA polymerase II mediator complex
+MED8	YBR193C	Subunit of the RNA polymerase II mediator complex
+SRB6	YBR253W	Subunit of the RNA polymerase II mediator complex
+GCR2	YNL199C	Transcriptional activator of genes involved in glycolysis
+RGR1	YLR071C	Subunit of the RNA polymerase II mediator complex
+MED4	YOR174W	Subunit of the RNA polymerase II mediator complex
+UAF30	YOR295W	Subunit of UAF (upstream activation factor) complex
+IMP2'	YIL154C	Transcriptional activator involved in maintenance of ion homeostasis
+NUT1	YGL151W	Component of the RNA polymerase II mediator complex
+TAF14	YPL129W	Subunit of TFIID, TFIIF, INO80, SWI/SNF, and NuA3 complexes
+VHR1	YIL056W	Transcriptional activator
+MED11	YMR112C	Subunit of the RNA polymerase II mediator complex
+TAF3	YPL011C	TFIID subunit (47 kDa)
+NRM1	YNR009W	Transcriptional co-repressor of MBF-regulated gene expression
+DAL81	YIR023W	Positive regulator of genes in multiple nitrogen degradation pathways
+SWI4	YER111C	DNA binding component of the SBF complex (Swi4p-Swi6p)
+SSN2	YDR443C	Subunit of the RNA polymerase II mediator complex
+NRG1	YDR043C	Transcriptional repressor
+HMLALPHA2	YCL067C	Silenced copy of ALPHA2 at HML
+PGD1	YGL025C	Subunit of the RNA polymerase II mediator complex
+CRF1	YDR223W	Transcriptional corepressor
+NDD1	YOR372C	Transcriptional activator essential for nuclear division
+BUD27	YFL023W	Unconventional prefoldin protein involved in translation initiation
+WTM2	YOR229W	Transcriptional modulator
+SRB5	YGR104C	Subunit of the RNA polymerase II mediator complex
+UME6	YDR207C	Rpd3L histone deacetylase complex subunit
+ARR1	YPR199C	Transcriptional activator of the basic leucine zipper (bZIP) family
+SGF29	YCL010C	Component of the HAT/Core module of the SAGA, SLIK, and ADA complexes
+NUT2	YPR168W	Subunit of the RNA polymerase II mediator complex
+MED1	YPR070W	Subunit of the RNA polymerase II mediator complex
+MED7	YOL135C	Subunit of the RNA polymerase II mediator complex
+CDC73	YLR418C	Component of the Paf1p complex
+SUB1	YMR039C	Transcriptional regulator
+HMLALPHA1	YCL066W	Silenced copy of ALPHA1 at HML
+MATALPHA1	YCR040W	Transcriptional co-activator that regulates mating-type-specific genes
+SIN3	YOL004W	Component of both the Rpd3S and Rpd3L histone deacetylase complexes
+MSN2	YMR037C	Stress-responsive transcriptional activator
+MSN4	YKL062W	Stress-responsive transcriptional activator
+TAF12	YDR145W	Subunit (61/68 kDa) of TFIID and SAGA complexes
+SIN4	YNL236W	Subunit of the RNA polymerase II mediator complex
+GCN5	YGR252W	Catalytic subunit of ADA and SAGA histone acetyltransferase complexes
+HPR1	YDR138W	Subunit of THO/TREX complexes
+THO2	YNL139C	Subunit of the THO complex
+GCR1	YPL075W	Transcriptional activator of genes involved in glycolysis
+LEO1	YOR123C	Component of the Paf1 complex
+PDR3	YBL005W	Transcriptional activator of the pleiotropic drug resistance network
+MBF1	YOR298C-A	Transcriptional coactivator
+CYC8	YBR112C	General transcriptional co-repressor
+MET4	YNL103W	Leucine-zipper transcriptional activator
+YHP1	YDR451C	Homeobox transcriptional repressor
+MET28	YIR017C	bZIP transcriptional activator in the Cbf1p-Met4p-Met28p complex
+OAF3	YKR064W	Putative transcriptional repressor with Zn(2)-Cys(6) finger
+SIP3	YNL257C	Putative sterol transfer protein
+RTF1	YGL244W	Subunit of RNAPII-associated chromatin remodeling Paf1 complex
+CAT8	YMR280C	Zinc cluster transcriptional activator
+ERT1	YBR239C	Transcriptional regulator
+YOX1	YML027W	Homeobox transcriptional repressor
+ECM23	YPL021W	Non-essential protein of unconfirmed function
+GAT3	YLR013W	Protein containing GATA family zinc finger motifs
+GAT4	YIR013C	Protein containing GATA family zinc finger motifs
+SPT16	YGL207W	Subunit of the heterodimeric FACT complex (Spt16p-Pob3p)
+SYC1	YOR179C	Subunit of the APT subcomplex of cleavage and polyadenylation factor
+MOT3	YMR070W	Transcriptional repressor, activator
+NPL3	YDR432W	RNA-binding protein
+MATA1	A1	Expressed copy (at MATa) of a1
+TFB6	YOR352W	Subunit of TFIIH complex
+UGA3	YDL170W	Transcriptional activator for GABA-dependent induction of GABA genes
+TOG1	YER184C	Transcriptional activator of oleate genes
+RPT6	YGL048C	ATPase of the 19S regulatory particle of the 26S proteasome
+MIG2	YGL209W	Zinc finger transcriptional repressor
+CBF1	YJR060W	Basic helix-loop-helix (bHLH) protein
+CAD1	YDR423C	AP-1-like basic leucine zipper (bZIP) transcriptional activator
+UME1	YPL139C	Component of both the Rpd3S and Rpd3L histone deacetylase complexes
+SPT8	YLR055C	Subunit of the SAGA transcriptional regulatory complex
+GAL80	YML051W	Transcriptional regulator involved in the repression of GAL genes
+MATALPHA2	YCR039C	Homeobox-domain protein
+OPI1	YHL020C	Transcriptional regulator of a variety of genes
+ASH1	YKL185W	Component of the Rpd3L histone deacetylase complex
+HIR2	YOR038C	Subunit of HIR nucleosome assembly complex
+STP3	YLR375W	Zinc-finger protein of unknown function
+HIR3	YJR140C	Subunit of the HIR complex
+HIR1	YBL008W	Subunit of the HIR complex
+SIP4	YJL089W	C6 zinc cluster transcriptional activator
+STP4	YDL048C	Protein containing a Kruppel-type zinc-finger domain
+MAL43	MALR	MAL-activator protein
+MAL63	MALR	MAL-activator protein
+LYS14	YDR034C	Transcriptional activator involved in regulating lysine biosynthesis
+HAA1	YPR008W	Transcriptional activator involved in adaptation to weak acid stress
+ELC1	YPL046C	Elongin C, conserved among eukaryotes
+POB3	YML069W	Subunit of the heterodimeric FACT complex (Spt16p-Pob3p)
+IME1	YJR094C	Master regulator of meiosis that is active only during meiotic events
+RSC30	YHR056C	Component of the RSC chromatin remodeling complex
+HMRA1	YCR097W	Silenced copy of a1 at HMR
+HFI1	YPL254W	Adaptor protein required for structural integrity of the SAGA complex
+ASG1	YIL130W	Zinc cluster protein proposed to be a transcriptional regulator
+RDR1	YOR380W	Transcriptional repressor involved in regulating multidrug resistance
+MAL33	YBR297W	MAL-activator protein
+TBS1	YBR150C	Protein of unknown function
+MAL13	YGR288W	MAL-activator protein
+MIG3	YER028C	Transcriptional regulator
+UTP5	YDR398W	Subunit of U3-containing Small Subunit (SSU) processome complex
+PAH1	YMR165C	Mg2+-dependent phosphatidate (PA) phosphatase
+RSC6	YCR052W	Component of the RSC chromatin remodeling complex
+ECM22	YLR228C	Sterol regulatory element binding protein
+RCO1	YMR075W	Essential component of the Rpd3S histone deacetylase complex
+RPH1	YER169W	JmjC domain-containing histone demethylase
+SWI1	YPL016W	Subunit of the SWI/SNF chromatin remodeling complex
+FUN19	YAL034C	Non-essential protein of unknown function
+PHD1	YKL043W	Transcriptional activator that enhances pseudohyphal growth
+CHA4	YLR098C	DNA binding transcriptional activator
+MFT1	YML062C	Subunit of the THO complex
+THP2	YHR167W	Subunit of the THO and TREX complexes
+MTF1	YMR228W	Mitochondrial RNA polymerase specificity factor
+RPT4	YOR259C	ATPase of the 19S regulatory particle of the 26S proteasome
+RME1	YGR044C	Zinc finger protein involved in control of meiosis
+DAL82	YNL314W	Positive regulator of allophanate inducible genes
+CTK3	YML112W	Gamma subunit of C-terminal domain kinase I
+THI2	YBR240C	Transcriptional activator of thiamine biosynthetic genes
+DAL80	YKR034W	Negative regulator of genes in multiple nitrogen degradation pathways
+PTA1	YAL043C	Subunit of holo-CPF
+PTI1	YGR156W	Essential component of CPF (cleavage and polyadenylation factor)
+AFT2	YPL202C	Iron-regulated transcriptional activator
+WTM1	YOR230W	Transcriptional modulator
+SUM1	YDR310C	Transcriptional repressor that regulates middle-sporulation genes
+RPD3	YNL330C	Histone deacetylase, component of both the Rpd3S and Rpd3L complexes
+NSI1	YDR026C	RNA polymerase I termination factor
+TFB2	YPL122C	Subunit of TFIIH and nucleotide excision repair factor 3 complexes
+EAF3	YPR023C	Component of the Rpd3S histone deacetylase complex
+SGF11	YPL047W	Integral subunit of SAGA histone acetyltransferase complex
+SNF12	YNR023W	73 kDa subunit of the SWI/SNF chromatin remodeling complex
+PCF11	YDR228C	mRNA 3' end processing factor
+ELP3	YPL086C	Subunit of Elongator complex
+GSM1	YJL103C	Putative zinc cluster protein of unknown function
+CFT1	YDR301W	RNA-binding subunit of the mRNA cleavage and polyadenylation factor
+ABF1	YKL112W	DNA binding protein with possible chromatin-reorganizing activity
+SOD1	YJR104C	Cytosolic copper-zinc superoxide dismutase
+ASF1	YJL115W	Nucleosome assembly factor
+TBF1	YPL128C	Telobox-containing general regulatory factor
+XBP1	YIL101C	Transcriptional repressor
+ARO80	YDR421W	Zinc finger transcriptional activator of the Zn2Cys6 family
+CAM1	YPL048W	One of two isoforms of the gamma subunit of eEF1B
+RSF2	YJR127C	Zinc-finger protein
+SOK2	YMR016C	Nuclear protein that negatively regulates pseudohyphal differentiation
+MAL23	MALR	MAL-activator protein
+SRD1	YCR018C	Protein involved in the processing of pre-rRNA to mature rRNA
+SPT20	YOL148C	Subunit of the SAGA transcriptional regulatory complex
+SNF5	YBR289W	Subunit of the SWI/SNF chromatin remodeling complex
+RAD3	YER171W	5' to 3' DNA helicase
+TFB3	YDR460W	Subunit of TFIIH and nucleotide excision repair factor 3 complexes
+RSC3	YDR303C	Component of the RSC chromatin remodeling complex
+PUT3	YKL015W	Transcriptional activator
+RTG2	YGL252C	Sensor of mitochondrial dysfunction
+RIM101	YHL027W	Cys2His2 zinc-finger transcriptional repressor
+CTK2	YJL006C	Beta subunit of C-terminal domain kinase I (CTDK-I)
+TRI1	YMR233W	Non-essential sumoylated protein of unknown function
+SNF2	YOR290C	Catalytic subunit of the SWI/SNF chromatin remodeling complex
+CCR4	YAL021C	Component of the CCR4-NOT transcriptional complex
+CTK1	YKL139W	Catalytic (alpha) subunit of C-terminal domain kinase I (CTDK-I)
+RPT2	YDL007W	ATPase of the 19S regulatory particle of the 26S proteasome
+RPT1	YKL145W	ATPase of the 19S regulatory particle of the 26S proteasome
+RPT5	YOR117W	ATPase of the 19S regulatory particle of the 26S proteasome
+RPT3	YDR394W	ATPase of the 19S regulatory particle of the 26S proteasome
+SWD2	YKL018W	Subunit of the COMPASS (Set1C) histone H3K4 methyltransferase complex
+SWC4	YGR002C	Component of the Swr1p complex that incorporates Htz1p into chromatin
+URE2	YNL229C	Nitrogen catabolite repression transcriptional regulator
+YSH1	YLR277C	Endoribonuclease
+SIF2	YBR103W	WD40 repeat-containing subunit of Set3C histone deacetylase complex
+RAD23	YEL037C	Protein with ubiquitin-like N terminus
+KSS1	YGR040W	Mitogen-activated protein kinase (MAPK)
+RAD4	YER162C	Protein that recognizes and binds damaged DNA (with Rad23p) during NER
+CCL1	YPR025C	Cyclin associated with protein kinase Kin28p
+PHO85	YPL031C	Cyclin-dependent kinase
+HDA1	YNL021W	Putative catalytic subunit of a class II histone deacetylase complex
+GRX4	YER174C	Glutathione-dependent oxidoreductase
+GRX3	YDR098C	Glutathione-dependent oxidoreductase
+YRA1	YDR381W	Nuclear polyadenylated RNA-binding protein
+INO80	YGL150C	ATPase and nucleosome spacing factor
+SAC3	YDR159W	mRNA export factor
+PCL5	YHR071W	Cyclin
+CUR1	YPR158W	Sorting factor, central regulator of spatial protein quality control
+RAD2	YGR258C	Single-stranded DNA endonuclease
+GRC3	YLL035W	Polynucleotide kinase present on rDNA
+LOT6	YLR011W	FMN-dependent NAD(P)H:quinone reductase
+CTI6	YPL181W	Component of the Rpd3L histone deacetylase complex
+BMH1	YER177W	14-3-3 protein, major isoform
+SCS2	YER120W	Integral ER membrane protein, regulates phospholipid metabolism
+TYE7	YOR344C	Serine-rich protein that contains a bHLH DNA binding motif
+CEP3	YMR168C	Essential kinetochore protein
+REF2	YDR195W	RNA-binding protein
+RPB7	YDR404C	RNA polymerase II subunit B16
+RIC1	YLR039C	Protein involved in retrograde transport to the cis-Golgi network
+MCM5	YLR274W	Component of the Mcm2-7 hexameric helicase complex
+CDC55	YGL190C	Non-essential regulatory subunit B of protein phosphatase 2A (PP2A)
+GLC7	YER133W	Type 1 S/T protein phosphatase (PP1) catalytic subunit
+SUP45	YBR143C	Polypeptide release factor (eRF1) in translation termination
+FAP7	YDL166C	Essential NTPase required for small ribosome subunit synthesis
+PRP18	YGR006W	Splicing factor and component of snRNP U5
+RPB4	YJL140W	RNA polymerase II subunit B32
+MCM3	YEL032W	Protein involved in DNA replication
+MCM7	YBR202W	Component of the Mcm2-7 hexameric helicase complex
+CDC45	YLR103C	DNA replication initiation factor
+POL30	YBR088C	Proliferating cell nuclear antigen (PCNA)
+KAP114	YGL241W	Karyopherin, responsible for nuclear import of specific proteins
+DEF1	YKL054C	RNAPII degradation factor
+ASI2	YNL159C	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex
+KAP120	YPL125W	Karyopherin responsible for the nuclear import of Rpf1p
+KAP104	YBR017C	Transportin or cytosolic karyopherin beta 2
+GLE2	YER107C	RNA export factor associated with the nuclear pore complex (NPC)
+ASI1	YMR119W	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex
+ASI3	YNL008C	Subunit of the nuclear inner membrane Asi ubiquitin ligase complex
+CDC31	YOR257W	Calcium-binding component of the spindle pole body (SPB) half-bridge
+CMD1	YBR109C	Calmodulin
+SCC2	YDR180W	Subunit of cohesin loading factor (Scc2p-Scc4p)
+SLT2	YHR030C	Serine/threonine MAP kinase

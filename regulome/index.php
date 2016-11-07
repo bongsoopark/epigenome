@@ -17,7 +17,7 @@ $data3 = array();
 $regulome_ids = "";
 while($row = $result->fetch_object()) {
 	$regulome_id = $row->id;
-	$sql2 = "SELECT * from regulome_genes where regulome_id='$regulome_id';";
+	$sql2 = "SELECT * from regulome_genes where regulome_id='$regulome_id' order by note asc;";
 	$result2 = $con->query($sql2);
 	while($row2 = $result2->fetch_object()) {
 		$row2->regulome_class = $row->regulome_class;
