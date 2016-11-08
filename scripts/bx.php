@@ -5,6 +5,12 @@ include "../lib/common.php";
 include "../lib/design.php";
 include "../lib/sample.php";
 
+#exit;
+#$tf = file_get_contents("http://http://igenomics.org/epigenome/scripts/cis-bp-locus_name.txt");
+#echo($tf);
+#exit;
+
+
 # MySQL connection
 $con = new mysqli($DBConf["DATASET_HOST"], $DBConf["DATASET_USER"], $DBConf["DATASET_PASS"], $DBConf["DATASET_DB"]);
 if ($con->connect_error) {
