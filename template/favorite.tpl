@@ -52,7 +52,7 @@ Epigenomics with selected samples (e.g. Heatmap around tags)<br><br>
 </table>
 <br><br>
 <h3>3) Saved Reference features <img src='/epigenome/img/help.gif'></h3>
-Default: RP Gene, SAGA, TFIID, SUTs, CUTs, XUTs
+Default: RP Gene, SAGA, TFIID, SUTs, CUTs, XUTs, tRNAs
 <br>
 <br><br>
 <h3>4) Strategic Methods <img src='/epigenome/img/help.gif'></h3>
